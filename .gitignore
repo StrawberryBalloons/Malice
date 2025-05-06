@@ -9,9 +9,9 @@
 !knownkeys.txt
 !minecraftinstance.json
 
-!armourers_workshop/
-!assets/
-!config/
-!defaultconfigs/
-!global_packs/
-!scripts/
+!armourers_workshop/*
+!assets/*
+!config/*
+!defaultconfigs/*
+!global_packs/*
+!scripts/*
