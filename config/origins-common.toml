@@ -1,0 +1,1239 @@
+
+[origins]
+
+	[origins."origins:enderian"]
+		enabled = true
+		"origins:throw_ender_pearl" = true
+		"origins:water_vulnerability" = true
+		"origins:pumpkin_hate" = true
+		"origins:extra_reach" = true
+		"origins:ender_particles" = true
+		"origins:damage_from_potions" = true
+
+	[origins."origins:arachnid"]
+		enabled = false
+		"origins:climbing" = true
+		"origins:master_of_webs" = true
+		"origins:carnivore" = true
+		"origins:fragile" = true
+		"origins:arthropod" = true
+
+	[origins."origins:human"]
+		enabled = true
+
+	[origins."origins:blazeborn"]
+		enabled = false
+		"origins:fire_immunity" = true
+		"origins:nether_spawn" = true
+		"origins:burning_wrath" = true
+		"origins:hotblooded" = true
+		"origins:water_vulnerability" = true
+		"origins:flame_particles" = true
+		"origins:damage_from_snowballs" = true
+		"origins:damage_from_potions" = true
+
+	[origins."origins:avian"]
+		enabled = true
+		"origins:slow_falling" = true
+		"origins:fresh_air" = true
+		"origins:like_air" = true
+		"origins:tailwind" = true
+		"origins:lay_eggs" = true
+		"origins:vegetarian" = true
+
+	[origins."origins:feline"]
+		enabled = true
+		"origins:fall_immunity" = true
+		"origins:sprint_jump" = true
+		"origins:velvet_paws" = true
+		"origins:nine_lives" = true
+		"origins:weak_arms" = true
+		"origins:scare_creepers" = true
+		"origins:cat_vision" = true
+
+	[origins."origins:elytrian"]
+		enabled = false
+		"origins:elytra" = true
+		"origins:launch_into_air" = true
+		"origins:aerial_combatant" = true
+		"origins:light_armor" = true
+		"origins:claustrophobia" = true
+		"origins:more_kinetic_damage" = true
+
+	[origins."origins:shulk"]
+		enabled = true
+		"origins:shulker_inventory" = true
+		"origins:natural_armor" = true
+		"origins:strong_arms" = true
+		"origins:strong_arms_break_speed" = true
+		"origins:no_shield" = true
+		"origins:more_exhaustion" = true
+
+	[origins."origins:merling"]
+		enabled = false
+		"origins:water_breathing" = true
+		"origins:water_vision" = true
+		"origins:aqua_affinity" = true
+		"origins:swim_speed" = true
+		"origins:like_water" = true
+		"origins:aquatic" = true
+		"origins:conduit_power_on_land" = true
+		"origins:air_from_potions" = true
+
+	[origins."origins:phantom"]
+		enabled = false
+		"origins:phantomize" = false
+		"origins:translucent" = true
+		"origins:phasing" = false
+		"origins:invisibility" = true
+		"origins:burn_in_daylight" = true
+		"origins:hunger_over_time" = true
+		"origins:fragile" = true
+		"origins:phantomize_overlay" = true
+
+	[origins."medievalorigins:dwarf"]
+		enabled = true
+		"medievalorigins:dwarf/dwarven_tech" = true
+		"medievalorigins:dwarf/nocturnal_eyes" = true
+		"medievalorigins:dwarf/potent_brew" = true
+		"medievalorigins:dwarf/miniature" = true
+		"medievalorigins:dwarf/darkness_dweller" = true
+		"medievalorigins:dwarf/dense" = true
+		"medievalorigins:dwarf/mythril_resonance" = true
+		"medievalorigins:dwarf/photoallergic" = true
+		"medievalorigins:dwarf/pickaxeless_stone" = true
+		"medievalorigins:dwarf/helmet_spawn" = true
+
+	[origins."medievalorigins:necromancer"]
+		enabled = true
+		"medievalorigins:necromancer/hellraiser" = true
+		"medievalorigins:necromancer/siphon" = true
+		"medievalorigins:necromancer/resilient" = true
+		"medievalorigins:necromancer/impervious" = true
+		"medievalorigins:necromancer/poor_reputation" = true
+		"medievalorigins:necromancer/black_thumb" = true
+		"medievalorigins:necromancer/disturbed" = true
+		"medievalorigins:necromancer/unguarded" = true
+
+	[origins."medievalorigins:pixie"]
+		enabled = true
+		"medievalorigins:pixie/pixie_properties" = true
+		"medievalorigins:pixie/feather_footed" = true
+		"medievalorigins:pixie/flight" = true
+		"medievalorigins:pixie/good_fortunes" = true
+		"medievalorigins:pixie/mischief_maketh_man" = true
+		"medievalorigins:pixie/curse_of_flight" = true
+		"medievalorigins:pixie/soaked" = true
+		"medievalorigins:pixie/troublemaker" = true
+		"medievalorigins:pixie/wings" = true
+		"medievalorigins:pixie/mount" = true
+
+	[origins."medievalorigins:plague_victim"]
+		enabled = true
+		"medievalorigins:plague_victim/foul_aura" = true
+		"medievalorigins:plague_victim/plague_immunity" = true
+		"medievalorigins:plague_victim/risk_of_transmission" = true
+		"medievalorigins:plague_victim/contagious" = true
+		"medievalorigins:plague_victim/insomniac" = true
+		"medievalorigins:plague_victim/sensitive_skin" = true
+		"medievalorigins:plague_victim/skin_and_bones" = true
+
+	[origins."medievalorigins:banshee"]
+		enabled = true
+		"medievalorigins:banshee/spectral" = true
+		"medievalorigins:banshee/hexed" = true
+		"medievalorigins:banshee/sonic_shriek" = true
+		"medievalorigins:banshee/flesheater" = true
+		"medievalorigins:banshee/iron_aversion" = true
+		"medievalorigins:banshee/immaterial" = true
+		"medievalorigins:banshee/lunar_nexus" = true
+		"medievalorigins:banshee/dimeritium_shackles" = true
+		"medievalorigins:banshee/overwhelmed" = true
+
+	[origins."medievalorigins:gorgon"]
+		enabled = true
+		"medievalorigins:gorgon/petrifying_gaze" = true
+		"medievalorigins:gorgon/revenge" = false
+		"medievalorigins:gorgon/hydrophobe" = true
+		"medievalorigins:gorgon/to_stone" = true
+		"medievalorigins:gorgon/silver_aversion" = true
+		"medievalorigins:gorgon/poison_blood" = true
+		"origins_env_deh:thirst_resistance" = true
+		"medievalorigins:gorgon/poison_immune" = true
+
+	[origins."medievalorigins:wood_elf"]
+		enabled = true
+		"medievalorigins:wood_elf/eagle_eyed" = true
+		"medievalorigins:wood_elf/elegant" = true
+		"medievalorigins:wood_elf/steward" = true
+		"medievalorigins:wood_elf/towering" = true
+		"medievalorigins:wood_elf/forest_vision" = true
+		"medievalorigins:wood_elf/graceful" = true
+		"medievalorigins:wood_elf/archer" = true
+		"medievalorigins:wood_elf/gear_spawn" = true
+
+	[origins."medievalorigins:fae"]
+		enabled = true
+		"medievalorigins:fae/levitation" = true
+		"medievalorigins:fae/magic_resistance" = true
+		"medievalorigins:fae/regen" = true
+		"medievalorigins:fae/allure" = true
+		"medievalorigins:fae/diminutive" = true
+		"medievalorigins:fae/iron_aversion" = true
+		"medievalorigins:fae/magic_damage_boost" = true
+
+	[origins."medievalorigins:goblin"]
+		enabled = true
+		"medievalorigins:goblin/cunning" = true
+		"medievalorigins:goblin/greedy" = true
+		"medievalorigins:goblin/nippy" = true
+		"medievalorigins:goblin/stunted" = true
+		"medievalorigins:goblin/frail" = true
+		"medievalorigins:goblin/green" = true
+		"medievalorigins:goblin/durability" = true
+
+	[origins."medievalorigins:moon_elf"]
+		enabled = true
+		"medievalorigins:moon_elf/moonlight_rogue" = true
+		"medievalorigins:moon_elf/stealth" = true
+		"medievalorigins:moon_elf/ethereal" = true
+		"medievalorigins:moon_elf/crazed" = true
+		"medievalorigins:moon_elf/elegant" = true
+		"medievalorigins:moon_elf/nimble" = true
+		"medievalorigins:moon_elf/fragile" = true
+		"medievalorigins:moon_elf/towering" = true
+
+	[origins."medievalorigins:yeti"]
+		enabled = true
+		"medievalorigins:yeti/frigid_pulse" = true
+		"medievalorigins:yeti/from_whence_you_came" = true
+		"medievalorigins:yeti/frosty_breath" = true
+		"medievalorigins:yeti/titanic" = false
+		"medievalorigins:yeti/unstoppable" = true
+		"medievalorigins:yeti/winter_body" = true
+		"medievalorigins:yeti/flammable" = true
+		"medievalorigins:yeti/thick_fur" = true
+
+	[origins."medievalorigins:siren"]
+		enabled = true
+		"medievalorigins:siren/siren_song" = true
+		"medievalorigins:siren/amphibious" = true
+		"medievalorigins:siren/holy_water" = true
+		"medievalorigins:siren/out_of_your_depth" = true
+		"medievalorigins:siren/prone" = true
+		"medievalorigins:siren/flammable" = true
+		"medievalorigins:siren/water_vision" = true
+		"medievalorigins:siren/seduce" = true
+		"mermod:fabulous_fins" = true
+
+	[origins."medievalorigins:incubus"]
+		enabled = true
+		"medievalorigins:incubus/demon_fire" = true
+		"medievalorigins:incubus/hellborne" = true
+		"medievalorigins:incubus/carnivore" = true
+		"medievalorigins:incubus/unholy_deal" = true
+		"medievalorigins:incubus/hydrophobe" = true
+		"medievalorigins:incubus/impure" = false
+		"medievalorigins:incubus/dimension_strength" = true
+		"medievalorigins:incubus/lava_swim" = true
+		"medievalorigins:incubus/red" = true
+		"origins:nether_spawn" = false
+
+	[origins."medievalorigins:ogre"]
+		enabled = true
+		"medievalorigins:ogre/gargantuan" = true
+		"medievalorigins:ogre/bloodlust" = true
+		"medievalorigins:ogre/ravager" = false
+		"medievalorigins:ogre/lead_belly" = true
+		"medievalorigins:ogre/stocky" = true
+		"medievalorigins:ogre/ravenous" = true
+		"medievalorigins:ogre/sluggish" = true
+		"medievalorigins:ogre/unwieldy" = true
+		"medievalorigins:ogre/ogre_properties" = true
+		"medievalorigins:ogre/bloodlust_camera" = true
+		"medievalorigins:ogre/orcish_pride" = true
+
+	[origins."medievalorigins:troll"]
+		enabled = true
+		"medievalorigins:troll/ironhide" = true
+		"medievalorigins:troll/ham_fisted" = true
+		"medievalorigins:troll/mountainous" = true
+		"medievalorigins:troll/apex_predator" = true
+		"medievalorigins:troll/lumbering" = true
+		"medievalorigins:troll/old_blood" = true
+		"medievalorigins:troll/out_of_stock" = true
+		"origins_env_deh:cold_resistance" = true
+
+	[origins."medievalorigins:arachnae"]
+		enabled = true
+		"medievalorigins:arachnae/climber" = true
+		"medievalorigins:arachnae/many_eyes" = true
+		"medievalorigins:arachnae/venomous_bite" = true
+		"medievalorigins:arachnae/web_slinger" = true
+		"medievalorigins:arachnae/bottomless_stomach" = true
+		"medievalorigins:arachnae/brittle" = true
+		"medievalorigins:arachnae/fragile_exoskeleton" = true
+
+	[origins."origin-sprite:sprite"]
+		enabled = true
+		"sprite:attributes" = true
+		"sprite:dust" = true
+		"sprite:abilities/hidev2" = true
+		"sprite:abilities/hoverv4" = true
+		"sprite:abilities/flutter" = true
+		"sprite:abilities/flashv2" = true
+		"sprite:abilities/dashv2" = true
+		"sprite:abilities/ride" = true
+		"sprite:abilities/amethyst" = true
+		"sprite:mechanics/light" = true
+		"sprite:traits/glowv2" = true
+		"sprite:traits/delicate" = true
+		"sprite:traits/metalv2" = true
+		"sprite:traits/elements" = true
+
+	[origins."sprite:sprite"]
+		enabled = true
+		"origin-sprite:attributes" = true
+		"origin-sprite:dust" = true
+		"origin-sprite:abilities/hidev2" = true
+		"origin-sprite:abilities/hoverv4" = true
+		"origin-sprite:abilities/flutter" = true
+		"origin-sprite:abilities/flashv2" = true
+		"origin-sprite:abilities/dashv2" = true
+		"origin-sprite:abilities/ride" = true
+		"origin-sprite:abilities/amethyst" = true
+		"origin-sprite:mechanics/light" = true
+		"origin-sprite:traits/glowv2" = true
+		"origin-sprite:traits/delicate" = true
+		"origin-sprite:traits/metalv2" = true
+		"origin-sprite:traits/elements" = true
+		"sprite:attributes" = true
+		"sprite:dust" = true
+		"sprite:abilities/hidev2" = true
+		"sprite:abilities/hoverv4" = true
+		"sprite:abilities/flutter" = true
+		"sprite:abilities/flashv2" = true
+		"sprite:abilities/dashv2" = true
+		"sprite:abilities/ride" = true
+		"sprite:abilities/amethyst" = true
+		"sprite:mechanics/light" = true
+		"sprite:traits/glowv2" = true
+		"sprite:traits/delicate" = true
+		"sprite:traits/metalv2" = true
+		"sprite:traits/elements" = true
+
+	[origins."hydro:kadita"]
+		enabled = true
+		"hydro:oceanhome" = true
+		"hydro:aquaticadaption" = true
+		"hydro:aquaticadaption2" = true
+		"hydro:giftoftheoceangod" = true
+		"hydro:alliesoftheabyss" = true
+		"hydro:magic" = true
+		"hydro:aquaticblades" = true
+		"hydro:aquaproppel_" = true
+		"hydro:currentward" = true
+		"hydro:cursedreputation" = true
+		"hydro:cursedreputation2" = true
+		"hydro:attribute_nerf" = true
+		"hydro:slowness" = true
+		"hydro:elementalsensitivity" = true
+		"hydro:elementalsensitivity2" = true
+
+	[origins."myce:reaper"]
+		enabled = true
+		"myce:ghostly_form" = true
+		"myce:dash2" = true
+		"myce:debuff" = true
+		"myce:buff" = true
+		"myce:no_eat" = true
+		"myce:heal" = true
+		"myce:nofall" = true
+		"myce:grab" = true
+		"myce:soul_steal" = true
+		"myce:phase_debuff" = true
+		"myce:sun" = true
+		"myce:fire" = true
+		"myce:ghost" = true
+		"myce:rip2" = true
+		"myce:rip3" = true
+		"myce:credits" = true
+
+	[origins."creature:merfolk"]
+		enabled = true
+		"creature:trident_strike" = true
+		"creature:trident" = true
+		"creature:trident_craft" = true
+		"creature:under_water_power" = true
+		"creature:allies" = true
+		"creature:aqua_bar" = true
+		"creature:aqua_bar_regen" = true
+		"creature:strong_week" = true
+		"creature:pull_push" = true
+		"creature:launch" = true
+		"creature:minions" = true
+		"creature:mimic_res" = true
+		"creature:mimic" = true
+		"creature:diet" = true
+		"creature:passive" = true
+		"creature:fragile" = true
+		"creature:noshield" = true
+		"creature:exhaustion" = true
+		"creature:nether" = true
+
+	[origins."vsandmage:sandmage"]
+		enabled = true
+		"vsandmage:id" = true
+		"vsandmage:summon" = true
+		"vsandmage:authority" = true
+		"vsandmage:dash" = true
+		"vsandmage:exalt" = true
+		"vsandmage:dunebound" = true
+		"vsandmage:shape" = true
+		"vsandmage:phasing" = true
+		"vsandmage:nodmg" = true
+		"vsandmage:freezing" = true
+
+	[origins."symbiote:symbiote"]
+		enabled = true
+		"symbiote:technical" = true
+		"symbiote:eggolibdisablehighlights" = true
+		"symbiote:stats" = true
+		"symbiote:attach" = true
+		"symbiote:emptyobsession" = true
+		"symbiote:blackcoat" = true
+		"symbiote:berserk" = true
+		"symbiote:climbing" = true
+		"symbiote:malleable" = true
+		"symbiote:versatile" = true
+		"symbiote:agitation" = true
+		"symbiote:defective" = true
+		"symbiote:halfbaked" = true
+		"symbiote:parasite" = true
+		"origins:carnivore" = true
+
+	[origins."sullys_origins:aetherian/green"]
+		enabled = true
+		"sullys_origins:aetherian_base/chromatic/at_fire_vision_green" = true
+
+	[origins."sullys_origins:aetherian/purple_prime"]
+		enabled = true
+		"sullys_origins:aetherian_prime/chromatic/at_fire_vision_purple" = true
+
+	[origins."sullys_origins:aetherian/red"]
+		enabled = true
+		"sullys_origins:aetherian_base/chromatic/at_fire_vision_red" = true
+
+	[origins."sullys_origins:aetherian_prime"]
+		enabled = true
+		"sullys_origins:aetherian_prime/at_sun_bar" = true
+		"sullys_origins:aetherian_prime/at_sun_charge" = true
+		"sullys_origins:aetherian_prime/at_sun_weakness" = true
+		"sullys_origins:aetherian_prime/at_no_limit" = true
+		"sullys_origins:aetherian_prime/at_superform_check" = true
+		"sullys_origins:aetherian_prime/at_superform_toggle" = true
+		"sullys_origins:aetherian_prime/at_superform_auto_toggle" = true
+		"sullys_origins:aetherian_prime/at_superform" = true
+		"sullys_origins:aetherian_prime/at_flight" = true
+		"sullys_origins:aetherian_prime/at_impulse" = true
+		"sullys_origins:aetherian_prime/at_strenght" = true
+		"sullys_origins:aetherian_prime/at_speed" = true
+		"sullys_origins:aetherian_prime/at_fall" = true
+		"sullys_origins:aetherian_prime/at_no_energy" = true
+		"sullys_origins:aetherian_prime/at_armor" = true
+		"sullys_origins:aetherian_prime/at_no_items" = true
+		"sullys_origins:aetherian_prime/magic_weakness" = true
+		"sullys_origins:aetherian_prime/at_evolve" = true
+
+	[origins."sullys_origins:aetherian/pink_prime"]
+		enabled = true
+		"sullys_origins:aetherian_prime/chromatic/at_fire_vision_pink" = true
+
+	[origins."sullys_origins:aetherian/red_prime"]
+		enabled = true
+		"sullys_origins:aetherian_prime/chromatic/at_fire_vision_red" = true
+
+	[origins."sullys_origins:aetherian/orange_cosmic"]
+		enabled = true
+		"sullys_origins:aetherian_cosmic/chromatic/at_fire_vision_orange" = true
+		"sullys_origins:aetherian_cosmic/chromatic/at_superform_orange" = true
+
+	[origins."sullys_origins:aetherian/red_cosmic"]
+		enabled = true
+		"sullys_origins:aetherian_cosmic/chromatic/at_fire_vision_red" = true
+		"sullys_origins:aetherian_cosmic/chromatic/at_superform_red" = true
+
+	[origins."sullys_origins:aetherian_cosmic"]
+		enabled = true
+		"sullys_origins:aetherian_cosmic/at_sun_bar" = true
+		"sullys_origins:aetherian_cosmic/at_sun_charge" = true
+		"sullys_origins:aetherian_cosmic/at_sun_weakness" = true
+		"sullys_origins:aetherian_cosmic/at_superform_check" = true
+		"sullys_origins:aetherian_cosmic/at_superform_toggle" = true
+		"sullys_origins:aetherian_cosmic/at_superform_auto_toggle" = true
+		"sullys_origins:aetherian_cosmic/at_superform" = true
+		"sullys_origins:aetherian_cosmic/at_flight" = true
+		"sullys_origins:aetherian_cosmic/at_impulse" = true
+		"sullys_origins:aetherian_cosmic/at_strenght" = true
+		"sullys_origins:aetherian_cosmic/at_speed" = true
+		"sullys_origins:aetherian_cosmic/at_no_energy" = true
+		"sullys_origins:aetherian_cosmic/at_armor" = true
+		"sullys_origins:aetherian_cosmic/at_no_items" = true
+		"sullys_origins:aetherian_cosmic/magic_weakness" = true
+
+	[origins."sullys_origins:aetherian/purple"]
+		enabled = true
+		"sullys_origins:aetherian_base/chromatic/at_fire_vision_purple" = true
+
+	[origins."sullys_origins:aetherian/orange"]
+		enabled = true
+		"sullys_origins:aetherian_base/chromatic/at_fire_vision_orange" = true
+
+	[origins."sullys_origins:aetherian/pink_cosmic"]
+		enabled = true
+		"sullys_origins:aetherian_cosmic/chromatic/at_fire_vision_pink" = true
+		"sullys_origins:aetherian_cosmic/chromatic/at_superform_pink" = true
+
+	[origins."sullys_origins:aetherian/pink"]
+		enabled = true
+		"sullys_origins:aetherian_base/chromatic/at_fire_vision_pink" = true
+
+	[origins."sullys_origins:aetherian/blue_prime"]
+		enabled = true
+		"sullys_origins:aetherian_prime/chromatic/at_fire_vision_blue" = true
+
+	[origins."sullys_origins:aetherian"]
+		enabled = true
+		"sullys_origins:aetherian_base/at_sun_bar" = true
+		"sullys_origins:aetherian_base/at_sun_charge" = true
+		"sullys_origins:aetherian_base/at_sun_weakness" = true
+		"sullys_origins:aetherian_base/at_fall" = true
+		"sullys_origins:aetherian_base/at_speed" = true
+		"sullys_origins:aetherian_base/at_impulse" = true
+		"sullys_origins:aetherian_base/at_strenght" = true
+		"sullys_origins:aetherian_base/at_no_energy" = true
+		"sullys_origins:aetherian_base/at_armor" = true
+		"sullys_origins:aetherian_base/at_no_items" = true
+		"sullys_origins:aetherian_base/magic_weakness" = true
+		"sullys_origins:aetherian_base/at_sun_dimensions" = true
+		"sullys_origins:aetherian_base/at_evolve" = true
+
+	[origins."sullys_origins:aetherian/yellow_prime"]
+		enabled = true
+		"sullys_origins:aetherian_prime/chromatic/at_fire_vision_yellow" = true
+
+	[origins."sullys_origins:aetherian/blue"]
+		enabled = true
+		"sullys_origins:aetherian_base/chromatic/at_fire_vision_blue" = true
+
+	[origins."sullys_origins:aetherian/green_cosmic"]
+		enabled = true
+		"sullys_origins:aetherian_cosmic/chromatic/at_fire_vision_green" = true
+		"sullys_origins:aetherian_cosmic/chromatic/at_superform_green" = true
+
+	[origins."sullys_origins:aetherian/blue_cosmic"]
+		enabled = true
+		"sullys_origins:aetherian_cosmic/chromatic/at_fire_vision_blue" = true
+		"sullys_origins:aetherian_cosmic/chromatic/at_superform_blue" = true
+
+	[origins."sullys_origins:aetherian/green_prime"]
+		enabled = true
+		"sullys_origins:aetherian_prime/chromatic/at_fire_vision_green" = true
+
+	[origins."sullys_origins:aetherian/yellow"]
+		enabled = true
+		"sullys_origins:aetherian_base/chromatic/at_fire_vision_yellow" = true
+
+	[origins."sullys_origins:aetherian/orange_prime"]
+		enabled = true
+		"sullys_origins:aetherian_prime/chromatic/at_fire_vision_orange" = true
+
+	[origins."sullys_origins:aetherian/purple_cosmic"]
+		enabled = true
+		"sullys_origins:aetherian_cosmic/chromatic/at_fire_vision_purple" = true
+		"sullys_origins:aetherian_cosmic/chromatic/at_superform_purple" = true
+
+	[origins."sullys_origins:aetherian/yellow_cosmic"]
+		enabled = true
+		"sullys_origins:aetherian_cosmic/chromatic/at_fire_vision_yellow" = true
+		"sullys_origins:aetherian_cosmic/chromatic/at_superform_yellow" = true
+
+	[origins."silver:silver"]
+		enabled = true
+		"silver:speedster" = true
+		"silver:frequency" = true
+		"silver:sinking" = true
+		"silver:speed" = true
+		"silver:time" = true
+		"silver:velocity" = true
+		"silver:fragile" = true
+		"silver:heart" = true
+		"silver:vegan" = true
+		"silver:vegantwo" = true
+		"silver:veganthree" = true
+		"silver:nether" = true
+		"silver:nethertwo" = true
+
+	[origins."phantom:mirror"]
+		enabled = true
+		"phantom:mirror_world" = true
+		"phantom:looking_glass" = true
+		"phantom:unstable_gateway" = true
+		"phantom:trap_in_a_box" = true
+		"phantom:reflective_liquids" = true
+		"phantom:incorporeal" = true
+		"phantom:interdimensional_inconsistencies" = true
+		"phantom:reflective_metals" = true
+		"phantom:shattering" = true
+
+	[origins."inkbat:storm_chaser"]
+		enabled = true
+		"inkbat:skyborn" = true
+		"inkbat:tempest" = true
+		"inkbat:fly" = true
+		"inkbat:lightning" = true
+		"inkbat:lightning2" = true
+		"inkbat:fly2" = true
+		"inkbat:airborne_adaptation" = true
+		"inkbat:moredmg" = true
+		"inkbat:moredmg2" = true
+		"inkbat:static_discharge" = true
+		"inkbat:spark" = true
+		"inkbat:spark2" = true
+		"inkbat:adrenaline_addict" = true
+		"inkbat:fly3" = true
+		"inkbat:fly4" = true
+
+	[origins."medievalorigins:revenant"]
+		enabled = true
+		"medievalorigins:revenant/cronch" = true
+		"medievalorigins:revenant/transfer_item" = true
+		"medievalorigins:revenant/putrid_communion" = true
+		"medievalorigins:revenant/skeleton_summons" = true
+		"medievalorigins:revenant/zombie_summons" = true
+		"medievalorigins:revenant/hellraiser" = true
+		"medievalorigins:revenant/siphon" = true
+		"medievalorigins:revenant/unwitherable" = true
+		"medievalorigins:revenant/undeadge" = true
+		"medievalorigins:revenant/poor_reputation" = true
+		"medievalorigins:revenant/black_thumb" = true
+		"medievalorigins:revenant/disturbed" = true
+		"medievalorigins:revenant/unguarded" = true
+
+	[origins."my_pack:greed"]
+		enabled = true
+		"my_pack:health" = true
+		"my_pack:lions_heart_defensive" = true
+		"my_pack:reliance" = true
+		"my_pack:armor" = true
+		"my_pack:shell_shock" = true
+		"my_pack:no_totem" = true
+		"my_pack:stupid_test_power" = true
+		"my_pack:lions_heart_offensive_" = true
+		"my_pack:aoe" = true
+		"my_pack:lions_heart" = true
+		"my_pack:lions_heart_mobility" = true
+		"my_pack:evil" = true
+
+	[origins."medievalorigins:alfiq"]
+		enabled = true
+		"medievalorigins:alfiq/clawed" = true
+		"medievalorigins:alfiq/pounce" = true
+		"medievalorigins:alfiq/poor_grip" = true
+		"medievalorigins:alfiq/agile_preference" = true
+		"medievalorigins:alfiq/on_your_feet" = true
+		"medievalorigins:alfiq/crepuscular" = true
+		"medievalorigins:alfiq/pickpocket" = true
+		"origins:carnivore" = true
+		"origins:velvet_paws" = true
+		"origins:scare_creepers" = true
+		"medievalorigins:alfiq/meow" = true
+
+	[origins."medievalorigins:high_elf"]
+		enabled = true
+		"medievalorigins:high_elf/fragile" = true
+		"medievalorigins:high_elf/mystic_affinity" = true
+		"medievalorigins:high_elf/towering" = true
+		"medievalorigins:high_elf/void_warp" = true
+		"medievalorigins:high_elf/instant_cure" = true
+		"medievalorigins:high_elf/elegant" = true
+		"medievalorigins:high_elf/extrusive_movement" = true
+		"medievalorigins:high_elf/glacial_step" = true
+		"medievalorigins:high_elf/spell_power_ars" = true
+		"medievalorigins:high_elf/gear_spawn" = true
+
+	[origins."redrat:redrat"]
+		enabled = true
+		"redrat:charge" = true
+		"redrat:decharge" = true
+		"redrat:power" = true
+		"redrat:powerline" = true
+		"redrat:size" = false
+		"origins:no_shield" = true
+
+	[origins."malice_origins:thunderian"]
+		enabled = true
+		"malice_origins:thunderian/powers/fly" = true
+		"malice_origins:thunderian/fly" = true
+		"malice_origins:thunderian/tempest" = true
+		"malice_origins:thunderian/lightning_reflect" = true
+		"malice_origins:thunderian/lightning_invuln" = true
+		"malice_origins:thunderian/airborne_adaptation" = true
+		"malice_origins:thunderian/moredmg2" = true
+		"malice_origins:thunderian/static_discharge" = true
+		"malice_origins:thunderian/adrenaline_addict" = true
+		"malice_origins:thunderian/raindancer" = true
+
+	[origins."malice_origins:ogre"]
+		enabled = true
+		"malice_origins:ogre/gargantuan" = true
+		"malice_origins:ogre/bloodlust" = true
+		"malice_origins:ogre/bloodlust_camera" = true
+		"malice_origins:ogre/ravager" = true
+		"malice_origins:ogre/lead_belly" = true
+		"malice_origins:ogre/stocky" = true
+		"malice_origins:ogre/ravenous" = true
+		"malice_origins:ogre/sluggish" = true
+		"malice_origins:ogre/unwieldy" = true
+		"malice_origins:ogre/ogre_properties" = true
+		"malice_origins:ogre/orcish_pride" = true
+
+	[origins."malice_origins:incubus"]
+		enabled = true
+		"malice_origins:incubus/demon_fire" = true
+		"malice_origins:incubus/dimension_strength" = true
+		"malice_origins:incubus/carnivore" = true
+		"malice_origins:incubus/lava_swim" = true
+		"malice_origins:incubus/red" = true
+		"malice_origins:incubus/hellborne" = true
+		"malice_origins:incubus/unholy_deal" = true
+		"malice_origins:incubus/hydrophobe" = true
+		"malice_origins:incubus/impure" = true
+		"origins:nether_spawn" = true
+
+	[origins."malice_origins:revenant"]
+		enabled = true
+		"malice_origins:revenant/black_thumb" = true
+		"malice_origins:revenant/disturbed" = true
+		"malice_origins:revenant/hellraiser" = true
+		"malice_origins:revenant/poor_reputation" = true
+		"malice_origins:revenant/transfer_item" = true
+		"malice_origins:revenant/undeadge" = true
+		"malice_origins:revenant/putrid_communion" = true
+		"malice_origins:revenant/siphon" = true
+		"malice_origins:revenant/skeleton_summons" = true
+		"malice_origins:revenant/unwitherable" = true
+		"malice_origins:revenant/zombie_summons" = true
+		"malice_origins:revenant/unguarded" = true
+
+	[origins."malice_origins:arachnae"]
+		enabled = true
+		"malice_origins:arachnae/bottomless_stomach" = true
+		"malice_origins:arachnae/climber" = true
+		"malice_origins:arachnae/fragile_exoskeleton" = true
+		"malice_origins:arachnae/many_eyes" = true
+		"malice_origins:arachnae/venomous_bite" = true
+		"malice_origins:arachnae/web_slinger" = true
+		"malice_origins:arachnae/brittle" = true
+
+	[origins."malice_origins:dwarf"]
+		enabled = true
+		"malice_origins:dwarf/darkness_dweller" = true
+		"malice_origins:dwarf/dense" = true
+		"malice_origins:dwarf/dwarven_tech" = true
+		"malice_origins:dwarf/helmet_spawn" = true
+		"malice_origins:dwarf/miniature" = true
+		"malice_origins:dwarf/nocturnal_eyes" = true
+		"malice_origins:dwarf/potent_brew" = true
+
+	[origins."malice_origins:goblin"]
+		enabled = true
+		"malice_origins:goblin/greedy" = true
+		"malice_origins:goblin/durability" = true
+		"malice_origins:goblin/cunning" = true
+		"malice_origins:goblin/nippy" = true
+		"malice_origins:goblin/stunted" = true
+		"malice_origins:goblin/frail" = true
+		"malice_origins:goblin/green" = true
+
+	[origins."malice_origins:banshee"]
+		enabled = true
+		"malice_origins:banshee/dimeritium_shackles" = true
+		"malice_origins:banshee/hexed" = true
+		"malice_origins:banshee/immaterial" = true
+		"malice_origins:banshee/lunar_nexus" = true
+		"malice_origins:banshee/sonic_shriek" = true
+		"malice_origins:banshee/spectral" = true
+
+	[origins."malice_origins:gorgon"]
+		enabled = true
+		"malice_origins:gorgon/poison_immune" = true
+		"malice_origins:gorgon/petrifying_gaze" = true
+		"malice_origins:gorgon/revenge" = true
+		"malice_origins:gorgon/hydrophobe" = true
+		"malice_origins:gorgon/to_stone" = true
+		"malice_origins:gorgon/silver_aversion" = true
+		"malice_origins:gorgon/poison_blood" = true
+		"origins_env_deh:thirst_resistance" = true
+
+	[origins."malice_origins:pixie"]
+		enabled = true
+		"malice_origins:pixie/curse_of_flight" = true
+		"malice_origins:pixie/feather_footed" = true
+		"malice_origins:pixie/flight" = true
+		"malice_origins:pixie/good_fortunes" = true
+		"malice_origins:pixie/mischief_maketh_man" = true
+		"malice_origins:pixie/mount" = true
+		"malice_origins:pixie/soaked" = true
+		"malice_origins:pixie/troublemaker" = true
+		"malice_origins:pixie/wings" = true
+		"malice_origins:pixie/pixie_properties" = true
+
+	[origins."malice_origins:yeti"]
+		enabled = true
+		"malice_origins:yeti/flammable" = true
+		"malice_origins:yeti/frigid_pulse" = true
+		"malice_origins:yeti/from_whence_you_came" = true
+		"malice_origins:yeti/frosty_breath" = true
+		"malice_origins:yeti/titanic" = true
+		"malice_origins:yeti/unstoppable" = true
+		"malice_origins:yeti/winter_body" = true
+		"malice_origins:yeti/thick_fur" = true
+
+	[origins."malice_origins:symbiote"]
+		enabled = true
+		"malice_origins:symbiote/attach" = true
+		"malice_origins:symbiote/agitation" = true
+		"malice_origins:symbiote/blackcoat" = true
+		"malice_origins:symbiote/berserk" = true
+		"malice_origins:symbiote/climbing" = true
+		"malice_origins:symbiote/defective" = true
+		"malice_origins:symbiote/eggolibdisablehighlights" = true
+		"malice_origins:symbiote/emptyobsession" = true
+		"malice_origins:symbiote/malleable" = true
+		"malice_origins:symbiote/halfbaked" = true
+		"malice_origins:symbiote/parasite" = true
+		"malice_origins:symbiote/stats" = true
+		"malice_origins:symbiote/technical" = true
+		"malice_origins:symbiote/versatile" = true
+		"origins:carnivore" = true
+
+	[origins."malice_origins:wood_elf"]
+		enabled = true
+		"malice_origins:wood_elf/archer" = true
+		"malice_origins:wood_elf/forest_vision" = true
+		"malice_origins:wood_elf/eagle_eyed" = true
+		"malice_origins:wood_elf/towering" = true
+		"malice_origins:wood_elf/steward" = true
+		"malice_origins:wood_elf/elegant" = true
+		"malice_origins:wood_elf/graceful" = true
+		"malice_origins:wood_elf/gear_spawn" = true
+
+	[origins."malice_origins:merfolk"]
+		enabled = true
+		"malice_origins:merfolk/allies" = true
+		"malice_origins:merfolk/aqua_bar" = true
+		"malice_origins:merfolk/aqua_bar_regen" = true
+		"malice_origins:merfolk/aquamancy" = true
+		"malice_origins:merfolk/diet" = true
+		"malice_origins:merfolk/exhaustion" = true
+		"malice_origins:merfolk/launch" = true
+		"malice_origins:merfolk/godlike" = true
+		"malice_origins:merfolk/mimic" = true
+		"malice_origins:merfolk/mimic_res" = true
+		"malice_origins:merfolk/minions" = true
+		"malice_origins:merfolk/oceanborne" = true
+		"malice_origins:merfolk/passive" = true
+		"malice_origins:merfolk/trident" = true
+		"malice_origins:merfolk/trident_craft" = true
+		"malice_origins:merfolk/trident_strike" = true
+		"malice_origins:merfolk/under_water_power" = true
+		"malice_origins:merfolk/nether" = true
+
+	[origins."malice_origins:moon_elf"]
+		enabled = true
+		"medievalorigins:moon_elf/crazed" = true
+		"medievalorigins:moon_elf/fragile" = true
+		"medievalorigins:moon_elf/moonlight_rogue" = true
+		"medievalorigins:moon_elf/nimble" = true
+		"medievalorigins:moon_elf/stealth" = true
+		"medievalorigins:moon_elf/towering" = true
+		"malice_origins:moon_elf/crazed" = true
+		"malice_origins:moon_elf/fragile" = true
+		"malice_origins:moon_elf/moonlight_rogue" = true
+		"malice_origins:moon_elf/nimble" = true
+		"malice_origins:moon_elf/stealth" = true
+		"malice_origins:moon_elf/towering" = true
+
+	[origins."malice_origins:automaton"]
+		enabled = true
+		"malice_origins:automaton/consume" = true
+		"malice_origins:automaton/andesite" = true
+		"malice_origins:automaton/antivirus" = true
+		"malice_origins:automaton/bloodless" = true
+		"malice_origins:automaton/food" = true
+		"malice_origins:automaton/fuel" = true
+		"malice_origins:automaton/goggles" = true
+		"malice_origins:automaton/familiarity" = true
+		"malice_origins:automaton/meld" = true
+		"malice_origins:automaton/heavy" = true
+		"malice_origins:automaton/jump" = true
+		"malice_origins:automaton/sink" = true
+		"malice_origins:automaton/soulless" = true
+		"malice_origins:automaton/stun" = true
+		"malice_origins:automaton/lava" = true
+		"malice_origins:automaton/reach" = true
+		"malice_origins:automaton/unfamiliar" = false
+		"malice_origins:automaton/resource/piston_jump_resource" = true
+		"malice_origins:automaton/strong_ankles" = true
+
+	[origins."epic:klirikos"]
+		enabled = true
+		"epic:magic_hands" = true
+		"epic:physically_weak" = true
+		"epic:magic_hands2" = true
+		"epic:sanctuary" = true
+		"epic:short" = true
+		"epic:lower_life_expectancy" = true
+		"epic:healer_particles" = true
+
+	[origins."pink:bitch"]
+		enabled = true
+		"pink:heartseverywhere" = true
+		"pink:urlove" = true
+		"pink:roseglasses" = true
+		"pink:roseglassesreal" = true
+
+	[origins."malice_origins:fuchsia_elf"]
+		enabled = true
+		"malice_origins:fuchsia_elf/love_sanctuary" = true
+		"malice_origins:fuchsia_elf/love_crystals" = true
+		"malice_origins:fuchsia_elf/love_meter" = true
+		"malice_origins:fuchsia_elf/love_crystals_bar" = true
+		"malice_origins:fuchsia_elf/love_crystals_meter_update" = true
+		"malice_origins:fuchsia_elf/manage_resources" = true
+		"malice_origins:fuchsia_elf/admiration" = true
+		"malice_origins:fuchsia_elf/loving_hands" = true
+		"malice_origins:fuchsia_elf/love_link" = true
+		"malice_origins:fuchsia_elf/lovesick" = true
+		"malice_origins:fuchsia_elf/passivity" = true
+		"malice_origins:fuchsia_elf/breakable" = true
+		"malice_origins:fuchsia_elf/love_link_speed" = true
+
+	[origins."floral_guardian:floral_guardian"]
+		enabled = true
+		"floral_guardian:blessing_meter" = true
+		"floral_guardian:guardian_sense" = true
+		"floral_guardian:defensive_mechanism" = true
+		"floral_guardian:floral_sanctuary" = true
+		"floral_guardian:sprout_spirit_vine" = true
+		"floral_guardian:plant_like_structure" = true
+		"floral_guardian:weak_limbs" = true
+		"floral_guardian:status_bar_texture" = true
+		"floral_guardian:rustling_leaves_when_hit_sound" = true
+		"floral_guardian:vine_bar" = true
+		"floral_guardian:blessing_charges" = true
+		"floral_guardian:update_blessing_meter" = true
+		"floral_guardian:manage_resources" = true
+		"floral_guardian:spirit_vine_speed" = true
+		"floral_guardian:plant_appearance" = true
+
+	[origins."rat_king:rat"]
+		enabled = true
+		"rat_king:zoom" = true
+		"rat_king:immune" = true
+		"rat_king:small" = true
+		"rat_king:diet" = true
+		"rat_king:diet2" = true
+		"rat_king:diet3" = true
+		"rat_king:stomach" = true
+		"rat_king:friendly" = true
+		"rat_king:smell" = true
+		"rat_king:summonskeleton" = true
+		"rat_king:undeadabsorption" = true
+		"rat_king:scoreboard" = true
+		"rat_king:diet4" = true
+		"rat_king:tp" = true
+		"rat_king:fur" = true
+		"rat_king:hp" = true
+		"rat_king:atk" = true
+		"rat_king:subj" = true
+		"rat_king:bite" = true
+		"rat_king:subj2" = true
+
+	[origins."malice_origins:rat_king"]
+		enabled = true
+		"malice_origins:rat_king/zoom" = true
+		"malice_origins:rat_king/immune" = true
+		"malice_origins:rat_king/small" = true
+		"malice_origins:rat_king/diet" = true
+		"malice_origins:rat_king/diet2" = true
+		"malice_origins:rat_king/diet3" = true
+		"malice_origins:rat_king/stomach" = true
+		"malice_origins:rat_king/friendly" = true
+		"malice_origins:rat_king/smell" = true
+		"malice_origins:rat_king/summonskeleton" = true
+		"malice_origins:rat_king/undeadabsorption" = true
+		"malice_origins:rat_king/scoreboard" = true
+		"malice_origins:rat_king/diet4" = true
+		"malice_origins:rat_king/tp" = true
+		"malice_origins:rat_king/fur" = true
+		"malice_origins:rat_king/hp" = true
+		"malice_origins:rat_king/atk" = true
+		"malice_origins:rat_king/subj" = true
+		"malice_origins:rat_king/bite" = true
+		"malice_origins:rat_king/subj2" = true
+
+	[origins."hack:hacker"]
+		enabled = true
+		"hack:sight" = true
+		"hack:roar" = true
+		"hack:pick_up" = true
+		"hack:strong_legs" = true
+		"hack:stalker" = true
+		"hack:non_stinky" = true
+		"hack:effect" = true
+		"hack:amble" = true
+		"hack:thickfur" = true
+		"hack:strong_legs2" = true
+		"hack:roar_effect" = true
+		"hack:size" = true
+		"hack:stinky" = true
+		"hack:novillager" = true
+		"hack:insomnia" = true
+		"origins:carnivore" = true
+		"hack:primitive" = true
+		"hack:primitive_2" = true
+
+	[origins."malice_origins:sasquatch"]
+		enabled = true
+		"malice_origins:sasquatch/strong_legs" = true
+		"malice_origins:sasquatch/roar" = true
+		"malice_origins:sasquatch/amble" = true
+		"malice_origins:sasquatch/non_stinky" = true
+		"malice_origins:sasquatch/sight" = true
+		"malice_origins:sasquatch/thickfur" = true
+		"malice_origins:sasquatch/insomnia" = true
+		"malice_origins:sasquatch/pick_up" = true
+		"malice_origins:sasquatch/stalker" = true
+		"malice_origins:sasquatch/strong_legs2" = true
+		"malice_origins:sasquatch/size" = true
+		"malice_origins:sasquatch/stinky" = true
+		"origins:carnivore" = true
+		"malice_origins:sasquatch/primitive" = true
+		"malice_origins:sasquatch/primitive_2" = true
+
+	[origins."inanis:inanis"]
+		enabled = true
+		"inanis:absorption" = true
+		"inanis:aura" = true
+		"inanis:cloud" = true
+		"inanis:cooldown" = true
+		"inanis:cracked" = true
+		"inanis:damage" = true
+		"inanis:darkness" = true
+		"inanis:deconstruction" = true
+		"inanis:destabilization" = true
+		"inanis:fly" = true
+		"inanis:homesick" = true
+		"inanis:immunity" = true
+		"inanis:impact" = true
+		"inanis:infusion" = true
+		"inanis:instability" = true
+		"inanis:intangible" = true
+		"inanis:jammer" = true
+		"inanis:mastery" = true
+		"inanis:neutral" = true
+		"inanis:neutrality" = true
+		"inanis:nothing" = true
+		"inanis:null" = true
+		"inanis:omniscient" = true
+		"inanis:outofworld" = true
+		"inanis:overlay" = true
+		"inanis:particle" = true
+		"inanis:pawn" = true
+		"inanis:phase" = true
+		"inanis:punch" = true
+		"inanis:reconstruction" = true
+		"inanis:resource" = true
+		"inanis:sense" = true
+		"inanis:shell" = true
+		"inanis:shield" = true
+		"inanis:slow" = true
+		"inanis:snail" = true
+		"inanis:something" = true
+		"inanis:sound" = true
+		"inanis:tethers" = true
+		"inanis:timer" = true
+		"inanis:toggle" = true
+		"inanis:union" = true
+		"inanis:weak" = true
+		"inanis:weight" = true
+		"inanis:void_cloud" = true
+		"inanis:null_shield" = true
+		"inanis:void_healing" = true
+		"inanis:slow_flight" = true
+		"inanis:magic_jammer" = true
+
+	[origins."malice_origins:inanis"]
+		enabled = true
+		"malice_origins:inanis/union" = true
+		"malice_origins:inanis/null_shield" = true
+		"malice_origins:inanis/void_cloud" = true
+		"malice_origins:inanis/nothing" = true
+		"malice_origins:inanis/omniscient" = true
+		"malice_origins:inanis/mastery" = true
+		"malice_origins:inanis/magic_jammer" = true
+		"malice_origins:inanis/infusion" = true
+		"malice_origins:inanis/fly" = true
+		"malice_origins:inanis/neutrality" = true
+		"malice_origins:inanis/tethers" = true
+		"malice_origins:inanis/homesick" = true
+		"malice_origins:inanis/absorption" = true
+		"malice_origins:inanis/cloud" = true
+		"malice_origins:inanis/cooldown" = true
+		"malice_origins:inanis/cracked" = true
+		"malice_origins:inanis/darkness" = true
+		"malice_origins:inanis/deconstruction" = true
+		"malice_origins:inanis/immunity" = true
+		"malice_origins:inanis/impact" = true
+		"malice_origins:inanis/intangible" = true
+		"malice_origins:inanis/null" = true
+		"malice_origins:inanis/outofworld" = true
+		"malice_origins:inanis/overlay" = true
+		"malice_origins:inanis/phase" = true
+		"malice_origins:inanis/punch" = true
+		"malice_origins:inanis/void_healing" = true
+		"malice_origins:inanis/resource" = true
+		"malice_origins:inanis/sense" = true
+		"malice_origins:inanis/shell" = true
+		"malice_origins:inanis/shield" = true
+		"malice_origins:inanis/slow_flight" = true
+		"malice_origins:inanis/snail" = true
+		"malice_origins:inanis/timer" = true
+		"malice_origins:inanis/weak" = true
+		"malice_origins:inanis/weight" = true
+		"malice_origins:inanis/something" = true
+
+	[origins."atheus:atheus"]
+		enabled = true
+		"atheus:antiheal" = true
+		"atheus:apotheosis" = true
+		"atheus:arrogant" = true
+		"atheus:bleed" = true
+		"atheus:blood" = true
+		"atheus:cooldown" = true
+		"atheus:corrosive" = true
+		"atheus:corrupted" = true
+		"atheus:daggers" = true
+		"atheus:damage" = true
+		"atheus:diffusion" = true
+		"atheus:flesh" = true
+		"atheus:hearts" = true
+		"atheus:ichor" = true
+		"atheus:immunity" = true
+		"atheus:infection" = true
+		"atheus:infusion" = true
+		"atheus:insatiable" = true
+		"atheus:invisibility" = true
+		"atheus:jump" = true
+		"atheus:migraine" = true
+		"atheus:mist" = true
+		"atheus:misttoggle" = true
+		"atheus:overflow" = true
+		"atheus:parasitic" = true
+		"atheus:purification" = true
+		"atheus:quickens" = true
+		"atheus:reckless" = true
+		"atheus:rejuvenation" = true
+		"atheus:resource" = true
+		"atheus:rose" = true
+		"atheus:sawblade" = true
+		"atheus:shockwave" = true
+		"atheus:siphon" = true
+		"atheus:slam" = true
+		"atheus:slice" = true
+		"atheus:soaked" = true
+		"atheus:splatter" = true
+		"atheus:stench" = true
+		"atheus:stun" = true
+		"atheus:thirst" = true
+		"atheus:thud" = true
+		"atheus:timer" = true
+		"atheus:toxic" = true
+		"atheus:useless" = true
+		"atheus:vampirism" = true
+		"atheus:venom" = true
+		"atheus:weak" = true
+		"atheus:bloom" = true
+		"atheus:clang" = true
+		"atheus:death" = true
+		"atheus:enchanted" = true
+		"atheus:freezing" = true
+		"atheus:illusion" = true
+		"atheus:immobile" = true
+		"atheus:particle" = true
+		"atheus:red" = true
+		"atheus:reflect" = true
+		"atheus:spark" = true
+		"atheus:thorns" = true
+		"atheus:unusable" = true
+
+	[origins."onehorn:onehornoni"]
+		enabled = true
+		"onehorn:horn" = true
+		"onehorn:change_magic" = true
+		"onehorn:magic_active" = true
+		"onehorn:fist_fighter" = true
+		"onehorn:resources" = true
+		"onehorn:combo" = true
+		"onehorn:description_magicpower" = true
+		"onehorn:description_fistfighter" = true
+		"onehorn:description_horndurability" = true
+		"onehorn:description_horned" = true
+
+	[origins."malice_origins:onehorn_oni"]
+		enabled = true
+		"malice_origins:onehorn_oni/horn" = true
+		"malice_origins:onehorn_oni/change_magic" = true
+		"malice_origins:onehorn_oni/magic_active" = true
+		"malice_origins:onehorn_oni/fist_fighter" = true
+		"malice_origins:onehorn_oni/resources" = true
+		"malice_origins:onehorn_oni/combo" = true
+		"malice_origins:onehorn_oni/description_magicpower" = true
+		"malice_origins:onehorn_oni/description_fistfighter" = true
+		"malice_origins:onehorn_oni/description_horndurability" = true
+		"malice_origins:onehorn_oni/description_horned" = true
+
+	[origins."haxkaijent:giant"]
+		enabled = true
+		"haxkaijent:pow/toggle" = true
+		"haxkaijent:attr/grace" = true
+		"haxkaijent:pow/desert" = true
+		"haxkaijent:pow/cherry" = true
+		"haxkaijent:blocks/create" = true
+		"haxkaijent:blocks/break" = true
+		"haxkaijent:attr/islarge" = true
+		"haxkaijent:attr/mining" = true
+		"haxkaijent:fire" = true
+		"haxkaijent:small" = true
+		"haxkaijent:smallint" = true
+		"haxkaijent:smalltime" = true
+
+	[origins."malice_origins:elder_treant"]
+		enabled = true
+		"malice_origins:elder_treant/pow/toggle" = true
+		"malice_origins:elder_treant/small" = true
+		"malice_origins:elder_treant/blocks/create" = true
+		"malice_origins:elder_treant/attr/mining" = true
+		"malice_origins:elder_treant/attr/islarge" = true
+		"malice_origins:elder_treant/attr/grace" = true
+		"malice_origins:elder_treant/pow/desert" = true
+		"malice_origins:elder_treant/pow/cherry" = true
+		"malice_origins:elder_treant/blocks/break" = true
+		"malice_origins:elder_treant/fire" = true
+		"malice_origins:elder_treant/negatives" = true
+		"malice_origins:elder_treant/smallint" = true
+		"malice_origins:elder_treant/smalltime" = true
+		"malice_origins:elder_treant/attr/negatives" = true
+

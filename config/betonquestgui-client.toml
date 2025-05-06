@@ -1,0 +1,7 @@
+
+[BetonQuestGui]
+	#If true show the compass on screen
+	showCompass = true
+	#If true show the distance from the quest marker
+	showDistance = true
+
