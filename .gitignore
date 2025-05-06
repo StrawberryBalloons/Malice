@@ -1,0 +1,17 @@
+*
+
+!.gitignore
+!README.md
+!modlist.html
+!options.txt
+!servers.dat
+!manifest.json
+!knownkeys.txt
+!minecraftinstance.json
+
+!armourers_workshop/
+!assets/
+!config/
+!defaultconfigs/
+!global_packs/
+!scripts/
