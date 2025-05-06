@@ -1,0 +1,7 @@
+{
+	"replace": true,
+	"size": 2,
+	"operation": "REMOVE",
+	"order": 20,
+  "icon": "curios:slot/empty_hands_slot"
+}

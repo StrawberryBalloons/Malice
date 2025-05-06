@@ -1,0 +1,16 @@
+{
+    "attributes": {
+        "one_hand": {
+            "armor_negation": 7,
+            "impact": 1.9,
+            "speed_bonus": 1,
+            "max_strikes": 2
+        },
+        "two_hand": {
+            "armor_negation": 14,
+            "impact": 2.4,
+            "max_strikes": 3
+        }
+    },
+    "type": "epicfight:tachi"
+}

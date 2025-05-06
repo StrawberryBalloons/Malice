@@ -1,0 +1,11 @@
+{
+  "_replace": true,
+  "level_display": "tconstruct:default",
+  "modules": [
+    {
+      "type": "tconstruct:recurrent_protection",
+      "each_level": 0.5
+    }
+  ],
+  "tooltip_display": "always"
+}

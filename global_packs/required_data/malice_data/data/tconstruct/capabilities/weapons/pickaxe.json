@@ -1,0 +1,9 @@
+{
+    "type": "epicfight:pickaxe",
+    "attributes": {
+        "one_hand": {
+                "impact": 0.55,
+            "max_strikes": 0
+        }
+    }
+ }

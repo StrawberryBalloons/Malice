@@ -1,0 +1,28 @@
+{
+  "id": "godfrey_first",
+  "title": "Tales of the End Times",
+  "hasTimeLimit": false,
+  "timeLimitInSeconds": 0,
+  "goals": [
+    {
+      "type": "KILL",
+      "target": "minecraft:enderman",
+      "amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "type": "ITEM", 
+      "tag": "minecraft:coal",
+      "amount": 64 
+    }
+  ],
+  "requirement": [
+    { 
+      "type": "XP", 
+      "requirements_min": 0, 
+      "requirements_max": 99999
+    }
+  ],
+  "description": "The crazy priest wants you to find and kill and enderman to sample for research."
+}

@@ -1,0 +1,18 @@
+{
+	"attributes":
+	{
+		"common":
+		{
+			"armor_negation":50.0,
+			"impact":7.0,
+			"max_strikes":8
+		}
+	},
+  "collider": {
+    "number": 3,
+    "center": [0.0, 0.0, -1.2],
+    "size": [0.7, 1.0, 1.4]
+  },
+
+	"type":"epicfight:greatsword"
+}

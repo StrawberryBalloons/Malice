@@ -1,0 +1,46 @@
+{
+	"type": "apotheosis:attribute",
+	"attribute": "minecraft:generic.attack_speed",
+	"operation": "MULTIPLY_TOTAL",
+	"values": {
+		"common": {
+			"min": 0.01,
+			"steps": 10,
+			"step": 0.001
+		},
+		"uncommon": {
+			"min": 0.02,
+			"steps": 10,
+			"step": 0.001
+		},
+		"rare": {
+			"min": 0.03,
+			"steps": 11,
+			"step": 0.001
+		},
+		"epic": {
+			"min": 0.04,
+			"steps": 12,
+			"step": 0.001
+		},
+		"mythic": {
+			"min": 0.05,
+			"steps": 13,
+			"step": 0.001
+		},
+		"ancient": {
+			"min": 0.07,
+			"steps": 20,
+			"step": 0.001
+		},
+		"divine": {
+			"min": 0.07,
+			"steps": 20,
+			"step": 0.001
+		}
+	},
+	"types": [
+		"sword",
+		"trident"
+	]
+}

@@ -1,0 +1,46 @@
+{
+	"type": "apotheosis:attribute",
+	"attribute": "lodestone:magic_damage",
+	"operation": "ADDITION",
+	"values": {
+		"common": {
+			"min": 0.1,
+			"steps": 1,
+			"step": 0.2
+		},
+		"uncommon": {
+			"min": 0.3,
+			"steps": 2,
+			"step": 0.2
+		},
+		"rare": {
+			"min": 0.5,
+			"steps": 3,
+			"step": 0.2
+		},
+		"epic": {
+			"min": 0.7,
+			"steps": 4,
+			"step": 0.2
+		},
+		"mythic": {
+			"min": 1,
+			"steps": 5,
+			"step": 0.2
+		},
+		"ancient": {
+			"min": 1.25,
+			"steps": 12,
+			"step": 0.2
+		},
+		"divine": {
+			"min": 1.25,
+			"steps": 12,
+			"step": 0.2
+		}
+	},
+	"types": [
+		"sword",
+		"trident"
+	]
+}

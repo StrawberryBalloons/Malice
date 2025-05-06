@@ -1,0 +1,80 @@
+{
+	"weight": 1,
+	"quality": 0,
+	"dimensions": [
+	],
+	"unique": true,
+	"min_rarity": "common",
+	"max_rarity": "mythic",
+	"bonuses": [
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "core_armor",
+				"types": [
+					"chestplate",
+                    "helmet",
+					"leggings",
+                    "boots"
+				]
+			},
+			"attribute": "minecraft:generic.armor_toughness",
+			"operation": "MULTIPLY_TOTAL",
+			"values": {
+				"common": 0.01,
+				"uncommon": 0.015,
+				"rare": 0.02,
+				"epic": 0.03,
+				"mythic": 0.05,
+				"ancient": 0.06
+			}
+		},
+
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "breaker",
+				"types": [
+					"pickaxe"
+				]
+			},
+			"attribute": "attributeslib:mining_speed",
+			"operation": "MULTIPLY_TOTAL",
+			"values": {
+				"common": 0.05,
+				"uncommon": 0.05,
+				"rare": 0.05,
+				"epic": 0.05,
+				"mythic": 0.05,
+				"ancient": 0.05
+			}
+		},
+
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "melee_weapon",
+				"types": [
+					"sword",
+					"heavy_weapon"
+				]
+			},
+			"attribute": "minecraft:generic.attack_damage",
+			"operation": "MULTIPLY_TOTAL",
+			"values": {
+				"common": 0.005,
+				"uncommon": 0.006,
+				"rare": 0.008,
+				"epic": 0.01,
+				"mythic": 0.01,
+				"ancient": 0.01
+			}
+		}
+
+
+
+
+
+	]
+}
+	

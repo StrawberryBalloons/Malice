@@ -1,0 +1,50 @@
+{
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "minecraft:wither",
+	"target": "BLOCK_ATTACKER",
+	"values": {
+		"epic": {
+			"duration": {
+				"min": 20,
+				"steps": 3,
+				"step": 10
+			},
+			"amplifier": {
+				"min": 0,
+				"steps": 1,
+				"step": 1
+			}
+		},
+		"mythic": {
+			"duration": {
+				"min": 20,
+				"steps": 4,
+				"step": 10
+			},
+			"amplifier": {
+				"min": 0,
+				"steps": 1,
+				"step": 1
+			}
+		},
+		"ancient": {
+			"duration": {
+				"min": 30,
+				"steps": 4,
+				"step": 15
+			},
+			"amplifier": 2
+		},
+		"divine": {
+			"duration": {
+				"min": 30,
+				"steps": 4,
+				"step": 15
+			},
+			"amplifier": 2
+		}
+	},
+	"types": [
+		"shield"
+	]
+}

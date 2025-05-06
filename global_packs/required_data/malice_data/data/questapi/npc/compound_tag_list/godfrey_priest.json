@@ -1,0 +1,20 @@
+{
+  "id": "godfrey_priest",
+  "entity_type": [
+    "minecraft:villager"
+  ],
+  "conditions": [
+    {
+      "nbt": [
+        {
+          "tag": "VillagerData",
+          "value": "minecraft:cleric"
+        }
+      ],
+      "logic_gate": "OR",
+      "dialog_list": [
+        "questapi.godfrey_priest_dialog"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "attributeslib:sundering",
+	"target": "ARROW_TARGET",
+	"values": {
+		"mythic": {
+			"duration": {
+				"min": 60,
+				"steps": 2,
+				"step": 10
+			},
+			"amplifier": {
+				"min": 0,
+				"steps": 3,
+				"step": 0.15
+			},
+			"cooldown": 240
+		},
+		"ancient": {
+			"duration": {
+				"min": 80,
+				"steps": 4,
+				"step": 15
+			},
+			"amplifier": 1,
+			"cooldown": 240
+		},
+		"divine": {
+			"duration": {
+				"min": 80,
+				"steps": 4,
+				"step": 15
+			},
+			"amplifier": 1,
+			"cooldown": 240
+		}
+	},
+	"types": [
+		"bow",
+		"crossbow",
+		"trident"
+	]
+}

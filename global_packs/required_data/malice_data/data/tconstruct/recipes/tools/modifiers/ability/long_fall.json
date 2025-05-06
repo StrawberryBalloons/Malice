@@ -1,0 +1,31 @@
+{
+  "_replace": true,
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "check_trait_level": true,
+  "inputs": [
+    {
+      "item": "minecraft:piston"
+    },
+    {
+      "item": "alexscaves:ferrouslime_ball"
+    },
+    {
+      "item": "minecraft:piston"
+    },
+    {
+      "item": "tconstruct:sky_slime"
+    },
+    {
+      "item": "tconstruct:sky_slime"
+    }
+  ],
+  "level": 1,
+  "result": "tconstruct:long_fall",
+  "slots": {
+    "abilities": 1
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable/armor/boots"
+  }
+}

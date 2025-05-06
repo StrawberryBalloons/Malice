@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "terramity:virentium_shovel",
+    "terramity:conductite_shovel",
+    "terramity:exodium_shovel",
+    "terramity:reverium_shovel",
+    "terramity:nyxium_shovel",
+    "terramity:void_shovel",
+    "terramity:iridium_shovel",
+    "terramity:hellspec_shovel",
+    "terramity:cosmilite_shovel",
+    "terramity:dimlite_shovel",
+    "terramity:onyx_shovel",
+    "terramity:topaz_shovel",
+    "terramity:sapphire_shovel",
+    "terramity:ruby_shovel"
+  ]
+}

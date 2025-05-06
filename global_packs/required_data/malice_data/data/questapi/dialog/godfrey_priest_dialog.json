@@ -1,0 +1,177 @@
+{
+  "conversationID": "questapi.godfrey_priest_dialog",
+  "dialog": [
+    {
+      "id": 0,
+      "dialogText": "Who me? ...Are you talking to me?",
+      "requirements": {
+        "type": "QUEST",
+        "quest_id": "questapi.godfrey_first",
+        "requirement_status": "NOT_OBTAINED"
+      },
+      "options": [
+        {
+          "text": "Yes I\u0027m talking to you.",
+          "type": "OPEN_DIALOG",
+          "global_id": "questapi.godfrey_priest_dialog",
+          "dialog": 1
+        },
+        {
+          "text": "No, weirdo.",
+          "type": "CLOSE_DIALOG"
+        }
+      ]
+    },
+
+    {
+      "id": 1,
+      "dialogText": "The end times are here, you should be focusing on yourself not talking to strangers.",
+      "requirements": {
+      },
+      "options": [
+        {
+          "text": "End times? What are you talking about?",
+          "type": "OPEN_DIALOG",
+          "global_id": "questapi.godfrey_priest_dialog",
+          "dialog": 2
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "dialogText": "I\u0027m talking about the creatures that enter our realm every night.",
+      "requirements": {
+      },
+      "options": [
+        {
+          "text": "Oh yes...I've seen them also. Tall mysterious creatures.",
+          "type": "OPEN_DIALOG",
+          "global_id": "questapi.godfrey_priest_dialog",
+          "dialog": 3
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "dialogText": "Yes, I belive they are tied to an old legend of an entity outside of our realm capable of infinite destruction.",
+      "requirements": {
+      },
+      "options": [
+        {
+          "text": "What kind of entity?",
+          "type": "OPEN_DIALOG",
+          "global_id": "questapi.godfrey_priest_dialog",
+          "dialog": 4
+        }
+      ]
+    },
+
+    {
+      "id": 4,
+      "dialogText": "The kind that wants to eat our reality and bring it into the void. Perhaps it is trying to get through to our world.",
+      "requirements": {
+      },
+      "options": [
+        {
+          "text": "Can we stop it?",
+          "type": "OPEN_DIALOG",
+          "global_id": "questapi.godfrey_priest_dialog",
+          "dialog": 5
+        }
+      ]
+    },
+
+    {
+      "id": 5,
+      "dialogText": "I don\u0027t know. It\u0027s only a legend after all. Some pieces have gone missing throughout time.",
+      "requirements": {
+      },
+      "options": [
+        {
+          "text": "Well then what are you able to tell me?",
+          "type": "OPEN_DIALOG",
+          "global_id": "questapi.godfrey_priest_dialog",
+          "dialog": 6
+        }
+      ]
+    },
+
+    {
+      "id": 6,
+      "dialogText": "The legend states that the ruler of the void conquered time itself with 12 generals. Perhaps it is using them once again to conquer our realm.",
+      "requirements": {
+      },
+      "options": [
+        {
+          "text": "How can I find them and destroy them?",
+          "type": "OPEN_DIALOG",
+          "global_id": "questapi.godfrey_priest_dialog",
+          "dialog": 7
+        }
+      ]
+    },
+
+    {
+      "id": 7,
+      "dialogText": "The legend states that the ruler of the void conquered time itself with 12 generals. Perhaps it is using them once again to conquer our realm.",
+      "requirements": {
+      },
+      "options": [
+        {
+          "text": "That does sound bad...",
+          "type": "OPEN_DIALOG",
+          "global_id": "questapi.godfrey_priest_dialog",
+          "dialog": 8
+        }
+      ]
+    },
+
+    {
+      "id": 8,
+      "dialogText": "If the legend is real, then this piece of armor may come in handy. It has been in my family for generations.",
+      "requirements": {
+      },
+      "options": [
+        {
+          "text": "And you\u0027re just going to give it to me for free? Right?",
+          "type": "OPEN_DIALOG",
+          "global_id": "questapi.godfrey_priest_dialog",
+          "dialog": 9
+        }
+      ]
+    },
+
+    {
+      "id": 9,
+      "dialogText": "If I wasn\u0027t so dead serious right now you might have made me laugh. No, you will need to bring me a sample of an enderman...for research.",
+      "requirements": {
+      },
+      "options": [
+        {
+          "text": "What kind of sample?",
+          "type": "OPEN_DIALOG",
+          "global_id": "questapi.godfrey_priest_dialog",
+          "dialog": 10
+        }
+      ]
+    },
+
+    {
+      "id": 10,
+      "dialogText": "Just some flesh and blood...if those things even bleed at all. Go slay one and return to me with your sword.",
+      "requirements": {
+      },
+      "options": [
+        {
+          "text": "Fine. I\u0027ll be back soon.",
+          "type": "ADD_QUEST",
+          "quest_id": "questapi.godfrey_first"
+        }
+      ]
+    }
+
+
+  ]
+}

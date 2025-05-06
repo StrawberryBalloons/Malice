@@ -1,0 +1,88 @@
+{
+	"variant": "guardian",
+	"weight": 0,
+	"quality": 1.5,
+	"min_rarity": "ancient",
+	"dimensions": ["minecraft:the_end"
+	],
+	"bonuses": [
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "core_armor",
+				"types": [
+					"chestplate",
+					"leggings"
+				]
+			},
+			"attribute": "minecraft:generic.armor_toughness",
+			"operation": "ADDITION",
+			"values": {
+				"common": 0.5,
+				"uncommon": 1,
+				"rare": 2.5,
+				"epic": 3.5,
+				"mythic": 4.5,
+				"ancient": 4
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "light_weapon",
+				"types": [
+					"sword",
+					"trident"
+				]
+			},
+			"attribute": "attributeslib:life_steal",
+			"operation": "ADDITION",
+			"values": {
+				"common": 0.03,
+				"uncommon": 0.6,
+				"rare": 0.12,
+				"epic": 0.15,
+				"mythic": 0.20,
+				"ancient": 0.20
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "heavy_weapon",
+				"types": [
+					"heavy_weapon"
+				]
+			},
+			"attribute": "attributeslib:overheal",
+			"operation": "ADDITION",
+			"values": {
+				"common": 0.02,
+				"uncommon": 0.06,
+				"rare": 0.10,
+				"epic": 0.15,
+				"mythic": 0.20,
+				"ancient": 0.20
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "shield",
+				"types": [
+					"shield"
+				]
+			},
+			"attribute": "minecraft:generic.armor",
+			"operation": "MULTIPLY_TOTAL",
+			"values": {
+				"common": 0.05,
+				"uncommon": 0.10,
+				"rare": 0.20,
+				"epic": 0.25,
+				"mythic": 0.30,
+				"ancient": 0.45
+			}
+		}
+	]
+}

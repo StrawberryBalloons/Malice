@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "witherstormmod:super_tnt"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "witherstormmod:blocks/super_tnt"
+}

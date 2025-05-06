@@ -1,0 +1,53 @@
+{
+  "innate_skills": {
+    "one_hand": "epicfight:heartpiercer"
+  },
+  "styles": {
+    "default": "one_hand",
+    "cases": [
+      {
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "shield"
+          }
+        ],
+        "style": "one_hand"
+      }
+    ]
+  },
+  "collider": {
+    "center": [
+      0.0,
+      0.0,
+      -0.75
+    ],
+    "number": 4,
+    "size": [
+      0.4,
+      0.4,
+      0.8
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "category": "longsword",
+  "swing_sound": "epicfight:entity.weapon.whoosh",
+  "combos": {
+    "one_hand": [
+      "epicfight:biped/combat/sword_auto2",
+      "epicfight:biped/combat/longsword_auto2",
+      "epicfight:biped/combat/longsword_auto3",
+      "wom:biped/combat/herrscher_befreiung",
+      "epicfight:biped/combat/spear_onehand_airslash"
+    ]
+  },
+  "hit_sound": "epicfight:entity.hit.blade",
+  "livingmotion_modifier": {
+    "one_hand": {
+      "idle": "epicfight:biped/living/hold_longsword",
+      "run": "epicfight:biped/living/run_longsword",
+      "block": "epicfight:biped/skill/guard_longsword",
+      "walk": "epicfight:biped/living/walk_longsword"
+    }
+  }
+}

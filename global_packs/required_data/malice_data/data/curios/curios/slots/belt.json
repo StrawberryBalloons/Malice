@@ -1,0 +1,9 @@
+{
+	"replace": true,
+	"size": 2,
+	"operation": "REMOVE",
+	"order": 15,
+	
+  "order": 180,
+  "icon": "curios:slot/empty_belt_slot"
+}

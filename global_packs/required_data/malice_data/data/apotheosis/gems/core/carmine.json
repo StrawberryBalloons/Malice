@@ -1,0 +1,33 @@
+{
+	"weight": 5,
+	"quality": 0,
+	"dimensions": [
+	],
+	"unique": true,
+	"min_rarity": "epic",
+	"max_rarity": "mythic",
+	"bonuses": [
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "core_armor",
+				"types": [
+                    "chestplate",
+                    "helmet",
+                    "leggings",
+                    "boots"
+				]
+			},
+			"attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+			"operation": "MULTIPLY_BASE",
+			"values": {
+				"common": 0.01,
+				"uncommon": 0.01,
+				"rare": 0.01,
+				"epic": 0.01,
+				"mythic": 0.02,
+				"ancient": 0.01
+			}
+		}
+	]
+}

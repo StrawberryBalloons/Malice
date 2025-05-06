@@ -1,0 +1,8 @@
+{
+	"replace": true,
+	"size": 1,
+	"operation": "REMOVE",
+	"order": 33,
+
+  "icon": "curios:slot/empty_charm_slot"
+}

@@ -1,0 +1,13 @@
+{
+    "attributes": {
+        "one_hand": {
+            "impact": 1.4,
+            "max_strikes": 1
+        },
+        "two_hand": {
+            "impact": 5,
+            "max_strikes": 3
+        }
+    },
+    "type": "epicfight:shield"
+}

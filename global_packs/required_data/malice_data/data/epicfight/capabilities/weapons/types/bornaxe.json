@@ -1,0 +1,47 @@
+{
+  "innate_skills": {
+    "one_hand": "epicfight:the_guillotine"
+  },
+  "styles": {
+    "default": "one_hand",
+    "cases": [
+      {
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "shield"
+          }
+        ],
+        "style": "one_hand"
+      }
+    ]
+  },
+  "collider": {
+    "center": [
+      0.0,
+      0.0,
+      -0.75
+    ],
+    "number": 4,
+    "size": [
+      0.4,
+      0.4,
+      0.8
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "category": "axe",
+  "swing_sound": "epicfight:entity.weapon.whoosh_hard",
+  "combos": {
+    "one_hand": [
+      "epicfight:illager/swing_axe2",
+      "epicfight:biped/combat/sword_dual_auto1",
+      "wom:biped/skill/kick",
+      "epicfight:illager/swing_axe1",
+      "epicfight:biped/combat/axe_dash",
+      "epicfight:biped/combat/axe_airslash"
+    ]
+  },
+  "hit_sound": "epicfight:entity.hit.blade",
+  "livingmotion_modifier": {}
+}

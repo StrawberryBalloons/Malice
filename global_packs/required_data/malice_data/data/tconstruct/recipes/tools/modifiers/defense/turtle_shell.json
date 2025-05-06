@@ -1,0 +1,17 @@
+{
+  "_replace": true,
+  "type": "tconstruct:incremental_modifier",
+  "allow_crystal": true,
+  "amount_per_item": 1,
+  "input": {
+    "item": "aquaculture:starshell_turtle"
+  },
+  "needed_per_level": 5,
+  "result": "tconstruct:turtle_shell",
+  "slots": {
+    "defense": 1
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable/armor"
+  }
+}

@@ -1,0 +1,21 @@
+{
+	"type": "apotheosis:attribute",
+	"attribute": "malum:soul_ward_integrity",
+	"operation": "ADDITION",
+	"values": {
+
+		"epic": {
+			"min": 0.01,
+			"steps": 3,
+			"step": 0.01
+		},
+		"mythic": {
+			"min": 0.02,
+			"steps": 5,
+			"step": 0.01
+		}
+	},
+	"types": [
+		"helmet", "chestplate", "leggings", "boots"
+	]
+}

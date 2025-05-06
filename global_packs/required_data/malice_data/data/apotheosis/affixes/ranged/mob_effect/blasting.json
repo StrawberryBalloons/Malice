@@ -1,0 +1,47 @@
+{
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "ars_nouveau:blasting",
+	"target": "ARROW_TARGET",
+	"values": {
+		"rare": {
+			"duration": {
+				"min": 100,
+				"steps": 2,
+				"step": -10
+			},
+			"amplifier": 0,
+			"cooldown": 300
+		},
+		"epic": {
+			"duration": {
+				"min": 80,
+				"steps": 3,
+				"step": -10
+			},
+			"amplifier": {
+				"min": 1,
+				"steps": 2,
+				"step": 0.26
+			},
+			"cooldown": 400
+		},
+		"mythic": {
+			"duration": {
+				"min": 50,
+				"steps": 3,
+				"step": -10
+			},
+			"amplifier": {
+				"min": 1,
+				"steps": 6,
+				"step": 0.26
+			},
+			"cooldown": 500
+		}
+	},
+	"types": [
+		"bow",
+		"crossbow",
+		"trident"
+	]
+}

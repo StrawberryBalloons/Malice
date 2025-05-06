@@ -1,0 +1,14 @@
+{
+  "_replace": true,
+  "level_display": "tconstruct:default",
+  "modules": [
+    {
+      "type": "tconstruct:depth_protection",
+      "baseline_height": 64.0,
+      "damage_source": "mantle:can_protect",
+      "each_level": 1.0,
+      "neutral_range": 32.0
+    }
+  ],
+  "tooltip_display": "always"
+}

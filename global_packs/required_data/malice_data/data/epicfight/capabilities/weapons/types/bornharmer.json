@@ -1,0 +1,53 @@
+{
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "epicfight:biped/living/hold_greatsword",
+      "run": "epicfight:biped/living/run_greatsword",
+      "block": "epicfight:biped/skill/guard_greatsword",
+      "walk": "epicfight:biped/living/walk_greatsword"
+    }
+  },
+  "styles": {
+    "default": "two_hand",
+    "cases": [
+      {
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "not_weapon"
+          }
+        ],
+        "style": "two_hand"
+      }
+    ]
+  },
+  "collider": {
+    "center": [
+      0.0,
+      0.0,
+      -0.75
+    ],
+    "number": 4,
+    "size": [
+      0.4,
+      0.4,
+      0.7
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "category": "greatsword",
+  "swing_sound": "epicfight:entity.weapon.whoosh_hard",
+  "combos": {
+    "two_hand": [
+      "epicfight:biped/combat/greatsword_auto1",
+      "epicfight:biped/combat/greatsword_auto2",
+      "epicfight:biped/combat/mob_greatsword1",
+      "epicfight:biped/combat/greatsword_dash",
+      "epicfight:biped/combat/longsword_airslash"
+    ]
+  },
+  "hit_sound": "epicfight:sfx.neutralize_mobs",
+  "innate_skills": {
+    "two_hand": "epicfight:the_guillotine"
+  }
+}

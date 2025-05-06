@@ -1,0 +1,22 @@
+{
+    "sanctuary_sound": {
+        "sounds": [
+            "floral_guardian_sounds:sanctuary_sound"
+        ]
+    },
+        "rustling_leaves": {
+        "sounds": [
+            "floral_guardian_sounds:rustling_leaves"
+        ]
+    },
+            "elder_flower_bloom": {
+        "sounds": [
+            "floral_guardian_sounds:elder_flower_bloom"
+        ]
+    },
+                "sprouting_spirit_vine": {
+        "sounds": [
+            "floral_guardian_sounds:sprouting_spirit_vine"
+        ]
+    }
+}

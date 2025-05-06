@@ -1,0 +1,28 @@
+{
+	"weight": 5,
+	"quality": 0,
+	"min_rarity": "epic",
+	"dimensions": [
+	],
+	"unique": true,
+	"bonuses": [
+		{
+			"type": "apotheosis:enchantment",
+			"gem_class": {
+				"key": "breaker",
+				"types": [
+					"shovel",
+					"pickaxe"
+				]
+			},
+			"enchantment": "fortune",
+			"must_exist": true,
+			"values": {
+				"epic": 1,
+				"mythic": 2,
+				"ancient": 3
+			}
+		}
+	]
+}
+	

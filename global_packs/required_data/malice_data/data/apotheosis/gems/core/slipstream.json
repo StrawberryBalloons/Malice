@@ -1,0 +1,30 @@
+{
+	"variant": "slipstream",
+	"weight": 4,
+	"quality": 0,
+	"min_rarity": "common",
+	"max_rarity": "mythic",
+	"unique": true,
+	"dimensions": ["minecraft:overworld"],
+	"bonuses": [
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "breaker",
+				"types": [
+					"shovel"
+				]
+			},
+			"attribute": "attributeslib:mining_speed",
+			"operation": "MULTIPLY_BASE",
+			"values": {
+				"common": 0.05,
+				"uncommon": 0.08,
+				"rare": 0.1,
+				"epic": 0.15,
+				"mythic": 0.20,
+				"ancient": 0.25
+			}
+		}
+	]
+}

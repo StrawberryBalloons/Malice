@@ -1,0 +1,8 @@
+{
+
+  "item.relics.horse_flute": "Mount Flute",
+  "tooltip.relics.horse_flute.leveling": "+1 experience point for every 25 blocks overcome by a mount called by the ability «Portable Stall».",
+  "tooltip.relics.horse_flute.ability.paddock.description": "Using a relic on the mount will move the animal to the internal storage. Reuse will release the creature. If the distance between wearer and summoned mount exceeds 16 blocks, it will automatically fit back into the flute.",
+  "tooltip.relics.horse_flute.ability.heal.description": "A mount placed in internal storage will slowly restore health."
+
+}

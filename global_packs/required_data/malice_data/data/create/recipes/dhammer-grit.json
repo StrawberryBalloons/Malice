@@ -1,0 +1,15 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+    	{
+    		"item": "stalwart_dungeons:diamond_hammer"
+    	}
+    ],
+	"results": [
+		{
+			"item": "createaddition:diamond_grit",
+			"count": 1,
+			"chance": 1.0
+		}
+	]
+}

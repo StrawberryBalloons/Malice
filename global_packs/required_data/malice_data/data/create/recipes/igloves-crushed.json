@@ -1,0 +1,15 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+    	{
+    		"item": "aether:iron_gloves"
+    	}
+    ],
+	"results": [
+		{
+			"item": "create:crushed_raw_iron",
+			"count": 1,
+			"chance": 1.0
+		}
+	]
+}

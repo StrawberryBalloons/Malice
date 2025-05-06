@@ -1,0 +1,12 @@
+{
+    "attributes": {
+        "one_hand": {
+            "armor_negation": 12,
+            "impact": 0.3,
+            "speed_bonus": 2,
+            "damage_bonus": 2,
+            "max_strikes": 1
+        }
+    },
+    "type": "epicfight:dagger"
+}

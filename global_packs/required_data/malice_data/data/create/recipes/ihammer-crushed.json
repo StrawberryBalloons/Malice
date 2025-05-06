@@ -1,0 +1,15 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+    	{
+    		"item": "stalwart_dungeons:iron_hammer"
+    	}
+    ],
+	"results": [
+		{
+			"item": "create:crushed_raw_iron",
+			"count": 1,
+			"chance": 1.0
+		}
+	]
+}

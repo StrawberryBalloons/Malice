@@ -1,0 +1,27 @@
+{
+	"weight": 1,
+	"quality": 0,
+	"min_rarity": "epic",
+	"max_rarity": "epic",
+	"dimensions": [ "minecraft:the_nether" ],
+	"unique": true,
+	"bonuses": [
+		{
+			"type": "apotheosis:enchantment",
+			"gem_class": {
+				"key": "anything",
+				"types": [
+					"bow", "crossbow", "pickaxe", "shovel", "heavy_weapon", "shield", "trident", "sword"
+				]
+			},
+			"enchantment": "mending",
+			"_comment": "The enchantment field is unused when global=true, but still must be a valid name",
+			"global": false,
+			"values": {
+				"epic": 1,
+				"mythic": 1,
+				"ancient": 1
+			}
+		}
+	]
+}

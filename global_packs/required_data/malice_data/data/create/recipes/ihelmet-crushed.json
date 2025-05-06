@@ -1,0 +1,15 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+    	{
+    		"item": "minecraft:iron_helmet"
+    	}
+    ],
+	"results": [
+		{
+			"item": "create:crushed_raw_iron",
+			"count": 1,
+			"chance": 1.0
+		}
+	]
+}

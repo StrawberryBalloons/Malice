@@ -1,0 +1,45 @@
+{
+	"type": "apotheosis:attribute",
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "irons_spellbooks"
+	}],
+	"attribute": "irons_spellbooks:max_mana",
+	"operation": "ADDITION",
+	"values": {
+		"common": {
+			"min": 3,
+			"steps": 1,
+			"step": 1
+		},
+		"uncommon": {
+			"min": 6,
+			"steps": 2,
+			"step": 1
+		},
+		"rare": {
+			"min": 12,
+			"steps": 3,
+			"step": 1
+		},
+		"epic": {
+			"min": 16,
+			"steps": 5,
+			"step": 1
+		},
+		"mythic": {
+			"min": 20,
+			"steps": 10,
+			"step": 1
+		},
+		"ancient": {
+			"min": 20,
+			"steps": 3,
+			"step": 1
+		}
+	},
+	"types": [
+		"helmet", "chestplate", "leggings", "boots",
+		"shield"
+	]
+}

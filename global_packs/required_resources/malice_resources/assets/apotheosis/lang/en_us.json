@@ -1,0 +1,150 @@
+{
+	"item.apotheosis.gem.apotheosis:core/ggarnet": "Gan Garnet",
+	"item.apotheosis.gem.apotheosis:core/titan": "Titan Stone",
+	"item.apotheosis.gem.apotheosis:core/oceanic": "Oceanic Crag",
+	"item.apotheosis.gem.apotheosis:core/aurelian": "Aurelian",
+	"item.apotheosis.gem.apotheosis:core/voidstone": "Voidstone",
+	"item.apotheosis.gem.apotheosis:core/ratruby": "Rat Ruby",
+	"item.apotheosis.gem.apotheosis:core/bismuth": "Bismuth",
+	"item.apotheosis.gem.apotheosis:core/nimuth": "Nimuth",
+	"item.apotheosis.gem.apotheosis:core/carmine": "Carmine",
+	"item.apotheosis.gem.apotheosis:core/jet": "Jet",
+	"item.apotheosis.gem.apotheosis:core/crystalband": "Crystal Band",
+	"item.apotheosis.gem.apotheosis:core/bloodstone": "Bloodstone",
+	"item.apotheosis.gem.apotheosis:core/viridian": "Viridian",
+	"item.apotheosis.gem.apotheosis:core/moonstone": "Moonstone",
+	"item.apotheosis.gem.apotheosis:core/nickellite": "Nickellite",
+	"item.apotheosis.gem.apotheosis:core/peo": "Peo Shards",
+	"item.apotheosis.gem.apotheosis:core/agronomy_leaf": "Agronomy Leaf",
+	
+	"item.apotheosis.gem.apotheosis:core/slipstream": "Silica",
+
+	"item.apotheosis.gem.apotheosis:the_nether/inferno": "Carnelian",
+
+	"item.apotheosis.gem.apotheosis:twilight/forest": "Twilight Citrine",
+	"item.apotheosis.gem.apotheosis:twilight/queen": "Kyanite of the Frost Queen",
+	"item.apotheosis.gem.apotheosis:core/hydra": "Eye of the Hydra",
+	"item.apotheosis.gem.apotheosis:core/duelist": "Duelist focus",
+	"item.apotheosis.gem.apotheosis:core/aqua": "Ocean Gem",
+
+	"item.apotheosis.gem.apotheosis:the_end/endersurge": "Enderin Gem",
+
+	"item.apotheosis.gem.apotheosis:common": "Destroyed %s",
+	"item.apotheosis.gem.apotheosis:uncommon": "Cracked %s",
+	"item.apotheosis.gem.apotheosis:rare": "Chipped %s",
+	"item.apotheosis.gem.apotheosis:epic": "%s",
+	"item.apotheosis.gem.apotheosis:mythic": "Mythic %s",
+	"item.apotheosis.gem.apotheosis:ancient": "Ancient %s",
+	
+	"affix.apotheosis:armor/attribute/shrugging": "Shrugging",
+	"affix.apotheosis:armor/attribute/shrugging.suffix": "of Diversion",
+	
+	"affix.apotheosis:armor/attribute/light_weight": "Light",
+	"affix.apotheosis:armor/attribute/light_weight.suffix": "of The Feathweight",
+	
+	"affix.apotheosis:armor/attribute/heavy_weight": "Heavy",
+	"affix.apotheosis:armor/attribute/heavy_weight.suffix": "of The Heavyweight",
+	
+	"affix.apotheosis:armor/attribute/scythe_proficiency": "Scything",
+	"affix.apotheosis:armor/attribute/scythe_proficiency.suffix": "of Proficiency",
+	
+	"affix.apotheosis:armor/attribute/magic_proficiency": "Learning",
+	"affix.apotheosis:armor/attribute/magic_proficiency.suffix": "of Proficiency",
+	
+	"affix.apotheosis:armor/attribute/soul_capacity": "Capacitor",
+	"affix.apotheosis:armor/attribute/soul_capacity.suffix": "of The Soul",
+	
+	"affix.apotheosis:armor/attribute/soul_integrity": "Intregrity",
+	"affix.apotheosis:armor/attribute/soul_integrity.suffix": "of The Soul",
+	
+	"affix.apotheosis:armor/attribute/soul_recovery": "Recovering",
+	"affix.apotheosis:armor/attribute/soul_recovery.suffix": "of The Soul",
+	
+	"affix.apotheosis:armor/attribute/magic_resistance": "Resistor",
+	"affix.apotheosis:armor/attribute/magic_resistance.suffix": "of Resisting",
+	
+	"affix.apotheosis:heavy_weapon/attribute/nullifying": "Nullifying",
+	"affix.apotheosis:heavy_weapon/attribute/nullifying.suffix": "of Piercing",
+	
+	"affix.apotheosis:sword/attribute/soul_thief": "Stealing",
+	"affix.apotheosis:sword/attribute/soul_thief.suffix": "of Thieving",
+	
+	"affix.apotheosis:sword/attribute/experience_gained": "Gaining",
+	"affix.apotheosis:sword/attribute/experience_gained.suffix": "of Experience",
+	
+	"affix.apotheosis:sword/attribute/magic": "Magic",
+	"affix.apotheosis:sword/attribute/magic.suffix": "of The SoulHunter",
+	
+	"affix.apotheosis:sword/attribute/pixie_chance": "Summoning",
+	"affix.apotheosis:sword/attribute/pixie_chance.suffix": "of The Pixie",
+	
+	"affix.apotheosis:sword/mob_effect/orcas_might": "Orcas",
+	"affix.apotheosis:sword/mob_effect/orcas_might.suffix": "of The Orca",
+	
+	"affix.apotheosis:sword/mob_effect/gluttony": "Gluttonous",
+	"affix.apotheosis:sword/mob_effect/gluttony.suffix": "of Gluttony",
+	
+	"affix.apotheosis:sword/mob_effect/tigers_blessing": "Tigers",
+	"affix.apotheosis:sword/mob_effect/tigers_blessing.suffix": "of The Tiger",
+	
+	"affix.apotheosis:sword/mob_effect/poseidons_grasp": "Poseidons",
+	"affix.apotheosis:sword/mob_effect/poseidons_grasp.suffix": "of The Sea",
+	
+	"affix.apotheosis:sword/mob_effect/earthen_might": "Grounding",
+	"affix.apotheosis:sword/mob_effect/earthen_might.suffix": "of Might",
+	
+	"affix.apotheosis:armor/mob_effect/instant_mana": "Coalescing",
+	"affix.apotheosis:armor/mob_effect/instant_mana.suffix": "of Instants",
+	
+	"affix.apotheosis:armor/mob_effect/ifrits_embrace": "Embracing",
+	"affix.apotheosis:armor/mob_effect/ifrits_embrace.suffix": "of The Ifrit",
+	
+	"affix.apotheosis:armor/mob_effect/shielding": "Shielding",
+	"affix.apotheosis:armor/mob_effect/shielding.suffix": "of Shielding",
+	
+	"affix.apotheosis:armor/mob_effect/bone_barrier": "Summoning",
+	"affix.apotheosis:armor/mob_effect/bone_barrier.suffix": "of Bones",
+	
+	"affix.apotheosis:armor/mob_effect/absolution": "Cleansing",
+	"affix.apotheosis:armor/mob_effect/absolution.suffix": "of Absolution",
+	
+	"affix.apotheosis:heavy_weapon/mob_effect/bone_fracture": "Breaking",
+	"affix.apotheosis:heavy_weapon/mob_effect/bone_fracture.suffix": "of The Cast",
+	
+	"affix.apotheosis:heavy_weapon/attribute/impact": "Impacting",
+	"affix.apotheosis:heavy_weapon/attribute/impact.suffix": "of The Crater",
+	
+	"affix.apotheosis:heavy_weapon/mob_effect/hercules_fury": "Herculean",
+	"affix.apotheosis:heavy_weapon/mob_effect/hercules_fury.suffix": "of The Demi-God",
+	
+	"affix.apotheosis:ranged/mob_effect/blasting": "Explosive",
+	"affix.apotheosis:ranged/mob_effect/blasting.suffix": "of Blasting",
+	
+	"affix.apotheosis:ranged/mob_effect/rend": "Rusting",
+	"affix.apotheosis:ranged/mob_effect/rend.suffix": "of Primal Rend",
+	
+	"affix.apotheosis:ranged/mob_effect/freezing": "Frostbitten",
+	"affix.apotheosis:ranged/mob_effect/freezing.suffix": "of Jotunheim",
+	
+	"affix.apotheosis:ranged/mob_effect/hex": "Witch-Hunting",
+	"affix.apotheosis:ranged/mob_effect/hex.suffix": "of Anti-Magic",
+	
+	"affix.apotheosis:ranged/mob_effect/venom": "Biting",
+	"affix.apotheosis:ranged/mob_effect/venom.suffix": "of The Snake",
+	
+	"affix.apotheosis:ranged/attribute/intricate": "Precise",
+	"affix.apotheosis:ranged/attribute/intricate.suffix": "of piercing",
+	
+	"affix.apotheosis:ranged/attribute/lacerating": "Pinpoint",
+	"affix.apotheosis:ranged/attribute/lacerating.suffix": "of Rending",
+	
+	"affix.apotheosis:ranged/attribute/piercing": "Sharp",
+	"affix.apotheosis:ranged/attribute/piercing.suffix": "of Penetrating",
+	
+	"affix.apotheosis:ranged/attribute/spellbreaking": "Negation",
+	"affix.apotheosis:ranged/attribute/spellbreaking.suffix": "of Nullifying",
+	
+	"affix.apotheosis:ranged/mob_effect/silenced": "Muffling",
+	"affix.apotheosis:ranged/mob_effect/silenced.suffix": "of The Silent"
+	
+}

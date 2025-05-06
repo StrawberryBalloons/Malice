@@ -1,0 +1,11 @@
+{
+    "type": "epicfight:trident",
+    "attributes": {
+        "one_hand": {
+            "armor_negation": 3.0,
+                "impact": 0.8,
+            "max_strikes": 3
+        }
+    }
+ }
+

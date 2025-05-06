@@ -18,6 +18,6 @@
 !defaultconfigs/
 !defaultconfigs/*
 !global_packs/
-!global_packs/*
+!global_packs/**
 !scripts/
 !scripts/*

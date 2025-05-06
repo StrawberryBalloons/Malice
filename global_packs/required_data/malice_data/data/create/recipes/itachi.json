@@ -1,0 +1,15 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+    	{
+    		"item": "epicfight:iron_tachi"
+    	}
+    ],
+	"results": [
+		{
+			"item": "create:crushed_raw_iron",
+			"count": 1,
+			"chance": 1.0
+		}
+	]
+}

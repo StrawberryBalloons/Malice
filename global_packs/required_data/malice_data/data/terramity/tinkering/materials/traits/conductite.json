@@ -1,0 +1,23 @@
+
+{
+  "default": [
+    {
+      "level": 1,
+      "name": "tconstruct:smite"
+    },    
+    {
+      "level": 1,
+      "name": "tconstruct:revitalizing"
+    },
+    {
+      "level": 1,
+      "name": "tconstruct:searing"
+    },
+    {
+      "level": 1,
+      "name": "tconstruct:swiftstrike"
+    }
+    
+  ]
+}
+

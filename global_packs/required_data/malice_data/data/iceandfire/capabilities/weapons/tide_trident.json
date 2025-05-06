@@ -1,0 +1,10 @@
+{
+	"attributes":
+	{
+		"common":
+		{
+			"max_strikes":3
+		}
+	},
+	"type":"epicfight:trident"
+}

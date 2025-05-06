@@ -1,0 +1,9 @@
+{
+    "attributes": {
+        "one_hand": {
+            "impact": 0.3,
+            "max_strikes": 1
+        }
+    },
+    "type": "epicfight:dagger"
+}

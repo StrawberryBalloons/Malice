@@ -1,0 +1,20 @@
+{
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "born_in_chaos_v1:bone_barrier",
+	"target": "HURT_SELF",
+	"values": {
+		"epic": {
+			"duration": 5,
+			"amplifier": 0,
+			"cooldown": 600
+		},
+		"mythic": {
+			"duration": 10,
+			"amplifier": 0,
+			"cooldown": 600
+		}
+	},
+	"types": [
+		"leggings"
+	]
+}

@@ -1,0 +1,14 @@
+{
+    "attributes": {
+        "one_hand": {
+            "impact": 5,
+            "max_strikes": 1
+        },
+        "two_hand": {
+            "impact": 10,
+            "max_strikes": 1,
+            "damage_bonus": 5
+        }
+    },
+    "type": "epicfight:greatsword"
+}

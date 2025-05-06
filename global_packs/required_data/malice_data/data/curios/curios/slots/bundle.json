@@ -1,0 +1,7 @@
+{
+	"replace": true,
+	"size": 1,
+	"operation": "REMOVE",
+	"order": 35,
+	"icon": "curios:slot/empty_ring_slot"
+}

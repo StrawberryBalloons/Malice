@@ -1,0 +1,15 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+    	{
+    		"item": "epicfight:diamond_longsword"
+    	}
+    ],
+	"results": [
+		{
+			"item": "createaddition:diamond_grit",
+			"count": 1,
+			"chance": 1.0
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "born_in_chaos_v1:bone_fracture",
+	"target": "ATTACK_TARGET",
+	"stack_on_reapply": false,
+	"values": {
+		"rare": {
+			"duration": 1,
+			"amplifier": 0,
+			"cooldown": 240
+		},
+		"epic": {
+			"duration": 1,
+			"amplifier": 0,
+			"cooldown": 160
+		},
+		"mythic": {
+			"duration": 1,
+			"amplifier": 0,
+			"cooldown": 80
+		}
+	},
+	"types": [
+		"heavy_weapon"
+	]
+}

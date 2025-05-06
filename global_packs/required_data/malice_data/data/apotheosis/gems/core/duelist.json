@@ -1,0 +1,42 @@
+{
+	"weight": 1,
+	"quality": 1.5,
+	"dimensions": ["minecraft:the_end"
+	],
+	"unique": true,
+	"min_rarity": "mythic",
+	"max_rarity": "mythic",
+	"bonuses": [{
+			"type": "apotheosis:multi_attribute",
+			"desc": "bonus.apotheosis:multi_attr.desc.and",
+			"gem_class": {
+				"key": "weapon",
+				"types": [
+					"heavy_weapon", "sword", "trident", "bow", "crossbow"
+				]
+			},
+			"modifiers": [
+				{
+					"attribute": "attributeslib:prot_pierce",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"rare": 0.10,
+						"epic": 0.10,
+						"mythic": 0.10,
+						"ancient": 0.10
+					}
+				},
+				{
+					"attribute": "attributeslib:prot_shred",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"rare": 0.10,
+						"epic": 0.10,
+						"mythic": 0.10,
+						"ancient": 0.10
+					}
+				}
+			]
+		}
+	]
+}

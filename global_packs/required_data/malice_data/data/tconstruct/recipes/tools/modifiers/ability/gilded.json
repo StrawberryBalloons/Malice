@@ -1,0 +1,17 @@
+{
+  "_replace": true,
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+    {
+      "item": "minecraft:enchanted_golden_apple"
+    }
+  ],
+  "result": "tconstruct:gilded",
+  "slots": {
+    "abilities": 1
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable/bonus_slots"
+  }
+}

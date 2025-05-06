@@ -1,0 +1,108 @@
+{
+  "item.endrem.old_eye": "Eye of Radiance",
+  "item.endrem.old_eye.description": "§7§oTravel far beyond the clouds",
+
+  "item.endrem.rogue_eye": "Eye of Pestilence",
+  "item.endrem.rogue_eye.description": "§7§oThe eye of Black Death",
+
+  "item.endrem.nether_eye": "Eye of Elements",
+  "item.endrem.nether_eye.description": "§7§oA token given to anyone who can master the elementals",
+
+  "item.endrem.cold_eye": "Eye of Apparition",
+  "item.endrem.cold_eye.description": "§7§oLost in the secrets of the ice maze",
+
+  "item.endrem.magical_eye": "Eye of Twilight",
+  "item.endrem.magical_eye.description": "§7§oOne of the most highly guarded treasures in the Twilight Forest",
+
+  "item.endrem.black_eye": "Eye of the Deep",
+  "item.endrem.black_eye.description": "§7§oTravel to the deepest parts of the world",
+
+  "item.endrem.lost_eye": "Eye of Misdirection",
+  "item.endrem.lost_eye.description": "§7§oKept by the master of Conjuration",
+
+  "item.endrem.wither_eye": "Eye of Withering",
+  "item.endrem.wither_eye.description": "§7§oHas witnessed destruction. Maybe it also witnessed your stuff disappear",
+
+  "item.endrem.guardian_eye": "Eye of Corruption",
+  "item.endrem.guardian_eye.description": "§7§oHarvested from the skull of the Corrupted Champion",
+
+  "item.endrem.cursed_eye": "Eye of Horrors",
+  "item.endrem.cursed_eye.description": "§7§oDon't stray too far below the surface...",
+
+  "item.endrem.exotic_eye": "Eye of Desolation",
+  "item.endrem.exotic_eye.description": "§7§oCreated during more desolate times",
+
+  "item.endrem.evil_eye": "Eye of Reflection",
+  "item.endrem.evil_eye.description": "§7§oCould you defeat yourself",
+
+  "item.endrem.undead_eye": "Eye of the Skies",
+  "item.endrem.undead_eye.description": "§7§oLook into the skies and see what you find",
+
+  "item.endrem.cryptic_eye": "Eye of Malignancy",
+  "item.endrem.cryptic_eye.description": "§7§o§khttps://www.youtube.com/watch?v=dQw4w9WgXcQ",
+
+  "item.endrem.corrupted_eye": "Eye of Royalty",
+  "item.endrem.corrupted_eye.description": "§7§oYou must bee pretty cool to get this eye",
+
+  "item.endrem.witch_eye": "Eye of Finding",
+  "item.endrem.witch_eye.description": "§7§oFind what you're looking for",
+  "item.endrem.witch_pupil": "Witch Pupil",
+
+  "item.endrem.undead_soul": "Undead Soul",
+
+  "itemGroup.endrem.endrem_tab": "End Remastered",
+
+  "block.portal_open_sound": "Portal Opening",
+  "block.portal_open_sound.sub": "Portal Opening",
+
+  "advancements.main.root.title": "The Beginning of An Adventure",
+  "advancements.main.root.description": "Get Your First Eye",
+
+  "advancements.main.old_eye.title": "Fortune Seeker",
+  "advancements.main.old_eye.description": "Obtain the Eye of Radiance",
+
+  "advancements.main.rogue_eye.title": "Welcome To The Jungle",
+  "advancements.main.rogue_eye.description": "Obtain the Eye of Pestilence",
+
+  "advancements.main.nether_eye.title": "Stare Into Despair",
+  "advancements.main.nether_eye.description": "Obtain the Eye of Elements",
+
+  "advancements.main.cold_eye.title": "Spooky Times",
+  "advancements.main.cold_eye.description": "Obtain the Eye of Apparition",
+
+  "advancements.main.corrupted_eye.title": "Beeware Of Those Who May Steal This",
+  "advancements.main.corrupted_eye.description": "Obtain the Eye of Royalty",
+
+  "advancements.main.magical_eye.title": "Forest Familiar",
+  "advancements.main.magical_eye.description": "Obtain the Eye of Twilight",
+
+  "advancements.main.black_eye.title": "Depth Explorer",
+  "advancements.main.black_eye.description": "Obtain the Eye of the Deep",
+
+  "advancements.main.lost_eye.title": "Conjured Up A Good Time",
+  "advancements.main.lost_eye.description": "Obtain the Eye of Misdirection",
+
+  "advancements.main.wither_eye.title": "Wither You Want It Or Not",
+  "advancements.main.wither_eye.description": "Obtain the Eye of Withering",
+
+  "advancements.main.guardian_eye.title": "Maybe Graveyards Aren't So Scary",
+  "advancements.main.guardian_eye.description": "Obtain the Eye of Corruption",
+
+  "advancements.main.cursed_eye.title": "How Did You...Win?",
+  "advancements.main.cursed_eye.description": "Obtain the Eye of Horrors",
+
+  "advancements.main.witch_eye.title": "The All-Seeing Eyeball",
+  "advancements.main.witch_eye.description": "Obtain the Eye of Finding",
+
+  "advancements.main.evil_eye.title": "You Didn't Stand A Chance",
+  "advancements.main.evil_eye.description": "Obtain the Eye of Reflection",
+
+  "advancements.main.exotic_eye.title": "Despair And Desolation",
+  "advancements.main.exotic_eye.description": "Obtain the Eye of Desolation",
+
+  "advancements.main.undead_eye.title": "Skyward",
+  "advancements.main.undead_eye.description": "Obtain the Eye of the Skies",
+
+  "advancements.main.cryptic_eye.title": "He Who Never Sleeps",
+  "advancements.main.cryptic_eye.description": "Obtain the Eye of Malignancy"
+}

@@ -1,0 +1,51 @@
+{
+	"weight": 2,
+	"quality": 1.5,
+	"dimensions": ["minecraft:overworld"],
+	"unique": true,
+	"min_rarity": "epic",
+	"max_rarity": "epic",
+	"bonuses": [
+		{
+			"type": "apotheosis:drop_transform",
+			"gem_class": {
+				"key": "pickaxe",
+				"types": [
+					"pickaxe"
+				]
+			},
+			"blocks": "forge:ores/iron",
+			"inputs": {
+				"tag": "forge:raw_materials/iron"
+			},
+			"output": {
+				"item": "minecraft:raw_gold"
+			},
+			"values": {
+				"rare": 0.1,
+				"epic": 0.1,
+				"mythic": 0.1,
+				"ancient": 0.1
+			},
+			"desc": "gem.apotheosis:overworld/royalty.bonus.pickaxe"
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "shield",
+				"types": [
+					"shield"
+				]
+			},
+
+			"attribute": "minecraft:generic.armor",
+			"operation": "MULTIPLY_TOTAL",
+			"values": {
+				"rare": 0.05,
+				"epic": 0.05,
+				"mythic": 0.05,
+				"ancient": 0.05
+			}
+		}
+	]
+}

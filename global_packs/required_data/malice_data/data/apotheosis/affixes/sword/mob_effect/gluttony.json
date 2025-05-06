@@ -1,0 +1,46 @@
+{
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "malum:gluttony",
+	"target": "ATTACK_SELF",
+	"values": {
+		"rare": {
+			"duration": {
+				"min": 50,
+				"steps": 5,
+				"step": 10
+			},
+			"amplifier": 0,
+			"cooldown": 600
+		},
+		"epic": {
+			"duration": {
+				"min": 60,
+				"steps": 6,
+				"step": 10
+			},
+			"amplifier": {
+				"min": 0,
+				"steps": 4,
+				"step": 0.15
+			},
+			"cooldown": 600
+		},
+		"mythic": {
+			"duration": {
+				"min": 70,
+				"steps": 6,
+				"step": 15
+			},
+			"amplifier": {
+				"min": 0,
+				"steps": 6,
+				"step": 0.15
+			},
+			"cooldown": 600
+		}
+	},
+	"types": [
+		"sword",
+		"trident"
+	]
+}

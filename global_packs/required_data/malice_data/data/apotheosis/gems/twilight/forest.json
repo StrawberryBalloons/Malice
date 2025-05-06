@@ -1,0 +1,129 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "twilightforest"
+	}],
+	"weight": 1,
+	"quality": 1.5,
+	"dimensions": [
+		"twilightforest:twilight_forest"
+	],
+	"unique": true,
+	"min_rarity": "mythic",
+	"max_rarity": "mythic",
+	"bonuses": [{
+			"type": "apotheosis:twilight_treasure_goblin",
+			"gem_class": {
+				"key": "weapon",
+				"types": [
+					"heavy_weapon", "sword", "trident", "bow", "crossbow"
+				]
+			},
+			"values": {
+				"rare": {
+					"chance": 0.005,
+					"cooldown": 4800
+				},
+				"epic": {
+					"chance": 0.005,
+					"cooldown": 4800
+				},
+				"mythic": {
+					"chance": 0.005,
+					"cooldown": 4800
+				},
+				"ancient": {
+					"chance": 0.005,
+					"cooldown": 4800
+				}
+			}
+		},
+		{
+			"type": "apotheosis:multi_attribute",
+			"desc": "bonus.apotheosis:multi_attr.desc.and",
+			"gem_class": {
+				"key": "shield",
+				"types": [
+					"shield"
+				]
+			},
+			"modifiers": [{
+					"attribute": "attributeslib:healing_received",
+					"operation": "MULTIPLY_BASE",
+					"values": {
+						"rare": 0.05,
+						"epic": 0.05,
+						"mythic": 0.05,
+						"ancient": 0.05
+					}
+				},
+				{
+					"attribute": "minecraft:generic.attack_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"rare": -0.05,
+						"epic": -0.05,
+						"mythic": -0.05,
+						"ancient": -0.05
+					}
+				}
+			]
+		},
+		{
+			"type": "apotheosis:twilight_ore_magnet",
+			"gem_class": {
+				"key": "pickaxe",
+				"types": [
+					"pickaxe"
+				]
+			},
+			"values": {
+				"rare": 20,
+				"epic": 20,
+				"mythic": 20,
+				"ancient": 20
+			}
+		},
+		{
+			"type": "apotheosis:multi_attribute",
+			"desc": "bonus.apotheosis:multi_attr.desc.but_and",
+			"gem_class": {
+				"key": "chestplate",
+				"types": [
+					"chestplate"
+				]
+			},
+			"modifiers": [{
+					"attribute": "attributeslib:armor_shred",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"rare": 0.10,
+						"epic": 0.10,
+						"mythic": 0.10,
+						"ancient": 0.10
+					}
+				},
+				{
+					"attribute": "attributeslib:prot_shred",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"rare": -0.08,
+						"epic": -0.08,
+						"mythic": -0.08,
+						"ancient": -0.08
+					}
+				},
+				{
+					"attribute": "attributeslib:prot_pierce",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"rare": -0.10,
+						"epic": -0.10,
+						"mythic": -0.10,
+						"ancient": -0.10
+					}
+				}
+			]
+		}
+	]
+}

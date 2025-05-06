@@ -1,0 +1,71 @@
+{
+	"weight": 1,
+	"quality": 0,
+	"min_rarity": "ancient",
+	"max_rarity": "ancient",
+	"unique": true,
+	"dimensions": [
+	],
+	"bonuses": [
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "light_ranged",
+				"types": [
+					"sword",
+					"trident",
+					"bow",
+					"crossbow"
+				]
+			},
+			"attribute": "attributeslib:crit_damage",
+			"operation": "MULTIPLY_BASE",
+			"values": {
+				"common": 0.01,
+				"uncommon": 0.01,
+				"rare": 0.01,
+				"epic": 0.01,
+				"mythic": 0.01,
+				"ancient": 0.1
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "heavy_weapon",
+				"types": [
+					"heavy_weapon"
+				]
+			},
+			"attribute": "attributeslib:crit_damage",
+			"operation": "MULTIPLY_BASE",
+			"values": {
+				"common": 0.01,
+				"uncommon": 0.01,
+				"rare": 0.01,
+				"epic": 0.01,
+				"mythic": 0.01,
+				"ancient": 0.1
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "chestplate",
+				"types": [
+					"chestplate"
+				]
+			},
+			"attribute": "minecraft:generic.max_health",
+			"operation": "ADDITION",
+			"values": {
+				"common": 1,
+				"uncommon": 1,
+				"rare": 1,
+				"epic": 1,
+				"mythic": 1,
+				"ancient": 3
+			}
+		}
+	]
+}

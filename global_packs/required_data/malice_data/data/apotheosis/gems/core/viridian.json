@@ -1,0 +1,30 @@
+{
+	"weight": 2,
+	"quality": 0,
+	"dimensions": [
+	],
+	"unique": true,
+	"min_rarity": "common",
+	"max_rarity": "mythic",
+	"bonuses": [
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "core_armor",
+				"types": [
+					"helmet", "chestplate", "leggings", "boots"
+				]
+			},
+			"attribute": "minecraft:generic.movement_speed",
+			"operation": "MULTIPLY_BASE",
+			"values": {
+				"common": 0.005,
+				"uncommon": 0.01,
+				"rare": 0.015,
+				"epic": 0.02,
+				"mythic": 0.025,
+				"ancient": 0.03
+			}
+		}
+	]
+}
