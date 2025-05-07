@@ -1239,7 +1239,7 @@
 		AllowCrafting = true
 
 	[Spells."traveloptics:stele_cascade"]
-		Enabled = false
+		Enabled = true
 		School = "irons_spellbooks:nature"
 		MaxLevel = 6
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
