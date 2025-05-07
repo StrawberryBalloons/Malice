@@ -1,0 +1,21 @@
+[
+    {
+        "function": "hordes:set_spawntable",
+        "value": [
+            "hordes:orcs"
+        ],
+        "conditions": []
+    },
+    {
+	"function": "hordes:set_spawn_type",
+	"value": [
+		"minecraft:grass"
+	],
+	"conditions": []
+	},
+	{
+	"function": "hordes:set_start_message",
+	"value": "Seldom will Orcs journey in the open under the sun, yet these have done so",
+	"conditions": []
+	}
+]

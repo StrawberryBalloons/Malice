@@ -1,0 +1,24 @@
+[
+    {
+        "mob": "cave_dweller:cave_dweller",
+        "player": true,
+        "item": "mality:horror_element"
+    },
+
+    {
+        "mob": "sons_of_sins:wistiver",
+        "player": true,
+        "item": "mality:horror_element"
+    },
+
+    {
+        "mob": "sons_of_sins:butcher",
+        "player": true,
+        "item": "mality:horror_element"
+    }
+
+
+
+
+
+]

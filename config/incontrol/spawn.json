@@ -1,0 +1,59 @@
+[
+    {
+        "mob": "minecraft:zombie",
+        "result": "default",
+        "when": "finalize",
+        "healthmultiply": 2
+    },
+    
+    {
+        "mob": [
+        "mythicmounts:netherbat", 
+        "mythicmounts:courierbird",
+        "mythicmounts:dragon",
+        "mythicmounts:griffon",
+        "mythicmounts:moth",
+        "mythicmounts:colelytra",
+        "mythicmounts:firebird"
+        ],
+        "when": "finalize",
+        "result": "allow",
+        "healthmultiply": 4,
+        "speedmultiply": 1.5
+    },
+
+    {
+        "mob": [
+        "mythicmounts:direwolf",
+        "mythicmounts:geckotoalizard",
+        "mythicmounts:ridinglizard",
+        "mythicmounts:nudibranch",
+        "mythicmounts:nightmare",
+        "mythicmounts:acencia",
+        "mythicmounts:archelon"
+        ],
+        "when": "finalize",
+        "result": "allow",
+        "healthmultiply": 5,
+        "speedmultiply": 1.5
+    },
+
+    {
+        "mob": [
+            "cave_dweller:cave_dweller"
+        ],
+        "when": "finalize",
+        "result": "allow",
+        "damagemultiply": 2,
+        "speedmultiply": 1.5
+    },
+    
+    {
+        "mob": [
+            "alexsmobs:rocky_roller",
+            "mythicmounts:direwolf"
+        ],
+        "result": "deny"
+    }
+
+]

@@ -1,0 +1,686 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_end"
+	group: ""
+	icon: "minecraft:end_crystal"
+	id: "5CC8B7C189FC4BF6"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Collect all &316 eyes&r and use them on an &3end portal&r to enter the End. There you will face off against the &4Ender Dragon&r."]
+			icon: "minecraft:dragon_head"
+			id: "4420EDDBD2445188"
+			rewards: [{
+				id: "609C6D6A38CD12B9"
+				item: {
+					Count: 1b
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "Enter the final battlegrounds"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "290C072825B6870D"
+				title: "Defeat the Ender Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			description: ["Find the strength to confront and defeat the &4Cave Dweller&r. "]
+			icon: {
+				Count: 1b
+				id: "endrem:cursed_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3CE4C14192FC28F3"
+			rewards: [{
+				id: "37486F0495A53D93"
+				item: {
+					Count: 1b
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "WARNING: Terrifying"
+			tasks: [{
+				entity: "cave_dweller:cave_dweller"
+				icon: "botania:cosmetic_eyepatch"
+				id: "5FE7FD1EFCDE03E1"
+				title: "Defeat the Cave Dweller"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Eye of Horrors"
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			description: ["Find and defeat the &4Hydra&r hidden and protected somewhere in the &3Twilight Forest&r."]
+			icon: {
+				Count: 1b
+				id: "endrem:magical_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "60D23B4749883A5F"
+			rewards: [{
+				id: "7531573E0B510704"
+				item: {
+					Count: 1b
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Dive into a magical and cursed forest"
+			tasks: [{
+				entity: "iceandfire:hydra"
+				icon: "twilightforest:hydra_trophy"
+				id: "7584D43EC3D44F7D"
+				title: "Extinquish the Hydra"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Eye of Twilight"
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			description: ["Seek out and summon the &4Guardian of Gaia&r using the nature magic of &3Botania&r. "]
+			icon: {
+				Count: 1b
+				id: "endrem:evil_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4E3E3592B347D703"
+			rewards: [{
+				id: "2845C904380C11C5"
+				item: {
+					Count: 1b
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Could you beat yourself?"
+			tasks: [{
+				entity: "botania:doppleganger"
+				icon: {
+					Count: 1b
+					id: "relics:magic_mirror"
+					tag: {
+						abilities: {
+							teleport: {
+								points: 0
+								stats: {
+									cooldown: 100.86475d
+									distance: 776.29795d
+								}
+							}
+						}
+					}
+				}
+				id: "73322B341A1C26A0"
+				title: "Defeat the Guardian of Gaia"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Eye of Reflection"
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			description: ["Stop &4Black Death&r before it spreads to everyone and everything. &3Plague Doctors&r seem to be afraid of &3lightning&r."]
+			icon: {
+				Count: 1b
+				id: "endrem:rogue_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "633C2E582719D54D"
+			rewards: [{
+				id: "2A85C5F7D5F7374A"
+				item: {
+					Count: 1b
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Something is up with those plague doctors..."
+			tasks: [{
+				entity: "rats:black_death"
+				icon: {
+					Count: 1b
+					id: "rats:plague_doctor_mask"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1CC4B6C1C9059EE3"
+				title: "Destroy the Black Death"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Eye of Pestilence"
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			description: ["Delve into &3ancient cities&r and giant &3ocean monuments&r to obtain mastery of the creatures who reside there."]
+			icon: {
+				Count: 1b
+				id: "endrem:black_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "59D0AD39DB5F2AF0"
+			rewards: [{
+				id: "52A9248DB0C7B240"
+				item: {
+					Count: 1b
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "How deep are you willing to go?"
+			tags: [""]
+			tasks: [
+				{
+					entity: "minecraft:elder_guardian"
+					icon: "plushies:guardian_plushie"
+					id: "14790F6F2C3B549F"
+					title: "Slay an Elder Guardian"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:warden"
+					icon: "deeperdarker:heart_of_the_deep"
+					id: "543EDAB0A8069993"
+					title: "Slay a Warden"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Eye of the Deep"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			description: ["Search for the famed &3illager theatre&r and test your wits against &4The Conjurer&r."]
+			icon: {
+				Count: 1b
+				id: "endrem:lost_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0F579AA8F4AB345F"
+			rewards: [{
+				id: "775FC41AFED9797B"
+				item: {
+					Count: 1b
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Nice tricks"
+			tasks: [{
+				entity: "conjurer_illager:conjurer"
+				icon: {
+					Count: 1b
+					id: "conjurer_illager:conjurer_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "630ADAB6ACA693C1"
+				title: "Outsmart the Conjurer"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Eye of Misdirection"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			description: ["Journey to an &3Aetherial&r realm and defeat it's &4guardians&r to claim their eye."]
+			icon: {
+				Count: 1b
+				id: "endrem:old_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2326D590D27B88FC"
+			rewards: [{
+				id: "5EEB91C36A5C4B33"
+				item: {
+					Count: 1b
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Maybe the heavens do really exist"
+			tasks: [
+				{
+					entity: "aether:sun_spirit"
+					icon: "botania:quartz_sunny"
+					id: "4FF5D854AD0E18D7"
+					title: "Conquer the Sun Spirit"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "aether:valkyrie_queen"
+					icon: {
+						Count: 1b
+						id: "aether:valkyrie_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6FE930181D6F50AC"
+					title: "Conquer the Valkyrie Queen"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Eye of Radiance"
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			description: ["Travel to &3deep caves&r, frozen &3ice towers&r and through the scorching &3nether&r in order to destroy their &4guardians&r."]
+			icon: {
+				Count: 1b
+				id: "endrem:nether_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1FDC9D4E63EA92B3"
+			rewards: [{
+				id: "79CFEEAEE9B886C7"
+				item: {
+					Count: 1b
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Prove your mastery over the elements"
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:void_blossom"
+					icon: "minecraft:sunflower"
+					id: "6DDF76A0A1578CCA"
+					title: "Defeat a Void Blossom"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "bosses_of_mass_destruction:lich"
+					icon: {
+						Count: 1b
+						id: "iceandfire:dragonsteel_ice_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "12E8A2B21AE20B53"
+					title: "Defeat the Night Lich"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "bosses_of_mass_destruction:gauntlet"
+					icon: "bossominium:netherrack_vein"
+					id: "19A0A37913798636"
+					title: "Defeat the Nether Gauntlet"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:netherite_monstrosity"
+					icon: "cataclysm:monstrous_eye"
+					id: "3048C6D3DB6E089F"
+					title: "Slay the Netherite Monstrosity"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Eye of Elements"
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			description: ["Commision the &3gatekeeper&r to help you pass into the dimension of multiple &3skies&r and slay their &4guardians&r. "]
+			icon: {
+				Count: 1b
+				id: "endrem:undead_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3809C878E2B50C68"
+			rewards: [{
+				id: "750131C308DEB7F3"
+				item: {
+					Count: 1b
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Commune with the gatekeeper and enter his realm"
+			tasks: [
+				{
+					entity: "blue_skies:summoner"
+					icon: "mythicmounts:summoning_staff"
+					id: "08D1BF0D1B1FDE66"
+					title: "Destroy the Summoner"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "blue_skies:alchemist"
+					icon: {
+						Count: 1b
+						id: "blue_skies:loot_bag_alchemist"
+						tag: {
+							LootTable: "blue_skies:loot_bags/alchemist/common"
+							Rarity: 0
+						}
+					}
+					id: "51D590057379AE07"
+					title: "Destroy the Alchemist"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Eye of the Skies"
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			description: ["&3Discover&r how to &3summon&r the &4Corrupted Champion&r and destroy it once and for all."]
+			icon: {
+				Count: 1b
+				id: "endrem:guardian_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "11DA3616AF50AEA7"
+			rewards: [{
+				id: "33AC018E6C1938F2"
+				item: {
+					Count: 1b
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Not everything in the graveyard is dead"
+			tasks: [{
+				entity: "graveyard:lich"
+				icon: "graveyard:corruption"
+				id: "149A47CDAE75B15A"
+				title: "Vanquish the Corrupted Champion"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Eye of Corruption"
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			description: ["Travel to the &3ice maze&r and discover what secrets it holds."]
+			icon: {
+				Count: 1b
+				id: "endrem:cold_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4296D0A484D9BA27"
+			rewards: [{
+				id: "00705CF23AFEE8E6"
+				item: {
+					Count: 1b
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Find the secrets of the ice maze"
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: "iceandfire:ectoplasm"
+				id: "5A76432626B1CE4F"
+				title: "Destroy the Ghost of Captain Cornelia"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Eye of Apparition"
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			description: ["Collect the required &3wither skeleton skulls&r and &3soul sand&r to summon and destroy the Wither."]
+			icon: {
+				Count: 1b
+				id: "endrem:wither_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "50387D40F694131E"
+			rewards: [{
+				id: "19491D000D42D136"
+				item: {
+					Count: 1b
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Ever heard of a nether star?"
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "plushies:wither_plushie"
+				id: "3470B6D8E54239F0"
+				title: "Defeat the Wither"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Eye of Withering"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			description: ["Challenge those which guard the &3voidscape&r. Only then can you hope to reach the end."]
+			icon: {
+				Count: 1b
+				id: "endrem:exotic_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "609D88863653A5DD"
+			rewards: [{
+				id: "04D106BC0593D062"
+				item: {
+					Count: 1b
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Don't stand on the bedrock for too long..."
+			tasks: [
+				{
+					entity: "voidscape:null_servant"
+					icon: "voidscape:null_white"
+					id: "31219380E35D5136"
+					title: "Challenge Null Servants"
+					type: "kill"
+					value: 4L
+				}
+				{
+					entity: "alexsmobs:farseer"
+					icon: "botania:virus_nullodermal"
+					id: "6833BD72AC05CCF8"
+					title: "Challenge Voidscape Farseers"
+					type: "kill"
+					value: 2L
+				}
+			]
+			title: "Eye of Desolation"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			description: ["&3Craft&r an Eye of Finding and &3follow it&r to where it may lead. "]
+			id: "7E01AC31AB19593B"
+			rewards: [{
+				id: "1D40A3CA1BBFE92C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Looking for somewhere?"
+			tasks: [{
+				id: "525070081DB49188"
+				item: {
+					Count: 1b
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Craft an Eye of Finding"
+				type: "item"
+			}]
+			title: "Eye of Finding"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			description: ["&4Lord Pumpkinhead&r must be defeated at all costs. Create (or find) an &3Infernal Evil Pumpkin&r and &2use&r a &3Transmuting Elixir&r on it to bring forth &4pumpkinhead&r. Defeat him before it's too late..."]
+			icon: {
+				Count: 1b
+				id: "endrem:cryptic_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4C03695AA1A48689"
+			rewards: [{
+				id: "361F68981A15FB26"
+				item: {
+					Count: 1b
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Evil is lurking in the pumpkins...."
+			tasks: [{
+				entity: "born_in_chaos_v1:lord_pumpkinhead"
+				icon: "born_in_chaos_v1:infernal_evil_pumpkin_s"
+				id: "6BFA63131C7D2350"
+				title: "Squash Lord Pumpkinhead"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Eye of Malignancy"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			description: ["Venture deep into the &3bumblezone&r in search of &3Royal Jelly&r."]
+			icon: {
+				Count: 1b
+				id: "endrem:corrupted_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "129532F1D3E6C9DD"
+			rewards: [{
+				id: "5C78737C49667AE7"
+				item: {
+					Count: 1b
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Bee on your best beehavior"
+			tasks: [{
+				id: "3E84518FB493DDA5"
+				item: "the_bumblezone:royal_jelly_bottle"
+				type: "item"
+			}]
+			title: "Eye of Royalty"
+			x: 3.0d
+			y: 2.0d
+		}
+	]
+	title: "The End"
+}

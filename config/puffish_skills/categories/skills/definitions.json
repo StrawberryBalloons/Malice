@@ -1,0 +1,3978 @@
+{
+	"root_reset": {
+		"title": "Reset Skill Tree",
+		"description": [
+			{
+				"text": "Refund all your skill points\n\nReload this menu after clicking",
+				"color": "white"
+			},
+			{
+				"text": "\n\nRequires 1 skill point",
+				"color": "yellow"
+			}
+		],
+		"size": "2",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/root_unlocked.png",
+				"available": "malice:textures/frame/root_available.png",
+				"locked": "malice:textures/frame/root_locked.png",
+				"excluded": "malice:textures/frame/root_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/reset.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "puffish_skills skills reset @s skills"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "gamestage add @s greatsword_locked"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "gamestage add @s uchigatana_locked"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "gamestage add @s torment_locked"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "gamestage add @s agony_locked"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "gamestage add @s ruine_locked"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "gamestage add @s blaster_locked"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "gamestage add @s antitheus_locked"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "gamestage add @s satsujin_locked"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "gamestage add @s herrscher_locked"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "gamestage add @s moonless_locked"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "epicfight skill clear @s"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios set hands @s 0"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios set belt @s 0"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios set charm @s 0"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios set bundle @s 0"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios set necklace @s 0"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios set back @s 0"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios set bracelet @s 0"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios set brooch @s 0"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios set wardrobe @s 0"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios set ring @s 1"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "1w0ee5fy6o27dzu5"
+		}
+	},
+	"root_swordsman": {
+		"title": "Squire",
+		"description": [
+			{
+				"text": "+5% Melee Damage",
+				"color": "green"
+			},
+			{
+				"text": "\n-10% Ranged Damage",
+				"color": "red"
+			},
+			{
+				"text": "\nUnlocks Dodge Roll",
+				"color": "yellow"
+			},
+			{
+				"text": "\nUnlocks Sword Block",
+				"color": "yellow"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/root_unlocked.png",
+				"available": "malice:textures/frame/root_available.png",
+				"locked": "malice:textures/frame/root_locked.png",
+				"excluded": "malice:textures/frame/root_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/swordsman.png"
+			}
+		},
+		"size": "2",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": -0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "epicfight skill add @s dodge epicfight:roll"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "epicfight skill add @s guard epicfight:guard"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "gca24jeara5tq1nt"
+		}
+	},
+	"impact_guard": {
+		"title": "Impact Guard",
+		"cost": 100,
+		"description": [
+			{
+				"text": "\nUnlocks Impact Guard",
+				"color": "yellow"
+			},
+			{
+				"text": "\nCost: 100",
+				"color": "white"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/skillbook.png"
+			}
+		},
+		"size": "2",
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "epicfight skill add @s guard epicfight:impact_guard"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ic2o9szwordvmrdw"
+		}
+	},
+	"Parry": {
+		"title": "Parry",
+		"cost": 100,
+		"description": [
+			{
+				"text": "\nUnlocks Parry",
+				"color": "yellow"
+			},
+			{
+				"text": "\nCost: 100",
+				"color": "white"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/skillbook.png"
+			}
+		},
+		"size": "2",
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "epicfight skill add @s guard epicfight:parrying"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ic2o9szwordvmrdw"
+		}
+	},
+	"precise_roll": {
+		"title": "Precise Roll",
+		"cost": 100,
+		"description": [
+			{
+				"text": "\nUnlocks Precise Roll",
+				"color": "yellow"
+			},
+			{
+				"text": "\nCost: 100",
+				"color": "white"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/skillbook.png"
+			}
+		},
+		"size": "2",
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "epicfight skill add @s dodge wom:precise_roll"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ic2o9szwordvmrdw"
+		}
+	},
+	"punishment_kick": {
+		"title": "Punishment Kick",
+		"cost": 100,
+		"description": [
+			{
+				"text": "\nUnlocks Punishment Kick",
+				"color": "yellow"
+			},
+			{
+				"text": "\nCost: 100",
+				"color": "white"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/skillbook.png"
+			}
+		},
+		"size": "2",
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "epicfight skill add @s dodge wom:punishment_kick"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ic2o9szwordvmrdw"
+		}
+	},
+	"dodge_master": {
+		"title": "Dodge Master",
+		"cost": 100,
+		"description": [
+			{
+				"text": "\nUnlocks Dodge Master",
+				"color": "yellow"
+			},
+			{
+				"text": "\nCost: 100",
+				"color": "white"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/skillbook.png"
+			}
+		},
+		"size": "2",
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "epicfight skill add @s dodge wom:dodge_master"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ic2o9szwordvmrdw"
+		}
+	},
+	"mindset": {
+		"title": "Mindset",
+		"cost": 100,
+		"description": [
+			{
+				"text": "\nUnlocks Mindset",
+				"color": "yellow"
+			},
+			{
+				"text": "\nCost: 100",
+				"color": "white"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/skillbook.png"
+			}
+		},
+		"size": "2",
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "epicfight skill add @s passive1 wom:mindset"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ic2o9szwordvmrdw"
+		}
+	},
+	"critical_knowledge": {
+		"title": "Critical Knowledge",
+		"cost": 100,
+		"description": [
+			{
+				"text": "\nUnlocks Critical Knowledge",
+				"color": "yellow"
+			},
+			{
+				"text": "\nCost: 100",
+				"color": "white"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/skillbook.png"
+			}
+		},
+		"size": "2",
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "epicfight skill add @s passive1 wom:critical_knowledge"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ic2o9szwordvmrdw"
+		}
+	},
+	"aqua_maneuver": {
+		"title": "Aqua Maneauver",
+		"cost": 100,
+		"description": [
+			{
+				"text": "\nUnlocks Aqua Maneuver",
+				"color": "yellow"
+			},
+			{
+				"text": "\nCost: 100",
+				"color": "white"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/skillbook.png"
+			}
+		},
+		"size": "2",
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "epicfight skill add @s mover wom:aqua_maneauver"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ic2o9szwordvmrdw"
+		}
+	},
+	"technician": {
+		"title": "Technician",
+		"cost": 100,
+		"description": [
+			{
+				"text": "\nUnlocks Technician",
+				"color": "yellow"
+			},
+			{
+				"text": "\nCost: 100",
+				"color": "white"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/skillbook.png"
+			}
+		},
+		"size": "2",
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "epicfight skill add @s passive1 epicfight:technician"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ic2o9szwordvmrdw"
+		}
+	},
+	"vampirize": {
+		"title": "Vampirize",
+		"cost": 100,
+		"description": [
+			{
+				"text": "\nUnlocks Vampirize",
+				"color": "yellow"
+			},
+			{
+				"text": "\nCost: 100",
+				"color": "white"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/skillbook.png"
+			}
+		},
+		"size": "2",
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "epicfight skill add @s passive1 wom:vampirize"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ic2o9szwordvmrdw"
+		}
+	},
+	"meteor_slam": {
+		"title": "Meteor Slam",
+		"cost": 100,
+		"description": [
+			{
+				"text": "\nUnlocks Meteor Slam",
+				"color": "yellow"
+			},
+			{
+				"text": "\nCost: 100",
+				"color": "white"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/skillbook.png"
+			}
+		},
+		"size": "2",
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "epicfight skill add @s identity epicfight:meteor_slam"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ic2o9szwordvmrdw"
+		}
+	},
+	"spider_techniques": {
+		"title": "Spider Techniques",
+		"cost": 100,
+		"description": [
+			{
+				"text": "\nUnlocks Parkour",
+				"color": "yellow"
+			},
+			{
+				"text": "\nCost: 100",
+				"color": "white"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/skillbook.png"
+			}
+		},
+		"size": "2",
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "epicfight skill add @s mover wom:spider_techniques"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ic2o9szwordvmrdw"
+		}
+	},
+	"affliction": {
+		"title": "Affliction",
+		"size": "2",
+		"description": [
+			{
+				"text": "+3% Melee Damage",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/affliction.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "rywf4hyrdtdbr2tl"
+		}
+	},
+	"infliction": {
+		"title": "Infliction",
+		"size": "2",
+		"description": [
+			{
+				"text": "+4% Melee Damage",
+				"color": "green"
+			},
+			{
+				"text": "\n-6% Ranged Damage",
+				"color": "red"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/infliction.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.04,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": -0.06,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "b5j17p1cj7of3jy9"
+		}
+	},
+	"agility": {
+		"title": "Agility",
+		"size": "2",
+		"description": [
+			{
+				"text": "+2% Attack Speed",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/agility.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "id5v3vy4i5dpnpnu"
+		}
+	},
+	"slug": {
+		"title": "Slug",
+		"size": "2",
+		"description": [
+			{
+				"text": "-5% Movement Speed",
+				"color": "red"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/slug.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": -0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "c4fe5zz1lbphkgqn"
+		}
+	},
+	"fortitude": {
+		"title": "Fortitude",
+		"size": "2",
+		"description": [
+			{
+				"text": "+ Half a Heart",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/fortitude.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "khgj2u6t9rwssgi8"
+		}
+	},
+	"daring": {
+		"title": "Daring",
+		"size": "2",
+		"description": [
+			{
+				"text": "-1 Heart",
+				"color": "red"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/daring.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": -2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "s2i5h0easonps7ob"
+		}
+	},
+	"champion": {
+		"title": "Champion",
+		"cost": 5,
+		"size": "2",
+		"description": [
+			{
+				"text": "Unlocks Greatswords",
+				"color": "yellow"
+			},
+			{
+				"text": "\n+10% Melee Damage",
+				"color": "green"
+			},
+			{
+				"text": "\n-5% Movement Speed",
+				"color": "red"
+			},
+			{
+				"text": "\nCost: ",
+				"color": "white"
+			},
+			{
+				"text": "5",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/special_unlocked.png",
+				"available": "malice:textures/frame/special_available.png",
+				"locked": "malice:textures/frame/special_locked.png",
+				"excluded": "malice:textures/frame/special_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/champion.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": -0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "function malice:greatsword"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "o5g4h9dio7ev563k"
+		}
+	},
+	"swordmaster": {
+		"title": "Swordmaster",
+		"cost": 5,
+		"size": "2",
+		"description": [
+			{
+				"text": "Unlocks Uchigatana",
+				"color": "yellow"
+			},
+			{
+				"text": "\nUnlocks Double Jump",
+				"color": "yellow"
+			},
+			{
+				"text": "\n+30% Attack Speed",
+				"color": "green"
+			},
+			{
+				"text": "\n-2 Hearts",
+				"color": "red"
+			},
+			{
+				"text": "\nCost: ",
+				"color": "white"
+			},
+			{
+				"text": "5",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/special_unlocked.png",
+				"available": "malice:textures/frame/special_available.png",
+				"locked": "malice:textures/frame/special_locked.png",
+				"excluded": "malice:textures/frame/special_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/swordmaster.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": -4,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "function malice:uchigatana"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.3,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "epicfight skill add @s mover epicfight:phantom_ascent"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "6hjq6anobncy4e7l"
+		}
+	},
+	"tormented": {
+		"title": "Tormented",
+		"cost": 5,
+		"size": "2",
+		"description": [
+			{
+				"text": "Unlocks Torment",
+				"color": "yellow"
+			},
+			{
+				"text": "\nCost: ",
+				"color": "white"
+			},
+			{
+				"text": "5",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/special_unlocked.png",
+				"available": "malice:textures/frame/special_available.png",
+				"locked": "malice:textures/frame/special_locked.png",
+				"excluded": "malice:textures/frame/special_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/tormented.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "function malice:torment"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "6hjq6anobncy4e7l"
+		}
+	},
+	"grandmaster": {
+		"title": "Grandmaster",
+		"cost": 5,
+		"size": "2",
+		"description": [
+			{
+				"text": "Unlocks Satsujin",
+				"color": "yellow"
+			},
+			{
+				"text": "\nCost: ",
+				"color": "white"
+			},
+			{
+				"text": "5",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/special_unlocked.png",
+				"available": "malice:textures/frame/special_available.png",
+				"locked": "malice:textures/frame/special_locked.png",
+				"excluded": "malice:textures/frame/special_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/grandmaster.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "function malice:satsujin"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "6hjq6anobncy4e7l"
+		}
+	},
+	"ruined": {
+		"title": "Ruined",
+		"cost": 5,
+		"size": "2",
+		"description": [
+			{
+				"text": "Unlocks Ruine",
+				"color": "yellow"
+			},
+			{
+				"text": "\nCost: ",
+				"color": "white"
+			},
+			{
+				"text": "5",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/special_unlocked.png",
+				"available": "malice:textures/frame/special_available.png",
+				"locked": "malice:textures/frame/special_locked.png",
+				"excluded": "malice:textures/frame/special_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/ruined.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "function malice:ruine"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "6hjq6anobncy4e7l"
+		}
+	},
+	"agony": {
+		"title": "Agony",
+		"cost": 5,
+		"size": "2",
+		"description": [
+			{
+				"text": "Unlocks Agony",
+				"color": "yellow"
+			},
+			{
+				"text": "\nCost: ",
+				"color": "white"
+			},
+			{
+				"text": "5",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/special_unlocked.png",
+				"available": "malice:textures/frame/special_available.png",
+				"locked": "malice:textures/frame/special_locked.png",
+				"excluded": "malice:textures/frame/special_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/agony.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "function malice:agony"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "6hjq6anobncy4e7l"
+		}
+	},
+	"root_hearty": {
+		"title": "Hearty",
+		"size": "2",
+		"description": [
+			{
+				"text": "+4 Hearts",
+				"color": "green"
+			},
+			{
+				"text": "\nUnlocks Side Step",
+				"color": "yellow"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/root_unlocked.png",
+				"available": "malice:textures/frame/root_available.png",
+				"locked": "malice:textures/frame/root_locked.png",
+				"excluded": "malice:textures/frame/root_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/hearty.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 8,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "epicfight skill add @s dodge epicfight:step"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "s1gcwbldes6xb8vv"
+		}
+	},
+	"aversion": {
+		"title": "Aversion",
+		"size": "2",
+		"description": [
+			{
+				"text": "+4% Resistance",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/aversion.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.04,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "deux1wpht62vmz26"
+		}
+	},
+	"fortified": {
+		"title": "Fortified",
+		"size": "2",
+		"description": [
+			{
+				"text": "+1 Heart",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/fortified.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "khgj2u6t9rwssgi8"
+		}
+	},
+	"impaired": {
+		"title": "Impaired",
+		"size": "2",
+		"description": [
+			{
+				"text": "-5% Melee Damage",
+				"color": "red"
+			},
+			{
+				"text": "\n-8% Ranged Damage",
+				"color": "red"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/impaired.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": -0.04,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": -0.08,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "4vqvs5w6ge7pgt05"
+		}
+	},
+	"protected": {
+		"title": "Protected",
+		"size": "2",
+		"description": [
+			{
+				"text": "+10% Armor Toughness",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/protected.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.armor_toughness",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "khgj2u6t9rwssgi8"
+		}
+	},
+	"delay": {
+		"title": "Delay",
+		"size": "2",
+		"description": [
+			{
+				"text": "-4% Attack Speed",
+				"color": "red"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/delay.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": -0.04,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "id5v3vy4i5dpnpnu"
+		}
+	},
+	"alleviate": {
+		"title": "Alleviate",
+		"size": "2",
+		"description": [
+			{
+				"text": "+5% Regeneration",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/alleviate.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.healing",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "flime4em77pi86u6"
+		}
+	},
+	"ironskin": {
+		"title": "Ironskin",
+		"cost": 5,
+		"size": "2",
+		"description": [
+			{
+				"text": "+5 Armor",
+				"color": "green"
+			},
+			{
+				"text": "\nCost: ",
+				"color": "white"
+			},
+			{
+				"text": "5",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/special_unlocked.png",
+				"available": "malice:textures/frame/special_available.png",
+				"locked": "malice:textures/frame/special_locked.png",
+				"excluded": "malice:textures/frame/special_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/ironskin.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "cl3gm0tlewbp6jye"
+		}
+	},
+	"diamondskin": {
+		"title": "Diamondskin",
+		"cost": 5,
+		"size": "2",
+		"description": [
+			{
+				"text": "+5 Armor",
+				"color": "green"
+			},
+			{
+				"text": "\n+7 Hearts",
+				"color": "green"
+			},
+			{
+				"text": "\nCost: ",
+				"color": "white"
+			},
+			{
+				"text": "5",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/special_unlocked.png",
+				"available": "malice:textures/frame/special_available.png",
+				"locked": "malice:textures/frame/special_locked.png",
+				"excluded": "malice:textures/frame/special_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/diamondskin.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 5,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 14,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "cl3gm0tlewbp6jye"
+		}
+	},
+	"guardian": {
+		"title": "The Guardian",
+		"cost": 5,
+		"size": "2",
+		"description": [
+			{
+				"text": "Unlocks Herrscher",
+				"color": "yellow"
+			},
+			{
+				"text": "\nUnlocks Counter Attack",
+				"color": "yellow"
+			},
+			{
+				"text": "\nUnlocks Side Step Counter Attack",
+				"color": "yellow"
+			},
+			{
+				"text": "\nCost: ",
+				"color": "white"
+			},
+			{
+				"text": "5",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/special_unlocked.png",
+				"available": "malice:textures/frame/special_available.png",
+				"locked": "malice:textures/frame/special_locked.png",
+				"excluded": "malice:textures/frame/special_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/guardian.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "function malice:herrscher"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "epicfight skill add @s guard wom:counter_attack"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "6hjq6anobncy4e7l"
+		}
+	},
+	"root_archer": {
+		"title": "Archer",
+		"size": "2",
+		"description": [
+			{
+				"text": "+5% Ranged Damage",
+				"color": "green"
+			},
+			{
+				"text": "\n-3% Melee Damage",
+				"color": "red"
+			},
+			{
+				"text": "\nUnlocks Dodge Roll",
+				"color": "yellow"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/root_unlocked.png",
+				"available": "malice:textures/frame/root_available.png",
+				"locked": "malice:textures/frame/root_locked.png",
+				"excluded": "malice:textures/frame/root_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/archer.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.08,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": -0.03,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "epicfight skill add @s dodge epicfight:roll"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "hiqa4ql1qepv9m59"
+		}
+	},
+	"pace": {
+		"title": "Pace",
+		"size": "2",
+		"description": [
+			{
+				"text": "+2% Movement Speed",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/pace.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "c4fe5zz1lbphkgqn"
+		}
+	},
+	"tempo": {
+		"title": "Tempo",
+		"size": "2",
+		"description": [
+			{
+				"text": "+10% Draw Speed",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/tempo.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:draw_speed",
+					"value": 0.08,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "tuxkxzfmsta48dyk"
+		}
+	},
+	"alacrity": {
+		"title": "Alacrity",
+		"size": "2",
+		"description": [
+			{
+				"text": "+5% Projectile Speed",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/alacrity.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:arrow_velocity",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "wlz867c9il44d3hv"
+		}
+	},
+	"missile": {
+		"title": "Missile",
+		"size": "2",
+		"description": [
+			{
+				"text": "+3% Ranged Damage",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/missile.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "fwuyhx99j2s1or2d"
+		}
+	},
+	"pierce": {
+		"title": "Pierce",
+		"size": "2",
+		"description": [
+			{
+				"text": "+2% Armor Penetration",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/pierce.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:armor_pierce",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "i48uqpa9rw8wt9s0"
+		}
+	},
+	"ranger": {
+		"title": "Ranger",
+		"cost": 5,
+		"size": "2",
+		"description": [
+			{
+				"text": "+10% Ranged Damage",
+				"color": "green"
+			},
+			{
+				"text": "\n-15% Melee Damage",
+				"color": "red"
+			},
+			{
+				"text": "\nCost: ",
+				"color": "white"
+			},
+			{
+				"text": "5",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/special_unlocked.png",
+				"available": "malice:textures/frame/special_available.png",
+				"locked": "malice:textures/frame/special_locked.png",
+				"excluded": "malice:textures/frame/special_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/ranger.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": -0.15,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "tgbh1qscpru6x369"
+		}
+	},
+	"bowmaster": {
+		"title": "Bowmaster",
+		"cost": 5,
+		"size": "2",
+		"description": [
+			{
+				"text": "+4% Ranged Damage",
+				"color": "green"
+			},
+			{
+				"text": "\n+5% Armor Penetration",
+				"color": "green"
+			},
+			{
+				"text": "\n-5% Melee Damage",
+				"color": "red"
+			},
+			{
+				"text": "\nCost: ",
+				"color": "white"
+			},
+			{
+				"text": "5",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/special_unlocked.png",
+				"available": "malice:textures/frame/special_available.png",
+				"locked": "malice:textures/frame/special_locked.png",
+				"excluded": "malice:textures/frame/special_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/bowmaster.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": -0.05,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.04,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:armor_pierce",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "xqymoyzg8ls2zc4o"
+		}
+	},
+	"dualist": {
+		"title": "Dualist",
+		"cost": 5,
+		"size": "2",
+		"description": [
+			{
+				"text": "Unlocks Ender Blasters",
+				"color": "yellow"
+			},
+			{
+				"text": "\nCost: ",
+				"color": "white"
+			},
+			{
+				"text": "5",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/special_unlocked.png",
+				"available": "malice:textures/frame/special_available.png",
+				"locked": "malice:textures/frame/special_locked.png",
+				"excluded": "malice:textures/frame/special_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/dualist.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "function malice:blaster"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "6hjq6anobncy4e7l"
+		}
+	},
+	"demonic": {
+		"title": "Demonic",
+		"cost": 5,
+		"size": "2",
+		"description": [
+			{
+				"text": "Unlocks Antitheus",
+				"color": "yellow"
+			},
+			{
+				"text": "\nCost: ",
+				"color": "white"
+			},
+			{
+				"text": "5",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/special_unlocked.png",
+				"available": "malice:textures/frame/special_available.png",
+				"locked": "malice:textures/frame/special_locked.png",
+				"excluded": "malice:textures/frame/special_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/demonic.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "function malice:antitheus"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "6hjq6anobncy4e7l"
+		}
+	},
+	"root_magic": {
+		"title": "Mage",
+		"size": "2",
+		"description": [
+			{
+				"text": "+100 Max Mana",
+				"color": "green"
+			},
+			{
+				"text": "\n+1 Mana Regen",
+				"color": "green"
+			},
+			{
+				"text": "\n+1% Spell Power",
+				"color": "green"
+			},
+			{
+				"text": "\n+0.5% Magic Proficiency",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/root_unlocked.png",
+				"available": "malice:textures/frame/root_available.png",
+				"locked": "malice:textures/frame/root_locked.png",
+				"excluded": "malice:textures/frame/root_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/novice.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+					"value": 100,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "lodestone:magic_proficiency",
+					"value": 0.005,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "6wkb0x7pxwng1v17"
+		}
+	},
+	"brilliance": {
+		"title": "Brilliance",
+		"size": "2",
+		"description": [
+			{
+				"text": "+10 Max Mana",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/brilliance.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+					"value": 10,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "5jeu8sy8htea7lu0"
+		}
+	},
+	"potent": {
+		"title": "Potent",
+		"size": "2",
+		"description": [
+			{
+				"text": "+1% Spell Damage",
+				"color": "green"
+			},
+			{
+				"text": "\n+0.5% Magic Proficiency",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/potent.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.01,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "lodestone:magic_proficiency",
+					"value": 0.005,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "bdgb4uogwv2szjpe"
+		}
+	},
+	"attuned": {
+		"title": "Attuned",
+		"size": "2",
+		"description": [
+			{
+				"text": "+0.5 Mana Regen",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/attuned.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "cf47r8x5ottfmjs2"
+		}
+	},
+	"ardent": {
+		"title": "Ardent",
+		"size": "2",
+		"description": [
+			{
+				"text": "+5% Potion Duration",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/ardent.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.wixie",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "bcsm4ozto082irpx"
+		}
+	},
+	"delicate": {
+		"title": "Delicate",
+		"size": "2",
+		"description": [
+			{
+				"text": "+20 Max Mana",
+				"color": "green"
+			},
+			{
+				"text": "\n+2% Spell Damage",
+				"color": "green"
+			},
+			{
+				"text": "\n+1% Magic Proficiency",
+				"color": "green"
+			},
+			{
+				"text": "\n-1 Heart",
+				"color": "red"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/delicate.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+					"value": 20,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.02,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": -2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "lodestone:magic_proficiency",
+					"value": 0.01,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "t7pdj1fdo9aghwt3"
+		}
+	},
+	"whimsical": {
+		"title": "Whimsical",
+		"size": "2",
+		"description": [
+			{
+				"text": "+20% Fall Damage Reduction",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/whimsical.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.feather",
+					"value": 0.2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "c8ecyjru57u2ujlu"
+		}
+	},
+	"archmage": {
+		"title": "Archmage",
+		"cost": 5,
+		"size": "2",
+		"description": [
+			{
+				"text": "+10% Spell Damage",
+				"color": "green"
+			},
+			{
+				"text": "\n+5% Magic Proficiency",
+				"color": "green"
+			},
+			{
+				"text": "\n+20% Potion Duration",
+				"color": "green"
+			},
+			{
+				"text": "\nCost: ",
+				"color": "white"
+			},
+			{
+				"text": "5",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/special_unlocked.png",
+				"available": "malice:textures/frame/special_available.png",
+				"locked": "malice:textures/frame/special_locked.png",
+				"excluded": "malice:textures/frame/special_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/archmage.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.1,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.wixie",
+					"value": 0.2,
+					"operation": "multiply_total"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "lodestone:magic_proficiency",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "c4fe5zz1lbphkgqn"
+		}
+	},
+	"magus": {
+		"title": "Grand Magus",
+		"cost": 5,
+		"size": "2",
+		"description": [
+			{
+				"text": "+100 Max Mana",
+				"color": "green"
+			},
+			{
+				"text": "\n+5 Mana Regen",
+				"color": "green"
+			},
+			{
+				"text": "\n-1 Heart",
+				"color": "red"
+			},
+			{
+				"text": "\nCost: ",
+				"color": "white"
+			},
+			{
+				"text": "5",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/special_unlocked.png",
+				"available": "malice:textures/frame/special_available.png",
+				"locked": "malice:textures/frame/special_locked.png",
+				"excluded": "malice:textures/frame/special_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/magus.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+					"value": 100,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+					"value": 5,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": -2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "nwingyvbc8dw8pve"
+		}
+	},
+	"arcane": {
+		"title": "Arcane",
+		"cost": 5,
+		"size": "2",
+		"description": [
+			{
+				"text": "Unlocks Moonless",
+				"color": "yellow"
+			},
+			{
+				"text": "\nCost: ",
+				"color": "white"
+			},
+			{
+				"text": "5",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/special_unlocked.png",
+				"available": "malice:textures/frame/special_available.png",
+				"locked": "malice:textures/frame/special_locked.png",
+				"excluded": "malice:textures/frame/special_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/arcane.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "function malice:moonless"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "6hjq6anobncy4e7l"
+		}
+	},
+	"mischievous": {
+		"title": "Mischievous",
+		"size": "2",
+		"description": [
+			{
+				"text": "+5% Pixie Spawn Chance",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/mischievous.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "botania:pixie_spawn_chance",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "4mwbdjbk1uaevaib"
+		}
+	},
+	"endure": {
+		"title": "Endure",
+		"size": "2",
+		"description": [
+			{
+				"text": "+5 Skill Stamina",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/endure.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "epicfight:staminar",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ic2o9szwordvmrdw"
+		}
+	},
+	"warmblood": {
+		"title": "Warm Blooded",
+		"size": "2",
+		"description": [
+			{
+				"text": "Increase Heat resistance by 1%",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/warmblood.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.01,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "by5tvqy7vmk6w568"
+		}
+	},
+	"coldblood": {
+		"title": "Cold Blooded",
+		"size": "2",
+		"description": [
+			{
+				"text": "Increase Cold Resistance by 1%",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/coldblood.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.01,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "90aal0c0v4dzfpla"
+		}
+	},
+	"hasten": {
+		"title": "Hasten",
+		"size": "2",
+		"description": [
+			{
+				"text": "+1% Sprint Speed",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/hasten.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.sprinting_speed",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "kb28mmwaxiugjgg5"
+		}
+	},
+	"stremtch": {
+		"title": "Stremtch",
+		"size": "2",
+		"description": [
+			{
+				"text": "0.5 Block Reach",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/stremtch.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "forge:block_reach",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "hjxhtf2cd34trebm"
+		}
+	},
+	"alpha": {
+		"title": "Alpha",
+		"size": "2",
+		"description": [
+			{
+				"text": "+1 Werewolf Bite Damage",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/alpha.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "werewolves:bite_damage",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "1932nkeqylvbdgct"
+		}
+	},
+	"darkling": {
+		"title": "Darkling",
+		"size": "2",
+		"description": [
+			{
+				"text": "-10% Sun Damage",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/darkling.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "vampirism:sundamage",
+					"value": -0.1,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "hlzzbw0n1h2e985y"
+		}
+	},
+	"hops": {
+		"title": "Hops",
+		"size": "2",
+		"description": [
+			{
+				"text": "+2.5% Jump Height",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/hops.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.jump",
+					"value": 0.025,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "a7mnro0uq6uwoo39"
+		}
+	},
+	"aquanaut": {
+		"title": "Aquanaut",
+		"size": "2",
+		"description": [
+			{
+				"text": "+3% Swim Speed",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/aquanaut.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "forge:swim_speed",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "5jeu8sy8htea7lu0"
+		}
+	},
+	"excavator": {
+		"title": "Excavator",
+		"size": "2",
+		"description": [
+			{
+				"text": "+5% Mining Speed",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/excavator.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.mining_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "5jeu8sy8htea7lu0"
+		}
+	},
+	"repulse": {
+		"title": "Repulse",
+		"size": "2",
+		"description": [
+			{
+				"text": "+5% Knockback",
+				"color": "green"
+			}
+		],
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/normal_unlocked.png",
+				"available": "malice:textures/frame/normal_available.png",
+				"locked": "malice:textures/frame/normal_locked.png",
+				"excluded": "malice:textures/frame/normal_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/repulse.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.knockback",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "5jeu8sy8htea7lu0"
+		}
+	},
+	"ringbearer": {
+		"title": "Ring Bearer",
+		"cost": 10,
+		"description": [
+			{
+				"text": "Unlock a Ring Slot",
+				"color": "yellow"
+			},
+			{
+				"text": "\nCost: ",
+				"color": "white"
+			},
+			{
+				"text": "10",
+				"color": "green"
+			}
+		],
+		"size": "2",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/root_unlocked.png",
+				"available": "malice:textures/frame/root_available.png",
+				"locked": "malice:textures/frame/root_locked.png",
+				"excluded": "malice:textures/frame/root_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/unlock_ring.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios add ring @s 1"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "1w0ee5fy6o27dzu5"
+		}
+	},
+	"prestiege_magic": {
+		"title": "Prestiege",
+		"cost": 1000,
+		"description": [
+			{
+				"text": "Unlock a Brooch Slot",
+				"color": "yellow"
+			},
+			{
+				"text": "\nUnlock Heart Shield",
+				"color": "yellow"
+			},
+			{
+				"text": "\nUnlock the Magic Prestiege Branch",
+				"color": "yellow"
+			},
+			{
+				"text": "\nCost: ",
+				"color": "white"
+			},
+			{
+				"text": "1000",
+				"color": "green"
+			}
+		],
+		"size": "2",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/root_unlocked.png",
+				"available": "malice:textures/frame/root_available.png",
+				"locked": "malice:textures/frame/root_locked.png",
+				"excluded": "malice:textures/frame/root_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/novice.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios add brooch @s 1"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "epicfight skill add @s passive2 wom:heart_shield"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "1w0ee5fy6o27dzu5"
+		}
+	},
+	"prestiege_swordsman": {
+		"title": "Prestiege",
+		"cost": 1000,
+		"description": [
+			{
+				"text": "Unlock a Hands Slot",
+				"color": "yellow"
+			},
+			{
+				"text": "\nUnlock Berserk",
+				"color": "yellow"
+			},
+			{
+				"text": "\nUnlock the Swordsman Prestiege Branch",
+				"color": "yellow"
+			},
+			{
+				"text": "\nCost: ",
+				"color": "white"
+			},
+			{
+				"text": "1000",
+				"color": "green"
+			}
+		],
+		"size": "2",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/root_unlocked.png",
+				"available": "malice:textures/frame/root_available.png",
+				"locked": "malice:textures/frame/root_locked.png",
+				"excluded": "malice:textures/frame/root_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/swordsman.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios add hands @s 1"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "epicfight skill add @s passive2 epicfight:berserker"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "1w0ee5fy6o27dzu5"
+		}
+	},
+	"prestiege_hearty": {
+		"title": "Prestiege",
+		"cost": 1000,
+		"description": [
+			{
+				"text": "Unlock a Belt Slot",
+				"color": "yellow"
+			},
+			{
+				"text": "\nUnlock Forbidden Strength",
+				"color": "yellow"
+			},
+			{
+				"text": "\nUnlock the Hearty Prestiege Branch",
+				"color": "yellow"
+			},
+			{
+				"text": "\nCost: ",
+				"color": "white"
+			},
+			{
+				"text": "1000",
+				"color": "green"
+			}
+		],
+		"size": "2",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/root_unlocked.png",
+				"available": "malice:textures/frame/root_available.png",
+				"locked": "malice:textures/frame/root_locked.png",
+				"excluded": "malice:textures/frame/root_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/hearty.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios add belt @s 1"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "epicfight skill add @s passive3 epicfight:forbidden_strength"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "1w0ee5fy6o27dzu5"
+		}
+	},
+	"prestiege_archer": {
+		"title": "Prestiege",
+		"cost": 1000,
+		"description": [
+			{
+				"text": "Unlock a Ring Slot",
+				"color": "yellow"
+			},
+			{
+				"text": "\nUnlock Soul Protection",
+				"color": "yellow"
+			},
+			{
+				"text": "\nUnlock the Archer Prestiege Branch",
+				"color": "yellow"
+			},
+			{
+				"text": "\nCost: ",
+				"color": "white"
+			},
+			{
+				"text": "1000",
+				"color": "green"
+			}
+		],
+		"size": "2",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/root_unlocked.png",
+				"available": "malice:textures/frame/root_available.png",
+				"locked": "malice:textures/frame/root_locked.png",
+				"excluded": "malice:textures/frame/root_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/archer.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios add ring @s 1"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "epicfight skill add @s passive2 epicfight:forbidden_strength"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "1w0ee5fy6o27dzu5"
+		}
+	},
+	"wristlet": {
+		"title": "Wristlet",
+		"cost": 10,
+		"description": [
+			{
+				"text": "Unlock a Bracelet Slot",
+				"color": "yellow"
+			},
+			{
+				"text": "\nCost: ",
+				"color": "white"
+			},
+			{
+				"text": "10",
+				"color": "green"
+			}
+		],
+		"size": "2",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/root_unlocked.png",
+				"available": "malice:textures/frame/root_available.png",
+				"locked": "malice:textures/frame/root_locked.png",
+				"excluded": "malice:textures/frame/root_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/unlock_bracelet.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios add bracelet @s 1"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "1w0ee5fy6o27dzu5"
+		}
+	},
+	"locket": {
+		"title": "Locket",
+		"cost": 10,
+		"description": [
+			{
+				"text": "Unlock a Necklace Slot",
+				"color": "yellow"
+			},
+			{
+				"text": "\nCost: ",
+				"color": "white"
+			},
+			{
+				"text": "10",
+				"color": "green"
+			}
+		],
+		"size": "2",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/root_unlocked.png",
+				"available": "malice:textures/frame/root_available.png",
+				"locked": "malice:textures/frame/root_locked.png",
+				"excluded": "malice:textures/frame/root_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/unlock_necklace.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios add necklace @s 1"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "1w0ee5fy6o27dzu5"
+		}
+	},
+	"sash": {
+		"title": "Sash",
+		"cost": 10,
+		"description": [
+			{
+				"text": "Unlock a Belt Slot",
+				"color": "yellow"
+			},
+			{
+				"text": "\nCost: ",
+				"color": "white"
+			},
+			{
+				"text": "10",
+				"color": "green"
+			}
+		],
+		"size": "2",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/root_unlocked.png",
+				"available": "malice:textures/frame/root_available.png",
+				"locked": "malice:textures/frame/root_locked.png",
+				"excluded": "malice:textures/frame/root_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/unlock_belt.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios add belt @s 1"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "1w0ee5fy6o27dzu5"
+		}
+	},
+	"ornament": {
+		"title": "Ornament",
+		"cost": 10,
+		"description": [
+			{
+				"text": "Unlock a Charm Slot",
+				"color": "yellow"
+			},
+			{
+				"text": "\nCost: ",
+				"color": "white"
+			},
+			{
+				"text": "10",
+				"color": "green"
+			}
+		],
+		"size": "2",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/root_unlocked.png",
+				"available": "malice:textures/frame/root_available.png",
+				"locked": "malice:textures/frame/root_locked.png",
+				"excluded": "malice:textures/frame/root_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/unlock_charm.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios add charm @s 1"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "1w0ee5fy6o27dzu5"
+		}
+	},
+	"gloves": {
+		"title": "Gloves",
+		"cost": 10,
+		"description": [
+			{
+				"text": "Unlock a Hands Slot",
+				"color": "yellow"
+			},
+			{
+				"text": "\nCost: ",
+				"color": "white"
+			},
+			{
+				"text": "10",
+				"color": "green"
+			}
+		],
+		"size": "2",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/root_unlocked.png",
+				"available": "malice:textures/frame/root_available.png",
+				"locked": "malice:textures/frame/root_locked.png",
+				"excluded": "malice:textures/frame/root_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/unlock_hands.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios add hands @s 1"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "1w0ee5fy6o27dzu5"
+		}
+	},
+	"bundle": {
+		"title": "Bundle",
+		"cost": 10,
+		"description": [
+			{
+				"text": "Unlock a Bundle Slot",
+				"color": "yellow"
+			},
+			{
+				"text": "\nCost: ",
+				"color": "white"
+			},
+			{
+				"text": "10",
+				"color": "green"
+			}
+		],
+		"size": "2",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/root_unlocked.png",
+				"available": "malice:textures/frame/root_available.png",
+				"locked": "malice:textures/frame/root_locked.png",
+				"excluded": "malice:textures/frame/root_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/unlock_bundle.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios add bundle @s 1"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "1w0ee5fy6o27dzu5"
+		}
+	},
+	"innovative": {
+		"title": "Innovative",
+		"cost": 10,
+		"description": [
+			{
+				"text": "Unlock a Back Slot",
+				"color": "yellow"
+			},
+			{
+				"text": "\nCost: ",
+				"color": "white"
+			},
+			{
+				"text": "10",
+				"color": "green"
+			}
+		],
+		"size": "2",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/root_unlocked.png",
+				"available": "malice:textures/frame/root_available.png",
+				"locked": "malice:textures/frame/root_locked.png",
+				"excluded": "malice:textures/frame/root_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/unlock_back.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios add back @s 1"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "1w0ee5fy6o27dzu5"
+		}
+	},
+	"brooch": {
+		"title": "Brooch",
+		"cost": 10,
+		"description": [
+			{
+				"text": "Unlock a Brooch Slot",
+				"color": "yellow"
+			},
+			{
+				"text": "\nCost: ",
+				"color": "white"
+			},
+			{
+				"text": "10",
+				"color": "green"
+			}
+		],
+		"size": "2",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/root_unlocked.png",
+				"available": "malice:textures/frame/root_available.png",
+				"locked": "malice:textures/frame/root_locked.png",
+				"excluded": "malice:textures/frame/root_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/mystery.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios add brooch @s 1"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "1w0ee5fy6o27dzu5"
+		}
+	},
+	"wardrobe": {
+		"title": "Wardrobe",
+		"cost": 10,
+		"description": [
+			{
+				"text": "Unlock a Wardrobe Slot",
+				"color": "yellow"
+			},
+			{
+				"text": "\nCost: ",
+				"color": "white"
+			},
+			{
+				"text": "10",
+				"color": "green"
+			}
+		],
+		"size": "2",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/root_unlocked.png",
+				"available": "malice:textures/frame/root_available.png",
+				"locked": "malice:textures/frame/root_locked.png",
+				"excluded": "malice:textures/frame/root_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/mystery.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios add wardrobe @s 1"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "1w0ee5fy6o27dzu5"
+		}
+	},
+	"impact": {
+		"title": "Impact",
+		"cost": 1,
+		"description": [
+			{
+				"text": "Increases weapon Impact",
+				"color": "green"
+			}
+		],
+		"size": "2",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/root_unlocked.png",
+				"available": "malice:textures/frame/root_available.png",
+				"locked": "malice:textures/frame/root_locked.png",
+				"excluded": "malice:textures/frame/root_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/mystery.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "epicfight:impact",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "1w0ee5fy6o27dzu5"
+		}
+	},
+	"stunArmour": {
+		"title": "Stun Armour",
+		"cost": 1,
+		"description": [
+			{
+				"text": "Increases resistance to impact",
+				"color": "green"
+			}
+		],
+		"size": "2",
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "malice:textures/frame/root_unlocked.png",
+				"available": "malice:textures/frame/root_available.png",
+				"locked": "malice:textures/frame/root_locked.png",
+				"excluded": "malice:textures/frame/root_excluded.png"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "malice:textures/icons/mystery.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "epicfight:stun_armor",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "1w0ee5fy6o27dzu5"
+		}
+	}
+}

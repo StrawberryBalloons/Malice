@@ -1,0 +1,12 @@
+{
+	"unlocked_by_default": true,
+	"title": "Ranger",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "diamond_sword"
+		}
+	},
+
+    "background": "mavenres:textures/swordsman_bg.png"
+}

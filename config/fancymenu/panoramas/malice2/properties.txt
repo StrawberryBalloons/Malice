@@ -1,0 +1,8 @@
+type = panorama
+
+panorama-meta {
+  name = malicepano2
+  speed = 1.0
+  fov = 80.0
+  angle = -15.0
+}

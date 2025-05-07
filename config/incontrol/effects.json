@@ -1,0 +1,170 @@
+[
+    {
+        "timeout": 10,
+        "playerhelditem": [
+            "epicfight:stone_greatsword", "epicfight:iron_greatsword", "epicfight:golden_greatsword", "epicfight:diamond_greatsword", "epicfight:netherite_greatsword",
+            
+            
+            "born_in_chaos_v1:shell_mace", "born_in_chaos_v1:darkwarblade"
+        ],
+        "gamestage": "greatsword_locked",
+        "potion": "minecraft:weakness,10,255",
+        "command": "function malice:locked"
+    },
+
+
+
+
+
+
+    {
+        "timeout": 10,
+        "playerhelditem": [
+            "epicfight:uchigatana"
+        ],
+        "gamestage": "uchigatana_locked",
+        "potion": "minecraft:weakness,10,255",
+        "command": "function malice:locked"
+    },
+
+
+
+    {
+        "timeout": 10,
+        "playerhelditem": "wom:agony",
+        "gamestage": "agony_locked",
+        "potion": ["minecraft:weakness,10,255", "minecraft:slowness,21,3"],
+        "command": "function malice:locked",
+        "fire": 1
+    },
+    {
+        "timeout": 10,
+        "playerhelditem": "wom:torment",
+        "gamestage": "torment_locked",
+        "potion": ["minecraft:weakness,10,255", "minecraft:slowness,21,3"],
+        "command": "function malice:locked",
+        "fire": 1
+    },
+    {
+        "timeout": 10,
+        "playerhelditem": "wom:ruine",
+        "gamestage": "ruine_locked",
+        "potion": ["minecraft:weakness,10,255", "minecraft:slowness,21,3"],
+        "command": "function malice:locked",
+        "fire": 1
+    },
+    {
+        "timeout": 10,
+        "playerhelditem": "wom:tormented_mind",
+        "gamestage": "torment_locked",
+        "potion": ["minecraft:weakness,10,255", "minecraft:slowness,21,3"],
+        "command": "function malice:locked",
+        "fire": 1
+    },
+    {
+        "timeout": 10,
+        "playerhelditem": "wom:antitheus",
+        "gamestage": "antitheus_locked",
+        "potion": ["minecraft:weakness,10,255", "minecraft:slowness,21,3"],
+        "command": "function malice:locked",
+        "fire": 1
+    },
+    {
+        "timeout": 10,
+        "playerhelditem": "wom:ender_blaster",
+        "gamestage": "blaster_locked",
+        "potion": ["minecraft:weakness,10,255", "minecraft:slowness,21,3"],
+        "command": "function malice:locked",
+        "fire": 1
+    },
+    {
+        "timeout": 10,
+        "playerhelditem": "wom:satsujin",
+        "gamestage": "satsujin_locked",
+        "potion": ["minecraft:weakness,10,255", "minecraft:slowness,21,3"],
+        "command": "function malice:locked",
+        "fire": 1
+    },
+    {
+        "timeout": 10,
+        "playerhelditem": "wom:herrscher",
+        "gamestage": "herrscher_locked",
+        "potion": ["minecraft:weakness,10,255", "minecraft:slowness,21,3"],
+        "command": "function malice:locked",
+        "fire": 1
+    },
+    {
+        "timeout": 10,
+        "playerhelditem": "wom:moonless",
+        "gamestage": "moonless_locked",
+        "potion": ["minecraft:weakness,10,255", "minecraft:slowness,21,3"],
+        "command": "function malice:locked",
+        "fire": 1
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]

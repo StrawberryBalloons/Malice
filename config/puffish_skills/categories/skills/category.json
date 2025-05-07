@@ -1,0 +1,12 @@
+{
+	"unlocked_by_default": true,
+	"title": "Skills",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "diamond_sword"
+		}
+	},
+
+    "background": "malice:textures/skills_bg.png"
+}

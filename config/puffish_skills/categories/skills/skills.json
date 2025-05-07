@@ -1,0 +1,2816 @@
+{
+	"lhonpvb8ffr6hyod": {
+		"definition": "infliction",
+		"x": 100,
+		"y": -350,
+		"root": false
+	},
+	"dxu5wu8latcebqsx": {
+		"definition": "infliction",
+		"x": 200,
+		"y": -400,
+		"root": false
+	},
+	"oi2wpihfv7lxh0k1": {
+		"definition": "root_reset",
+		"x": 0,
+		"y": 0,
+		"root": true
+	},
+	"fn8rl3m9ihg38whq": {
+		"definition": "affliction",
+		"x": 50,
+		"y": -450,
+		"root": false
+	},
+	"mzfbwfssyg4fmi0u": {
+		"definition": "root_swordsman",
+		"x": 0,
+		"y": -100,
+		"root": true
+	},
+	"mayg1pduosyx0gfg": {
+		"definition": "root_hearty",
+		"x": 0,
+		"y": 100,
+		"root": true
+	},
+	"8ki3oi1o3wbeodnm": {
+		"definition": "root_archer",
+		"x": -100,
+		"y": 0,
+		"root": true
+	},
+	"rdl9oryc8qixockr": {
+		"definition": "affliction",
+		"x": 100,
+		"y": -300,
+		"root": false
+	},
+	"r21ovou60m1slnlr": {
+		"definition": "affliction",
+		"x": -100,
+		"y": -300,
+		"root": false
+	},
+	"rzk8ytmq2vqra89g": {
+		"definition": "infliction",
+		"x": 250,
+		"y": -550,
+		"root": false
+	},
+	"e6szj23ci16toi3g": {
+		"definition": "infliction",
+		"x": 50,
+		"y": -550,
+		"root": false
+	},
+	"zbq6yrd6j0omlic9": {
+		"definition": "fortitude",
+		"x": 100,
+		"y": -200,
+		"root": false
+	},
+	"97t96dl9btlhmwjg": {
+		"definition": "affliction",
+		"x": -100,
+		"y": -200,
+		"root": false
+	},
+	"mekxbfwy6lifpzpc": {
+		"definition": "slug",
+		"x": 200,
+		"y": -500,
+		"root": false
+	},
+	"94zveqntsv4my88o": {
+		"definition": "fortitude",
+		"x": 250,
+		"y": -600,
+		"root": false
+	},
+	"2yzb8nom7t0btc4z": {
+		"definition": "champion",
+		"x": 50,
+		"y": -250,
+		"root": false
+	},
+	"8d71tt3ui5q9nhte": {
+		"definition": "swordmaster",
+		"x": -50,
+		"y": -250,
+		"root": false
+	},
+	"pw3atugkib7vaxb0": {
+		"definition": "aversion",
+		"x": 300,
+		"y": -700,
+		"root": false
+	},
+	"zqdvluf1578tzx1l": {
+		"definition": "fortitude",
+		"x": 416,
+		"y": -864,
+		"root": false
+	},
+	"9c2hsexv1dee6il1": {
+		"definition": "slug",
+		"x": 100,
+		"y": -800,
+		"root": false
+	},
+	"5obut5emoq3actta": {
+		"definition": "agility",
+		"x": -100,
+		"y": -350,
+		"root": false
+	},
+	"1z3s47ag83uc4ha1": {
+		"definition": "daring",
+		"x": -200,
+		"y": -400,
+		"root": false
+	},
+	"fmn7eq7kd1tys6e3": {
+		"definition": "daring",
+		"x": -50,
+		"y": -450,
+		"root": false
+	},
+	"5y7aldcbjqnxi1uz": {
+		"definition": "daring",
+		"x": -100,
+		"y": -800,
+		"root": false
+	},
+	"hjxpguygcd1y07ah": {
+		"definition": "affliction",
+		"x": -250,
+		"y": -550,
+		"root": false
+	},
+	"c9y6ujxhzhsesytj": {
+		"definition": "affliction",
+		"x": -250,
+		"y": -600,
+		"root": false
+	},
+	"5hz5nwau61llgj7b": {
+		"definition": "affliction",
+		"x": -200,
+		"y": -700,
+		"root": false
+	},
+	"7bjky39oymyb2c97": {
+		"definition": "affliction",
+		"x": -300,
+		"y": -700,
+		"root": false
+	},
+	"eo1xtj2c49pv612i": {
+		"definition": "affliction",
+		"x": -256,
+		"y": -832,
+		"root": false
+	},
+	"411tx57tzvvn6o3n": {
+		"definition": "affliction",
+		"x": -50,
+		"y": -550,
+		"root": false
+	},
+	"fgznmq6w5j3ubggf": {
+		"definition": "agility",
+		"x": -200,
+		"y": -500,
+		"root": false
+	},
+	"qqzvxdipvyqmv8jx": {
+		"definition": "delay",
+		"x": 200,
+		"y": -700,
+		"root": false
+	},
+	"rrj0wccs4cn0veue": {
+		"definition": "slug",
+		"x": 256,
+		"y": -832,
+		"root": false
+	},
+	"4crj5dpyvukxh82s": {
+		"definition": "fortitude",
+		"x": 50,
+		"y": -600,
+		"root": false
+	},
+	"sdg8lo0kpr8r8jpb": {
+		"definition": "agility",
+		"x": -416,
+		"y": -864,
+		"root": false
+	},
+	"4jev16vrcdrodzmh": {
+		"definition": "pace",
+		"x": -50,
+		"y": -600,
+		"root": false
+	},
+	"n0244k935so0n1ur": {
+		"definition": "affliction",
+		"x": -150,
+		"y": -600,
+		"root": true
+	},
+	"hbxhdvwgmrn1khzj": {
+		"definition": "infliction",
+		"x": 150,
+		"y": -600,
+		"root": true
+	},
+	"1daambok6559i33y": {
+		"definition": "ranger",
+		"x": -250,
+		"y": -50,
+		"root": false
+	},
+	"3ry6xepu1l0n7zbm": {
+		"definition": "bowmaster",
+		"x": -250,
+		"y": 50,
+		"root": false
+	},
+	"u7s25oeynxvsp6ml": {
+		"definition": "missile",
+		"x": -200,
+		"y": -100,
+		"root": false
+	},
+	"xg2z66zayswjg6ew": {
+		"definition": "missile",
+		"x": -350,
+		"y": 100,
+		"root": false
+	},
+	"zoy5p2y291eh1suq": {
+		"definition": "missile",
+		"x": -350,
+		"y": -100,
+		"root": false
+	},
+	"ml33rp6ly2fap6r1": {
+		"definition": "missile",
+		"x": -600,
+		"y": -250,
+		"root": false
+	},
+	"sgzc1xjtiux9br64": {
+		"definition": "missile",
+		"x": -550,
+		"y": 250,
+		"root": false
+	},
+	"f5ex841iqv3ngsa4": {
+		"definition": "missile",
+		"x": -550,
+		"y": -50,
+		"root": false
+	},
+	"ahcedjtc8jbrp9b6": {
+		"definition": "missile",
+		"x": -600,
+		"y": -50,
+		"root": false
+	},
+	"v1xgpw9ir6sgdm7m": {
+		"definition": "pierce",
+		"x": -200,
+		"y": 100,
+		"root": false
+	},
+	"9iwj3cg1kdaxdegi": {
+		"definition": "pace",
+		"x": -300,
+		"y": -100,
+		"root": false
+	},
+	"oezzk485gpednw69": {
+		"definition": "pace",
+		"x": -550,
+		"y": -250,
+		"root": false
+	},
+	"iie5x4gnjy57ax26": {
+		"definition": "daring",
+		"x": -500,
+		"y": -200,
+		"root": false
+	},
+	"h9ud8dprfqqore0x": {
+		"definition": "missile",
+		"x": -400,
+		"y": -200,
+		"root": false
+	},
+	"7t0pyknhcevytpyr": {
+		"definition": "pace",
+		"x": -700,
+		"y": -300,
+		"root": false
+	},
+	"hwske35xp3m365g4": {
+		"definition": "alacrity",
+		"x": -832,
+		"y": -256,
+		"root": false
+	},
+	"l3d7mp4ubx1msj32": {
+		"definition": "alacrity",
+		"x": -700,
+		"y": -200,
+		"root": false
+	},
+	"jmgisng507o9965k": {
+		"definition": "missile",
+		"x": -864,
+		"y": -416,
+		"root": false
+	},
+	"tyc7ewjef6iz5l6d": {
+		"definition": "daring",
+		"x": -800,
+		"y": -100,
+		"root": false
+	},
+	"pyhslesa1rqs7sa2": {
+		"definition": "alacrity",
+		"x": -450,
+		"y": -50,
+		"root": false
+	},
+	"kaco8sm8oezdvnz4": {
+		"definition": "tempo",
+		"x": -300,
+		"y": 100,
+		"root": false
+	},
+	"zmpoosfuvp10sj38": {
+		"definition": "missile",
+		"x": -864,
+		"y": 416,
+		"root": false
+	},
+	"2pfib1meq0e43o2h": {
+		"definition": "tempo",
+		"x": -400,
+		"y": 200,
+		"root": false
+	},
+	"smtpirwdtojv88oa": {
+		"definition": "alacrity",
+		"x": -500,
+		"y": 200,
+		"root": false
+	},
+	"rfgw0fnbrqtgd8te": {
+		"definition": "pierce",
+		"x": -550,
+		"y": 50,
+		"root": false
+	},
+	"ubzsy0g6k0qc3rng": {
+		"definition": "pace",
+		"x": -450,
+		"y": 50,
+		"root": false
+	},
+	"cwrjavc7v3ypfmep": {
+		"definition": "fortitude",
+		"x": -600,
+		"y": 50,
+		"root": false
+	},
+	"ay7pa6fepht9hv6n": {
+		"definition": "tempo",
+		"x": -832,
+		"y": 256,
+		"root": false
+	},
+	"b2h8wfzmbd65yj04": {
+		"definition": "tempo",
+		"x": -600,
+		"y": 250,
+		"root": false
+	},
+	"g93iu8yoi62op6rn": {
+		"definition": "alacrity",
+		"x": -700,
+		"y": 200,
+		"root": false
+	},
+	"0aeplanmw7opmd7s": {
+		"definition": "alacrity",
+		"x": -700,
+		"y": 300,
+		"root": false
+	},
+	"xa5awo3j7ktlxhag": {
+		"definition": "pierce",
+		"x": -800,
+		"y": 100,
+		"root": false
+	},
+	"552qjt3rypvnhhka": {
+		"definition": "missile",
+		"x": -600,
+		"y": -150,
+		"root": true
+	},
+	"o9el4cvgjr3p76bk": {
+		"definition": "pace",
+		"x": -600,
+		"y": 150,
+		"root": true
+	},
+	"f60favsx6l6x9pzc": {
+		"definition": "aversion",
+		"x": -100,
+		"y": 350,
+		"root": false
+	},
+	"27k2w5u61wjuvfcf": {
+		"definition": "aversion",
+		"x": -200,
+		"y": 500,
+		"root": false
+	},
+	"ruhdjhomqf8ovj5h": {
+		"definition": "aversion",
+		"x": -300,
+		"y": 700,
+		"root": false
+	},
+	"t1wj9nwvs4mseykn": {
+		"definition": "ironskin",
+		"x": -50,
+		"y": 250,
+		"root": false
+	},
+	"n34axzn7mq832g2f": {
+		"definition": "aversion",
+		"x": -50,
+		"y": 600,
+		"root": false
+	},
+	"p56rfy8ra6jzyjv9": {
+		"definition": "fortified",
+		"x": 100,
+		"y": 200,
+		"root": false
+	},
+	"apoxnmjr5s9fnw39": {
+		"definition": "fortified",
+		"x": 100,
+		"y": 350,
+		"root": false
+	},
+	"m2npngcnh371z2s4": {
+		"definition": "fortified",
+		"x": 200,
+		"y": 400,
+		"root": false
+	},
+	"4f0zu4bo80g86gbr": {
+		"definition": "fortified",
+		"x": 200,
+		"y": 500,
+		"root": false
+	},
+	"0gdv21ohz0jfshjw": {
+		"definition": "delay",
+		"x": -100,
+		"y": 800,
+		"root": false
+	},
+	"s0os9zpoxinat8gi": {
+		"definition": "impaired",
+		"x": 100,
+		"y": 800,
+		"root": false
+	},
+	"1o42g14n727di4eo": {
+		"definition": "impaired",
+		"x": 250,
+		"y": 600,
+		"root": false
+	},
+	"anfpahav94v0o9h0": {
+		"definition": "impaired",
+		"x": 50,
+		"y": 550,
+		"root": false
+	},
+	"n7ac043k03pl1w0a": {
+		"definition": "aversion",
+		"x": 100,
+		"y": 300,
+		"root": false
+	},
+	"99sooilxj2oytjjh": {
+		"definition": "aversion",
+		"x": 250,
+		"y": 550,
+		"root": false
+	},
+	"ek9g81p81652ygtc": {
+		"definition": "aversion",
+		"x": 416,
+		"y": 864,
+		"root": false
+	},
+	"wbuws8ye6pco011x": {
+		"definition": "aversion",
+		"x": 256,
+		"y": 832,
+		"root": false
+	},
+	"cxlpvu8fbtqc9fju": {
+		"definition": "fortitude",
+		"x": 200,
+		"y": 700,
+		"root": false
+	},
+	"20l0a7jizgqxoqey": {
+		"definition": "fortitude",
+		"x": 300,
+		"y": 700,
+		"root": false
+	},
+	"3a0mgebdzk4lipc2": {
+		"definition": "aversion",
+		"x": 50,
+		"y": 600,
+		"root": false
+	},
+	"lubihw7w0mubf9to": {
+		"definition": "protected",
+		"x": -100,
+		"y": 200,
+		"root": false
+	},
+	"p7kwizq4rbbab7eb": {
+		"definition": "alleviate",
+		"x": -100,
+		"y": 300,
+		"root": false
+	},
+	"zw2rnpcxcntqggg1": {
+		"definition": "alleviate",
+		"x": -250,
+		"y": 550,
+		"root": false
+	},
+	"9qnehe5pw640rgoy": {
+		"definition": "alleviate",
+		"x": -50,
+		"y": 550,
+		"root": false
+	},
+	"d3o6l690zndm502j": {
+		"definition": "slug",
+		"x": 50,
+		"y": 450,
+		"root": false
+	},
+	"2i3d41hlpvwj9unm": {
+		"definition": "delay",
+		"x": -50,
+		"y": 450,
+		"root": false
+	},
+	"x3xlyhr9dzrtp0w1": {
+		"definition": "alleviate",
+		"x": -200,
+		"y": 700,
+		"root": false
+	},
+	"qe37ki8gu0snzajj": {
+		"definition": "alleviate",
+		"x": -448,
+		"y": 864,
+		"root": false
+	},
+	"bchzn041ye3okui5": {
+		"definition": "alleviate",
+		"x": -200,
+		"y": 400,
+		"root": false
+	},
+	"h6i4dw4e6pjzoo5k": {
+		"definition": "protected",
+		"x": -250,
+		"y": 600,
+		"root": false
+	},
+	"3sidgp9hpr9i5j29": {
+		"definition": "protected",
+		"x": -256,
+		"y": 832,
+		"root": false
+	},
+	"9azr8wm7fth3mjxn": {
+		"definition": "aversion",
+		"x": -150,
+		"y": 600,
+		"root": true
+	},
+	"fsjiqlnr3u21f7a7": {
+		"definition": "fortitude",
+		"x": 150,
+		"y": 600,
+		"root": true
+	},
+	"0obx967wtm1r7yoa": {
+		"definition": "impact",
+		"x": -500,
+		"y": -500,
+		"root": false
+	},
+	"f25e1fv5v5ox27mt": {
+		"definition": "missile",
+		"x": -450,
+		"y": -700,
+		"root": false
+	},
+	"i537grk0jj452yhm": {
+		"definition": "missile",
+		"x": -350,
+		"y": -600,
+		"root": false
+	},
+	"6rv8yana9ayov7y7": {
+		"definition": "affliction",
+		"x": -800,
+		"y": -800,
+		"root": false
+	},
+	"tf9y90zz0415wv6o": {
+		"definition": "impact",
+		"x": -700,
+		"y": -450,
+		"root": false
+	},
+	"deihm999j7rij0c2": {
+		"definition": "affliction",
+		"x": -600,
+		"y": -350,
+		"root": false
+	},
+	"mrg20wm5wcothpmo": {
+		"definition": "impact",
+		"x": -600,
+		"y": -450,
+		"root": false
+	},
+	"a2u783lx2p5oc0c0": {
+		"definition": "missile",
+		"x": -450,
+		"y": -600,
+		"root": false
+	},
+	"u2z78ge4kbha7vf2": {
+		"definition": "impact",
+		"x": -650,
+		"y": -650,
+		"root": false
+	},
+	"gc7rocp8w66mbrn1": {
+		"definition": "agility",
+		"x": -400,
+		"y": -500,
+		"root": false
+	},
+	"al7ipn9psvvewq8k": {
+		"definition": "tempo",
+		"x": -500,
+		"y": -400,
+		"root": false
+	},
+	"ezu5tituitni3srh": {
+		"definition": "affliction",
+		"x": -250,
+		"y": -250,
+		"root": false
+	},
+	"u45y1a3pv7ew4st3": {
+		"definition": "affliction",
+		"x": -350,
+		"y": -350,
+		"root": false
+	},
+	"yki4hjf7hxn9jaqf": {
+		"definition": "alleviate",
+		"x": -800,
+		"y": 800,
+		"root": false
+	},
+	"gxqw3kt7clsb5j67": {
+		"definition": "alleviate",
+		"x": -700,
+		"y": 450,
+		"root": false
+	},
+	"kousvcmq7h3qqgvf": {
+		"definition": "missile",
+		"x": -450,
+		"y": 700,
+		"root": false
+	},
+	"wvtmst0bnbehs7kg": {
+		"definition": "pace",
+		"x": -450,
+		"y": 600,
+		"root": false
+	},
+	"cyhsg26wy8yr8uv6": {
+		"definition": "alacrity",
+		"x": -500,
+		"y": 500,
+		"root": false
+	},
+	"eru3nuo2oaz873ee": {
+		"definition": "alacrity",
+		"x": -650,
+		"y": 650,
+		"root": false
+	},
+	"usqxf8sifq3ohlfi": {
+		"definition": "protected",
+		"x": -600,
+		"y": 450,
+		"root": false
+	},
+	"upjp3ilfeddpm3ud": {
+		"definition": "alacrity",
+		"x": -600,
+		"y": 350,
+		"root": false
+	},
+	"znc2mejtnbtndwnc": {
+		"definition": "pierce",
+		"x": -350,
+		"y": 600,
+		"root": false
+	},
+	"6p03f3o7u5vw10np": {
+		"definition": "fortitude",
+		"x": -350,
+		"y": 350,
+		"root": false
+	},
+	"7o65ww1gd2v5ceb7": {
+		"definition": "missile",
+		"x": -400,
+		"y": 500,
+		"root": false
+	},
+	"x2wkz156aydfaz8v": {
+		"definition": "pace",
+		"x": -500,
+		"y": 400,
+		"root": false
+	},
+	"khfunhqc7uegk3p7": {
+		"definition": "missile",
+		"x": -250,
+		"y": 250,
+		"root": false
+	},
+	"ugw80bcebtffkb95": {
+		"definition": "root_magic",
+		"x": 96,
+		"y": 0,
+		"root": true
+	},
+	"yuuyvsrqt1q807vp": {
+		"definition": "brilliance",
+		"x": 200,
+		"y": -100,
+		"root": false
+	},
+	"wvvbcpoz7t8rchv5": {
+		"definition": "brilliance",
+		"x": 400,
+		"y": -200,
+		"root": false
+	},
+	"9thrxshom0vs9kti": {
+		"definition": "brilliance",
+		"x": 550,
+		"y": -250,
+		"root": false
+	},
+	"webxxmddnibo9qfc": {
+		"definition": "brilliance",
+		"x": 832,
+		"y": -256,
+		"root": false
+	},
+	"q9je6x2zjr6sp94o": {
+		"definition": "potent",
+		"x": 200,
+		"y": 100,
+		"root": false
+	},
+	"25bx9d5hdgcwrlld": {
+		"definition": "potent",
+		"x": 300,
+		"y": 100,
+		"root": false
+	},
+	"5y4df55xyh7ygvdp": {
+		"definition": "potent",
+		"x": 400,
+		"y": 200,
+		"root": false
+	},
+	"rq1kqvbdlv56gzgd": {
+		"definition": "potent",
+		"x": 550,
+		"y": 250,
+		"root": false
+	},
+	"2o89vi9g8e823vpd": {
+		"definition": "potent",
+		"x": 800,
+		"y": 100,
+		"root": false
+	},
+	"8p4p4spez2k6v4zd": {
+		"definition": "whimsical",
+		"x": 300,
+		"y": -100,
+		"root": false
+	},
+	"8i44h4mebtmqq8yc": {
+		"definition": "whimsical",
+		"x": 500,
+		"y": -200,
+		"root": false
+	},
+	"7z7f2imy4i92klpu": {
+		"definition": "delicate",
+		"x": 350,
+		"y": -100,
+		"root": false
+	},
+	"kuah5vp8dtu93o5m": {
+		"definition": "delicate",
+		"x": 600,
+		"y": -250,
+		"root": false
+	},
+	"y4abvmg1hsc6i9hl": {
+		"definition": "ardent",
+		"x": 550,
+		"y": -50,
+		"root": false
+	},
+	"q4mxwt1au9docvn1": {
+		"definition": "ardent",
+		"x": 700,
+		"y": -200,
+		"root": false
+	},
+	"9oyr7hei7ne9gt50": {
+		"definition": "brilliance",
+		"x": 600,
+		"y": -50,
+		"root": false
+	},
+	"2jxrhg596pksmtio": {
+		"definition": "brilliance",
+		"x": 450,
+		"y": -50,
+		"root": false
+	},
+	"yywb7gjhrq2mp5z4": {
+		"definition": "attuned",
+		"x": 700,
+		"y": -300,
+		"root": false
+	},
+	"mycrtol00ad47ila": {
+		"definition": "attuned",
+		"x": 800,
+		"y": -100,
+		"root": false
+	},
+	"zpq63z97sjagt7n0": {
+		"definition": "delicate",
+		"x": 350,
+		"y": 100,
+		"root": false
+	},
+	"mynnlqarmtbbmdjv": {
+		"definition": "attuned",
+		"x": 500,
+		"y": 200,
+		"root": false
+	},
+	"je2ph1l71br2ttqv": {
+		"definition": "attuned",
+		"x": 600,
+		"y": 250,
+		"root": false
+	},
+	"a9fk0ajuq0jqychz": {
+		"definition": "attuned",
+		"x": 832,
+		"y": 256,
+		"root": false
+	},
+	"ubtk0h82t9yl6nzp": {
+		"definition": "brilliance",
+		"x": 600,
+		"y": -150,
+		"root": true
+	},
+	"rlnn5834637r0bce": {
+		"definition": "brilliance",
+		"x": 864,
+		"y": -416,
+		"root": false
+	},
+	"zc0x7hj1megozss1": {
+		"definition": "potent",
+		"x": 864,
+		"y": 416,
+		"root": false
+	},
+	"c79jl10ti64csi3q": {
+		"definition": "potent",
+		"x": 700,
+		"y": 200,
+		"root": false
+	},
+	"ieq2vgroznptk4d2": {
+		"definition": "brilliance",
+		"x": 700,
+		"y": 300,
+		"root": false
+	},
+	"y2akkqiio7vmqigo": {
+		"definition": "aversion",
+		"x": 800,
+		"y": -800,
+		"root": false
+	},
+	"3jpdbpbqhslc0w5g": {
+		"definition": "brilliance",
+		"x": 350,
+		"y": -600,
+		"root": false
+	},
+	"r97j95n7j3y6zvis": {
+		"definition": "brilliance",
+		"x": 450,
+		"y": -600,
+		"root": false
+	},
+	"h3xamvdy9qjcxyed": {
+		"definition": "brilliance",
+		"x": 450,
+		"y": -700,
+		"root": false
+	},
+	"po4ewqds7hcs8t8z": {
+		"definition": "ardent",
+		"x": 250,
+		"y": -250,
+		"root": false
+	},
+	"vc88bq7i6p2a8di5": {
+		"definition": "infliction",
+		"x": 350,
+		"y": -350,
+		"root": false
+	},
+	"571uhvysrtkiz4ef": {
+		"definition": "stunArmour",
+		"x": 500,
+		"y": -500,
+		"root": false
+	},
+	"lgyox9tu4ezufhyy": {
+		"definition": "infliction",
+		"x": 650,
+		"y": -650,
+		"root": false
+	},
+	"qtmnzcp9y9gxzwur": {
+		"definition": "brilliance",
+		"x": 400,
+		"y": -500,
+		"root": false
+	},
+	"l97tyqx2vflob2m6": {
+		"definition": "brilliance",
+		"x": 500,
+		"y": -400,
+		"root": false
+	},
+	"9dvpwqnmfh3tv9lb": {
+		"definition": "infliction",
+		"x": 600,
+		"y": -350,
+		"root": false
+	},
+	"914b3647vjr0awlj": {
+		"definition": "infliction",
+		"x": 600,
+		"y": -450,
+		"root": false
+	},
+	"jwss50qcby4vtgr9": {
+		"definition": "infliction",
+		"x": 700,
+		"y": -450,
+		"root": false
+	},
+	"vbgmmgtwhuby19je": {
+		"definition": "alleviate",
+		"x": 800,
+		"y": 800,
+		"root": false
+	},
+	"b2cz5woxyzk06vtt": {
+		"definition": "fortitude",
+		"x": 500,
+		"y": 500,
+		"root": false
+	},
+	"9pnxun151utpw0vw": {
+		"definition": "fortitude",
+		"x": 250,
+		"y": 250,
+		"root": false
+	},
+	"ot0hm1t5qxc0fb7b": {
+		"definition": "potent",
+		"x": 650,
+		"y": 650,
+		"root": false
+	},
+	"4n6pp92q9v362ga7": {
+		"definition": "brilliance",
+		"x": 350,
+		"y": 350,
+		"root": false
+	},
+	"ai5mqd2d06am3wb8": {
+		"definition": "fortified",
+		"x": 400,
+		"y": 500,
+		"root": false
+	},
+	"8atwfn4sbbrb8g2f": {
+		"definition": "aversion",
+		"x": 500,
+		"y": 400,
+		"root": false
+	},
+	"rhklm30150kaz51y": {
+		"definition": "brilliance",
+		"x": 350,
+		"y": 600,
+		"root": false
+	},
+	"fxtfade1vra503qq": {
+		"definition": "brilliance",
+		"x": 450,
+		"y": 700,
+		"root": false
+	},
+	"l79f4wh1tgwvda71": {
+		"definition": "attuned",
+		"x": 450,
+		"y": 600,
+		"root": false
+	},
+	"r7z8blrhycr94slw": {
+		"definition": "aversion",
+		"x": 600,
+		"y": 450,
+		"root": false
+	},
+	"4031tpt0q4t1eik0": {
+		"definition": "fortitude",
+		"x": 700,
+		"y": 450,
+		"root": false
+	},
+	"7wzdl3r3c7pmauvu": {
+		"definition": "fortitude",
+		"x": 600,
+		"y": 350,
+		"root": false
+	},
+	"li6vqf4sawmopadr": {
+		"definition": "magus",
+		"x": 250,
+		"y": -50,
+		"root": false
+	},
+	"4cx1ftajyh9ecb5v": {
+		"definition": "archmage",
+		"x": 250,
+		"y": 50,
+		"root": false
+	},
+	"ha7i18jjjvh52wk7": {
+		"definition": "brilliance",
+		"x": 600,
+		"y": 50,
+		"root": false
+	},
+	"wrav7009zuzdqnf2": {
+		"definition": "pace",
+		"x": 550,
+		"y": 50,
+		"root": false
+	},
+	"dlkm8v8an696lqpc": {
+		"definition": "potent",
+		"x": 450,
+		"y": 50,
+		"root": false
+	},
+	"iawu8223tsnlpqdj": {
+		"definition": "potent",
+		"x": 600,
+		"y": 150,
+		"root": true
+	},
+	"7lc77mu2uh0wh0z3": {
+		"definition": "brilliance",
+		"x": 350,
+		"y": 0,
+		"root": false
+	},
+	"9pon8lr8p2axlmm0": {
+		"definition": "delicate",
+		"x": 500,
+		"y": 0,
+		"root": false
+	},
+	"805e5f69mvvq1t1g": {
+		"definition": "ardent",
+		"x": 675,
+		"y": 0,
+		"root": false
+	},
+	"pp2wydu6q4jegp2w": {
+		"definition": "hasten",
+		"x": 1150,
+		"y": -230.9401076758503,
+		"root": false
+	},
+	"7k5c6r8uc4o9n6nu": {
+		"definition": "brilliance",
+		"x": 1250,
+		"y": -115.4700538379251,
+		"root": false
+	},
+	"h8o5nuvh4rlbaeis": {
+		"definition": "brilliance",
+		"x": 1025,
+		"y": -158.7713240271471,
+		"root": false
+	},
+	"dl9pfaam93ug4ge2": {
+		"definition": "brilliance",
+		"x": 1400,
+		"y": -259.8076211353316,
+		"root": false
+	},
+	"rtt0k0azh64hm25o": {
+		"definition": "ardent",
+		"x": 875,
+		"y": -72.16878364870325,
+		"root": false
+	},
+	"g5ytbz63n7q5hhxj": {
+		"definition": "mischievous",
+		"x": 1325,
+		"y": -43.301270189221896,
+		"root": false
+	},
+	"cd68cc1lloxklvag": {
+		"definition": "diamondskin",
+		"x": 50,
+		"y": 250,
+		"root": false
+	},
+	"4abhpg12vjs1xe9z": {
+		"definition": "whimsical",
+		"x": 875,
+		"y": 72.16878364870325,
+		"root": false
+	},
+	"og6hpjyilnmqo31p": {
+		"definition": "potent",
+		"x": 1025,
+		"y": 158.7713240271471,
+		"root": false
+	},
+	"je1vmt0qjecjqn2u": {
+		"definition": "hasten",
+		"x": 1150,
+		"y": 230.9401076758503,
+		"root": false
+	},
+	"okchg6vn9726fmui": {
+		"definition": "potent",
+		"x": 1400,
+		"y": 259.8076211353315,
+		"root": false
+	},
+	"qvd1ifsdj7ih4mu0": {
+		"definition": "potent",
+		"x": 1250,
+		"y": 115.4700538379252,
+		"root": false
+	},
+	"vb9f9m5pvxbn5upv": {
+		"definition": "delicate",
+		"x": 1325,
+		"y": 43.301270189221896,
+		"root": false
+	},
+	"utlh9110jvl4yyr7": {
+		"definition": "infliction",
+		"x": 0,
+		"y": -350,
+		"root": false
+	},
+	"c0hrkp6caxgxvbjz": {
+		"definition": "affliction",
+		"x": 0,
+		"y": -500,
+		"root": false
+	},
+	"kz4bzuoz2s93oz1k": {
+		"definition": "agility",
+		"x": 0,
+		"y": -650,
+		"root": false
+	},
+	"qj4psry6830kdk38": {
+		"definition": "slug",
+		"x": 75,
+		"y": -880.4591605141793,
+		"root": false
+	},
+	"w1hcny8urhn1wlyj": {
+		"definition": "daring",
+		"x": -75,
+		"y": -880.4591605141792,
+		"root": false
+	},
+	"ncofzeb882wyrjh4": {
+		"definition": "protected",
+		"x": 225,
+		"y": -967.0617008926232,
+		"root": false
+	},
+	"kbwki9mcf5p8lqej": {
+		"definition": "tempo",
+		"x": -225,
+		"y": -967.0617008926231,
+		"root": false
+	},
+	"uryy42n8o3ij4ojm": {
+		"definition": "warmblood",
+		"x": 350,
+		"y": -1039.2304845413264,
+		"root": false
+	},
+	"vomqzef0cqy3jyrh": {
+		"definition": "coldblood",
+		"x": -350,
+		"y": -1039.2304845413264,
+		"root": false
+	},
+	"erpygwjax18htaj0": {
+		"definition": "stunArmour",
+		"x": -64,
+		"y": -1056,
+		"root": false
+	},
+	"9x38y6zmyr0wbela": {
+		"definition": "repulse",
+		"x": 64,
+		"y": -1056,
+		"root": false
+	},
+	"cqybn69tgmlalrdg": {
+		"definition": "hops",
+		"x": -350,
+		"y": -1154.7005383792516,
+		"root": false
+	},
+	"axl4fgbr5jba302y": {
+		"definition": "endure",
+		"x": 350,
+		"y": -1154.7005383792516,
+		"root": false
+	},
+	"hg72hkqvy15k8j29": {
+		"definition": "endure",
+		"x": 0,
+		"y": -1152,
+		"root": false
+	},
+	"1cjv3r4d45t5e6zo": {
+		"definition": "alacrity",
+		"x": -225,
+		"y": -1226.8693220279547,
+		"root": false
+	},
+	"ekb1fs7ryrzo0zls": {
+		"definition": "missile",
+		"x": -100,
+		"y": -1299.038105676658,
+		"root": false
+	},
+	"v2iiidp6i7drqlwt": {
+		"definition": "pace",
+		"x": 0,
+		"y": -1241.3030787576954,
+		"root": false
+	},
+	"6wawkgzhez60pd2t": {
+		"definition": "fortitude",
+		"x": 100,
+		"y": -1299.038105676658,
+		"root": false
+	},
+	"15i33gi0we44nxsw": {
+		"definition": "excavator",
+		"x": 225,
+		"y": -1226.8693220279547,
+		"root": false
+	},
+	"21n0xyq8kf7ohaek": {
+		"definition": "aversion",
+		"x": 0,
+		"y": 350,
+		"root": false
+	},
+	"qishqrvbhwrix125": {
+		"definition": "delay",
+		"x": 0,
+		"y": 500,
+		"root": false
+	},
+	"hhxaqcrzfguxecef": {
+		"definition": "impaired",
+		"x": 0,
+		"y": 650,
+		"root": false
+	},
+	"scvcchgggkpydi7e": {
+		"definition": "fortified",
+		"x": 75,
+		"y": 880.4591605141792,
+		"root": false
+	},
+	"jampooud1oix115x": {
+		"definition": "fortified",
+		"x": 350,
+		"y": 1039.2304845413264,
+		"root": false
+	},
+	"6u79fas35ryeupbe": {
+		"definition": "alleviate",
+		"x": -75,
+		"y": 880.4591605141793,
+		"root": false
+	},
+	"yavx5y5d3cej836j": {
+		"definition": "missile",
+		"x": -225,
+		"y": 967.0617008926232,
+		"root": false
+	},
+	"a7bc6r79fvazvbjn": {
+		"definition": "alacrity",
+		"x": -350,
+		"y": 1039.2304845413264,
+		"root": false
+	},
+	"voev99ubv8s23kcn": {
+		"definition": "endure",
+		"x": -350,
+		"y": 1154.7005383792516,
+		"root": false
+	},
+	"7mgerodoh7h2346d": {
+		"definition": "endure",
+		"x": -225,
+		"y": 1226.8693220279547,
+		"root": false
+	},
+	"dbbxewr4mjfh40ol": {
+		"definition": "endure",
+		"x": 225,
+		"y": 1226.8693220279547,
+		"root": false
+	},
+	"q7ky9j511a5hfda0": {
+		"definition": "warmblood",
+		"x": 100,
+		"y": 1299.038105676658,
+		"root": false
+	},
+	"zdqivcbxb6ywxkd0": {
+		"definition": "warmblood",
+		"x": -100,
+		"y": 1299.038105676658,
+		"root": false
+	},
+	"d7tpo85zao6s5s0c": {
+		"definition": "stunArmour",
+		"x": 0,
+		"y": 1241.3030787576954,
+		"root": false
+	},
+	"yympvdm7u4g84j3x": {
+		"definition": "aversion",
+		"x": 0,
+		"y": 1152,
+		"root": false
+	},
+	"2zwe12g28ovlskmk": {
+		"definition": "stunArmour",
+		"x": 96,
+		"y": 1056,
+		"root": false
+	},
+	"t6rxmirb7bhlki2v": {
+		"definition": "stunArmour",
+		"x": -96,
+		"y": 1056,
+		"root": false
+	},
+	"pmuifrkf26c77ffq": {
+		"definition": "alpha",
+		"x": 250,
+		"y": -1096.965511460289,
+		"root": false
+	},
+	"ufmhez1as6rylpag": {
+		"definition": "coldblood",
+		"x": 0,
+		"y": -923.7604307034012,
+		"root": false
+	},
+	"w0qxvpvtl4an4pg4": {
+		"definition": "fortitude",
+		"x": 1500,
+		"y": 0,
+		"root": false
+	},
+	"x98j1ecrrcy5h9eu": {
+		"definition": "alpha",
+		"x": -250,
+		"y": 1096.965511460289,
+		"root": false
+	},
+	"t6jsrnf2l8ox2tlp": {
+		"definition": "brilliance",
+		"x": 225,
+		"y": 967.0617008926231,
+		"root": false
+	},
+	"aiwdmiqx28z3ch6g": {
+		"definition": "potent",
+		"x": 350,
+		"y": 1154.7005383792516,
+		"root": false
+	},
+	"5at1xbbfroqqr9lp": {
+		"definition": "warmblood",
+		"x": 0,
+		"y": 896,
+		"root": false
+	},
+	"msisi35hzqtg8207": {
+		"definition": "pierce",
+		"x": -350,
+		"y": 0,
+		"root": false
+	},
+	"qujqr3k8qgzm8gpz": {
+		"definition": "alacrity",
+		"x": -500,
+		"y": 0,
+		"root": false
+	},
+	"l7dalcuihc682p5r": {
+		"definition": "tempo",
+		"x": -650,
+		"y": 0,
+		"root": false
+	},
+	"7jp8an24djogg5x2": {
+		"definition": "agility",
+		"x": -875,
+		"y": -72.16878364870325,
+		"root": false
+	},
+	"123cgpjnhdbz0t8f": {
+		"definition": "pace",
+		"x": -875,
+		"y": 72.16878364870325,
+		"root": false
+	},
+	"6zuibz12pmtepo7i": {
+		"definition": "affliction",
+		"x": -1025,
+		"y": -158.7713240271471,
+		"root": false
+	},
+	"05tr71kp4fxsu3ii": {
+		"definition": "alleviate",
+		"x": -1025,
+		"y": 158.7713240271471,
+		"root": false
+	},
+	"t36pcftj6alva8dq": {
+		"definition": "fortitude",
+		"x": -1150,
+		"y": -230.9401076758503,
+		"root": false
+	},
+	"bkefwj1245sf71vk": {
+		"definition": "protected",
+		"x": -1150,
+		"y": 230.9401076758503,
+		"root": false
+	},
+	"5ql1qvxsm6xtblu5": {
+		"definition": "alleviate",
+		"x": -1400,
+		"y": 259.8076211353316,
+		"root": false
+	},
+	"9xuslblhv3jgvt6b": {
+		"definition": "pace",
+		"x": -1400,
+		"y": -259.8076211353315,
+		"root": false
+	},
+	"8jy4rc2hl5dw3kcs": {
+		"definition": "aversion",
+		"x": -1300,
+		"y": 57.73502691896249,
+		"root": false
+	},
+	"geqmc7pkc9fmjzy7": {
+		"definition": "alacrity",
+		"x": -1300,
+		"y": -28.8675134594813,
+		"root": false
+	},
+	"x018iiselchifm5s": {
+		"definition": "hops",
+		"x": -1225,
+		"y": -101.0362971081845,
+		"root": false
+	},
+	"pbi5hd4zo274ew9a": {
+		"definition": "warmblood",
+		"x": -1225,
+		"y": 129.9038105676658,
+		"root": false
+	},
+	"r9i17uy85e90rgoo": {
+		"definition": "stunArmour",
+		"x": -1500,
+		"y": 0,
+		"root": false
+	},
+	"anmz2be6jlzu2y1t": {
+		"definition": "stremtch",
+		"x": -1024,
+		"y": -992,
+		"root": false
+	},
+	"wyaofhcfyprk95c6": {
+		"definition": "stremtch",
+		"x": 1056,
+		"y": -960,
+		"root": false
+	},
+	"sz9xlwrts6k1xilk": {
+		"definition": "stunArmour",
+		"x": 1025,
+		"y": 938.1941874331419,
+		"root": false
+	},
+	"00pn6xgh17ymjfkq": {
+		"definition": "stunArmour",
+		"x": -1025,
+		"y": 938.1941874331418,
+		"root": false
+	},
+	"md0uuzijoad4knp6": {
+		"definition": "mischievous",
+		"x": 1152,
+		"y": -864,
+		"root": false
+	},
+	"zynqupsykm63obiq": {
+		"definition": "missile",
+		"x": 925,
+		"y": -995.9292143521044,
+		"root": false
+	},
+	"b806we6l64dsj7nm": {
+		"definition": "whimsical",
+		"x": 1125,
+		"y": 880.4591605141793,
+		"root": false
+	},
+	"6bdann3krz59fjs7": {
+		"definition": "aquanaut",
+		"x": 925,
+		"y": 995.9292143521044,
+		"root": false
+	},
+	"w2p67set9t4yyizo": {
+		"definition": "hasten",
+		"x": -925,
+		"y": 995.9292143521044,
+		"root": false
+	},
+	"6chcdz52h2xg9taw": {
+		"definition": "endure",
+		"x": -1125,
+		"y": 880.4591605141792,
+		"root": false
+	},
+	"8fqmtw9bv0zhczjz": {
+		"definition": "alpha",
+		"x": -896,
+		"y": -1024,
+		"root": false
+	},
+	"eh2liykl1gvsqfpw": {
+		"definition": "alpha",
+		"x": -1120,
+		"y": -928,
+		"root": false
+	},
+	"miw2v2h110mlntbu": {
+		"definition": "coldblood",
+		"x": 1250,
+		"y": 721.6878364870322,
+		"root": false
+	},
+	"1f6fkxr8r8qd1w77": {
+		"definition": "warmblood",
+		"x": -1280,
+		"y": 672,
+		"root": false
+	},
+	"kez2u08pxpp27mkb": {
+		"definition": "warmblood",
+		"x": 1312,
+		"y": -608,
+		"root": false
+	},
+	"2yctxqdv1rzjiu7h": {
+		"definition": "potent",
+		"x": 1248,
+		"y": -736,
+		"root": false
+	},
+	"30xj741xdejqsrzg": {
+		"definition": "potent",
+		"x": 1216,
+		"y": 800,
+		"root": false
+	},
+	"jn4ar82i3xh8re2j": {
+		"definition": "pierce",
+		"x": -1216,
+		"y": 800,
+		"root": false
+	},
+	"3ohm524kmt1ipaeh": {
+		"definition": "aquanaut",
+		"x": -1325,
+		"y": 562.9165124598851,
+		"root": false
+	},
+	"ss3vbh3gpfavmwua": {
+		"definition": "hops",
+		"x": -1216,
+		"y": -832,
+		"root": false
+	},
+	"ge9h5lba4j2ic79p": {
+		"definition": "coldblood",
+		"x": -1280,
+		"y": -736,
+		"root": false
+	},
+	"i6zxm34xci5khavl": {
+		"definition": "aquanaut",
+		"x": -1376,
+		"y": -448,
+		"root": false
+	},
+	"31u437x2urs7hz4y": {
+		"definition": "fortitude",
+		"x": 1376,
+		"y": -448,
+		"root": false
+	},
+	"hcrd4wzqqlxfholz": {
+		"definition": "alacrity",
+		"x": -725,
+		"y": 1024.7967278115857,
+		"root": false
+	},
+	"d0i2bwu0pz2w0e99": {
+		"definition": "tempo",
+		"x": -550,
+		"y": 1039.2304845413264,
+		"root": false
+	},
+	"7sgnfua9l9ukbczr": {
+		"definition": "brilliance",
+		"x": 725,
+		"y": 1024.7967278115857,
+		"root": false
+	},
+	"fwvfa3t214u5nnxw": {
+		"definition": "ardent",
+		"x": 550,
+		"y": 1039.2304845413264,
+		"root": false
+	},
+	"djhbubwrbcjf0p1x": {
+		"definition": "ardent",
+		"x": 1325,
+		"y": 562.9165124598851,
+		"root": false
+	},
+	"d9m9bvn7gwv0pgmq": {
+		"definition": "missile",
+		"x": -544,
+		"y": -1088,
+		"root": false
+	},
+	"el6rab9gxx1rjpj7": {
+		"definition": "infliction",
+		"x": 550,
+		"y": -1039.2304845413264,
+		"root": false
+	},
+	"1aj0zaeyn9tnc6eb": {
+		"definition": "agility",
+		"x": -704,
+		"y": -1056,
+		"root": false
+	},
+	"2qwweq4h13x5cf8o": {
+		"definition": "agility",
+		"x": 725,
+		"y": -1024.7967278115857,
+		"root": false
+	},
+	"665ic991bfya5ha9": {
+		"definition": "impact",
+		"x": -600,
+		"y": -925,
+		"root": true
+	},
+	"y3diljcmw1dwr37h": {
+		"definition": "agility",
+		"x": -1000,
+		"y": -550,
+		"root": true
+	},
+	"4r24t60jokuav7wj": {
+		"definition": "ardent",
+		"x": 600,
+		"y": -925,
+		"root": true
+	},
+	"q5vm3xii7bl7ldba": {
+		"definition": "hasten",
+		"x": 1000,
+		"y": -550,
+		"root": true
+	},
+	"15fdqrw0zxp6jtbf": {
+		"definition": "alleviate",
+		"x": -600,
+		"y": 925,
+		"root": true
+	},
+	"78rwy40ne4i4924m": {
+		"definition": "potent",
+		"x": 640,
+		"y": 928,
+		"root": true
+	},
+	"3me79e1f1kkxc9ts": {
+		"definition": "attuned",
+		"x": 1024,
+		"y": 576,
+		"root": true
+	},
+	"w4yyv5istbu67zwh": {
+		"definition": "missile",
+		"x": -1000,
+		"y": 550,
+		"root": true
+	},
+	"4m89ok11g6fxxuwb": {
+		"definition": "darkling",
+		"x": 250,
+		"y": 1096.965511460289,
+		"root": false
+	},
+	"1kuevkmtgfhb7zkm": {
+		"definition": "darkling",
+		"x": -250,
+		"y": -1096.965511460289,
+		"root": false
+	},
+	"01ghtkfsiy0xnmr3": {
+		"definition": "darkling",
+		"x": -725,
+		"y": -600,
+		"root": true
+	},
+	"9zsvjnhqowjcrkit": {
+		"definition": "darkling",
+		"x": 725,
+		"y": -600,
+		"root": true
+	},
+	"chiibj7wtj76yfnm": {
+		"definition": "darkling",
+		"x": -725,
+		"y": 600,
+		"root": true
+	},
+	"m8o87psdt4iow05p": {
+		"definition": "darkling",
+		"x": 725,
+		"y": 600,
+		"root": true
+	},
+	"qfzyzgocs4jfybkl": {
+		"definition": "alpha",
+		"x": 600,
+		"y": 725,
+		"root": true
+	},
+	"dpfiod98d802gqra": {
+		"definition": "alpha",
+		"x": -600,
+		"y": 725,
+		"root": true
+	},
+	"3n54q46fmuslljx0": {
+		"definition": "alpha",
+		"x": -600,
+		"y": -725,
+		"root": true
+	},
+	"816p4jusc3kl07kd": {
+		"definition": "alpha",
+		"x": 600,
+		"y": -725,
+		"root": true
+	},
+	"d7tcnkriyfyxy208": {
+		"definition": "arcane",
+		"x": 1250,
+		"y": 0,
+		"root": false
+	},
+	"c5fh2bg45kn54639": {
+		"definition": "ruined",
+		"x": 0,
+		"y": -837.1578903249573,
+		"root": false
+	},
+	"ed9q5myyuiwf1uae": {
+		"definition": "grandmaster",
+		"x": -150,
+		"y": -1154.7005383792514,
+		"root": false
+	},
+	"teujqrqg81nmtulb": {
+		"definition": "tormented",
+		"x": 150,
+		"y": -1154.7005383792516,
+		"root": false
+	},
+	"55lad33tq5qvbenm": {
+		"definition": "guardian",
+		"x": 0,
+		"y": 837.1578903249573,
+		"root": false
+	},
+	"alm8bhqtypr8u5b8": {
+		"definition": "infliction",
+		"x": 800,
+		"y": 0,
+		"root": false
+	},
+	"b07ntuymjyr5l43l": {
+		"definition": "daring",
+		"x": 1150,
+		"y": 0,
+		"root": false
+	},
+	"xcwe8jndx9za8m9b": {
+		"definition": "agility",
+		"x": 950,
+		"y": 0,
+		"root": false
+	},
+	"6dwxq6gkgmgqs2e3": {
+		"definition": "infliction",
+		"x": 1050,
+		"y": 0,
+		"root": false
+	},
+	"3pvmme42yp7zz14x": {
+		"definition": "pierce",
+		"x": -800,
+		"y": 0,
+		"root": false
+	},
+	"j593k00nwvk4ewta": {
+		"definition": "pierce",
+		"x": -950,
+		"y": 0,
+		"root": false
+	},
+	"1ll7t3xvzfsq7g7n": {
+		"definition": "pierce",
+		"x": -1050,
+		"y": 0,
+		"root": false
+	},
+	"31tx78d16ihb1jwh": {
+		"definition": "dualist",
+		"x": -1150,
+		"y": 0,
+		"root": false
+	},
+	"qlvvdrwykmcq7gme": {
+		"definition": "alacrity",
+		"x": -900,
+		"y": 0,
+		"root": false
+	},
+	"wfnex0j65txfaom3": {
+		"definition": "aversion",
+		"x": 0,
+		"y": -779.4228634059948,
+		"root": false
+	},
+	"4hgq8456fj3aw5mu": {
+		"definition": "delay",
+		"x": 50,
+		"y": -923.7604307034012,
+		"root": false
+	},
+	"iqleuilgxl5fpdud": {
+		"definition": "daring",
+		"x": 200,
+		"y": -1039.2304845413264,
+		"root": false
+	},
+	"psi7wa1d9f3mgjwu": {
+		"definition": "alleviate",
+		"x": -50,
+		"y": -923.7604307034012,
+		"root": false
+	},
+	"xv92ixe9nmww53q6": {
+		"definition": "fortified",
+		"x": -200,
+		"y": -1039.2304845413264,
+		"root": false
+	},
+	"sm5tdjffiwqh3b5l": {
+		"definition": "demonic",
+		"x": -200,
+		"y": -202.072594216369,
+		"root": false
+	},
+	"afmygt5y3qlv27m7": {
+		"definition": "agony",
+		"x": 200,
+		"y": -200,
+		"root": false
+	},
+	"mj01d22tpns5pxw4": {
+		"definition": "innovative",
+		"x": -950,
+		"y": 325,
+		"root": true
+	},
+	"klgs7dbiqf6vqch3": {
+		"definition": "ringbearer",
+		"x": -950,
+		"y": -325,
+		"root": true
+	},
+	"ycob07rd91tf2k2z": {
+		"definition": "wristlet",
+		"x": 950,
+		"y": -325,
+		"root": true
+	},
+	"k9bb93dcouxhwrx7": {
+		"definition": "ornament",
+		"x": 950,
+		"y": 325,
+		"root": true
+	},
+	"63dw48tn4a9a1fsv": {
+		"definition": "gloves",
+		"x": 320,
+		"y": -896,
+		"root": true
+	},
+	"om910n5ve3rzcisb": {
+		"definition": "bundle",
+		"x": 320,
+		"y": 896,
+		"root": true
+	},
+	"yhj337cgrjo0sh0x": {
+		"definition": "sash",
+		"x": -320,
+		"y": 896,
+		"root": true
+	},
+	"cif18ye0wfh9ye4f": {
+		"definition": "locket",
+		"x": 925,
+		"y": -850,
+		"root": true
+	},
+	"qbhker1smj6mxi1n": {
+		"definition": "wristlet",
+		"x": -925,
+		"y": -850,
+		"root": true
+	},
+	"0zn5ft3aocuq5bry": {
+		"definition": "ringbearer",
+		"x": -320,
+		"y": -896,
+		"root": true
+	},
+	"9atxc3c91bz3k8or": {
+		"definition": "potent",
+		"x": 1696,
+		"y": 32,
+		"root": false
+	},
+	"me0ql621gwnho0ae": {
+		"definition": "attuned",
+		"x": 1824,
+		"y": 64,
+		"root": false
+	},
+	"msc7lrlaximmpq2t": {
+		"definition": "potent",
+		"x": 2048,
+		"y": 64,
+		"root": false
+	},
+	"vv74pl1e6413f6tj": {
+		"definition": "potent",
+		"x": 2176,
+		"y": 64,
+		"root": false
+	},
+	"7c7ctawctozomw5f": {
+		"definition": "ardent",
+		"x": 2272,
+		"y": 32,
+		"root": false
+	},
+	"k10grdc0f4oa6vcd": {
+		"definition": "potent",
+		"x": 2112,
+		"y": -32,
+		"root": false
+	},
+	"3p9spkmnyf7976qh": {
+		"definition": "brilliance",
+		"x": 2048,
+		"y": -64,
+		"root": false
+	},
+	"vlleoi2obw6ko6yb": {
+		"definition": "attuned",
+		"x": 2048,
+		"y": -160,
+		"root": false
+	},
+	"w5c1pm4dbdu1fth6": {
+		"definition": "potent",
+		"x": 2112,
+		"y": -224,
+		"root": false
+	},
+	"3i90u05z0c2an0zm": {
+		"definition": "ardent",
+		"x": 2048,
+		"y": -320,
+		"root": false
+	},
+	"vh13epc36b3uv2v1": {
+		"definition": "potent",
+		"x": 1952,
+		"y": -288,
+		"root": false
+	},
+	"u6nb40gefkwzxy3c": {
+		"definition": "attuned",
+		"x": 1824,
+		"y": -192,
+		"root": false
+	},
+	"27ja942sqmil50xg": {
+		"definition": "brilliance",
+		"x": 1760,
+		"y": -96,
+		"root": false
+	},
+	"2kknpwl64e6bqwqq": {
+		"definition": "delicate",
+		"x": 1920,
+		"y": -64,
+		"root": false
+	},
+	"ex7w9sqmnebx5e5v": {
+		"definition": "potent",
+		"x": 2144,
+		"y": -320,
+		"root": false
+	},
+	"x5g5o8rx6es67dnx": {
+		"definition": "infliction",
+		"x": 64,
+		"y": -1504,
+		"root": false
+	},
+	"1qiytilm64k11uh8": {
+		"definition": "affliction",
+		"x": -64,
+		"y": -1504,
+		"root": false
+	},
+	"zmmaasrcpsoxcmn5": {
+		"definition": "affliction",
+		"x": -64,
+		"y": -1664,
+		"root": false
+	},
+	"qtawy43z29o1vull": {
+		"definition": "infliction",
+		"x": 64,
+		"y": -1664,
+		"root": false
+	},
+	"rs81av1fcef9wy0x": {
+		"definition": "prestiege_hearty",
+		"x": 0,
+		"y": 1472,
+		"root": false
+	},
+	"t1fy1fqmwg5q1at0": {
+		"definition": "fortitude",
+		"x": 96,
+		"y": 1376,
+		"root": false
+	},
+	"68na8c02hi1nter6": {
+		"definition": "fortitude",
+		"x": 256,
+		"y": 1376,
+		"root": false
+	},
+	"jgarrg4ihhgzv8ig": {
+		"definition": "fortitude",
+		"x": -256,
+		"y": 1376,
+		"root": false
+	},
+	"yosy1bxv7cofmm7n": {
+		"definition": "fortitude",
+		"x": -96,
+		"y": 1376,
+		"root": false
+	},
+	"2dlvqre91xerbwon": {
+		"definition": "fortitude",
+		"x": -352,
+		"y": 1472,
+		"root": false
+	},
+	"1su36glrdyj6vfg4": {
+		"definition": "fortitude",
+		"x": 352,
+		"y": 1472,
+		"root": false
+	},
+	"4akhmvo6lp0x4k1k": {
+		"definition": "fortified",
+		"x": 352,
+		"y": 1600,
+		"root": false
+	},
+	"2z5w8rsos2vs90b9": {
+		"definition": "fortified",
+		"x": -352,
+		"y": 1600,
+		"root": false
+	},
+	"zjfejrxik0pqelyd": {
+		"definition": "fortified",
+		"x": 0,
+		"y": 1888,
+		"root": false
+	},
+	"wpuznawrg0uyiocc": {
+		"definition": "fortified",
+		"x": -256,
+		"y": 1728,
+		"root": false
+	},
+	"g70jpwgqp9gq5but": {
+		"definition": "fortified",
+		"x": 256,
+		"y": 1728,
+		"root": false
+	},
+	"5qajmxsnsiwjt3cv": {
+		"definition": "pierce",
+		"x": -1856,
+		"y": 0,
+		"root": false
+	},
+	"1rxihzdxjemfar6v": {
+		"definition": "pierce",
+		"x": -1792,
+		"y": -64,
+		"root": false
+	},
+	"46fh27l76z8typll": {
+		"definition": "prestiege_archer",
+		"x": -1632,
+		"y": 0,
+		"root": false
+	},
+	"xxw9vc7p1tk20an3": {
+		"definition": "missile",
+		"x": -2176,
+		"y": 0,
+		"root": false
+	},
+	"78yp8kvdseb4y1qv": {
+		"definition": "tempo",
+		"x": -2080,
+		"y": 0,
+		"root": false
+	},
+	"mygmidcazbqxkqck": {
+		"definition": "missile",
+		"x": -2144,
+		"y": -96,
+		"root": false
+	},
+	"n6d2a7a78pwndhyr": {
+		"definition": "missile",
+		"x": -2144,
+		"y": 96,
+		"root": false
+	},
+	"s90cotvd5trs2jur": {
+		"definition": "missile",
+		"x": -2368,
+		"y": 0,
+		"root": false
+	},
+	"dtq7dweqo2jaoa12": {
+		"definition": "prestiege_swordsman",
+		"x": 0,
+		"y": -1376,
+		"root": false
+	},
+	"q0e5q4gvz8ehldsy": {
+		"definition": "affliction",
+		"x": -64,
+		"y": -1856,
+		"root": false
+	},
+	"oofloqgcuw3zccph": {
+		"definition": "infliction",
+		"x": 64,
+		"y": -1856,
+		"root": false
+	},
+	"y6vr0wwx61ahdy2a": {
+		"definition": "affliction",
+		"x": -256,
+		"y": -1888,
+		"root": false
+	},
+	"0t2gyh1am5z9rpdg": {
+		"definition": "infliction",
+		"x": 256,
+		"y": -1888,
+		"root": false
+	},
+	"aa97o1fwy4wjm9it": {
+		"definition": "agility",
+		"x": 0,
+		"y": -1952,
+		"root": false
+	},
+	"9p8fbdul0dpagegp": {
+		"definition": "agility",
+		"x": 0,
+		"y": -2080,
+		"root": false
+	},
+	"ux0r05oqk8pxt5j9": {
+		"definition": "agility",
+		"x": 0,
+		"y": -2144,
+		"root": false
+	},
+	"6igwntiwagop2tk5": {
+		"definition": "repulse",
+		"x": 0,
+		"y": -2208,
+		"root": false
+	},
+	"zq49urw863jgyl94": {
+		"definition": "repulse",
+		"x": -32,
+		"y": -2176,
+		"root": false
+	},
+	"dxv1970qrt2n3hpm": {
+		"definition": "repulse",
+		"x": 32,
+		"y": -2176,
+		"root": false
+	},
+	"avphnhdnhbut47yz": {
+		"definition": "pierce",
+		"x": -1600,
+		"y": -64,
+		"root": false
+	},
+	"89vuhxglht9lmmob": {
+		"definition": "pierce",
+		"x": -1792,
+		"y": 64,
+		"root": false
+	},
+	"dwnie1dd0nb6cqy0": {
+		"definition": "pierce",
+		"x": -1600,
+		"y": 64,
+		"root": false
+	},
+	"2p02rmekzxar6est": {
+		"definition": "prestiege_magic",
+		"x": 1600,
+		"y": 0,
+		"root": false
+	},
+	"2dqu5bpcp7qagi3s": {
+		"definition": "fortitude",
+		"x": -128,
+		"y": 1824,
+		"root": false
+	},
+	"73qo8iogd996y5se": {
+		"definition": "fortitude",
+		"x": 128,
+		"y": 1824,
+		"root": false
+	},
+	"e0jsoa8g8lpk6vz4": {
+		"definition": "brilliance",
+		"x": 2272,
+		"y": -256,
+		"root": false
+	},
+	"x5cb2qyzsh6us8ic": {
+		"definition": "pierce",
+		"x": -1696,
+		"y": -64,
+		"root": false
+	},
+	"uezjl6px155vnyud": {
+		"definition": "pierce",
+		"x": -1696,
+		"y": 64,
+		"root": false
+	},
+	"39sz6frmilefuofh": {
+		"definition": "tempo",
+		"x": -1952,
+		"y": 0,
+		"root": false
+	},
+	"dwosuvjftdum2y7y": {
+		"definition": "daring",
+		"x": 1408,
+		"y": -1152,
+		"root": true
+	},
+	"5nxbp01n4aevlpbh": {
+		"definition": "daring",
+		"x": 1504,
+		"y": -992,
+		"root": false
+	},
+	"am42g6frhx88lwcc": {
+		"definition": "daring",
+		"x": 1312,
+		"y": -992,
+		"root": false
+	},
+	"y76m2a62fiucmw3h": {
+		"definition": "delicate",
+		"x": 1504,
+		"y": -1120,
+		"root": false
+	},
+	"8qv3yhvuragta6oi": {
+		"definition": "delicate",
+		"x": 1312,
+		"y": -1120,
+		"root": false
+	},
+	"e77jjveq16xz1oat": {
+		"definition": "delicate",
+		"x": 1408,
+		"y": -960,
+		"root": false
+	},
+	"p3de03p9a4gyuq4y": {
+		"definition": "slug",
+		"x": -1472,
+		"y": -1056,
+		"root": true
+	},
+	"qa6y55sxuinqc39b": {
+		"definition": "slug",
+		"x": -1376,
+		"y": -1088,
+		"root": false
+	},
+	"7ee0m6n0zs95lxef": {
+		"definition": "slug",
+		"x": -1408,
+		"y": -1184,
+		"root": false
+	},
+	"7l6ibyitze0x9r1x": {
+		"definition": "slug",
+		"x": -1536,
+		"y": -1216,
+		"root": false
+	},
+	"j6d4uyiq593ei9cw": {
+		"definition": "slug",
+		"x": -1600,
+		"y": -1088,
+		"root": false
+	},
+	"fia62ee3urk9n5lx": {
+		"definition": "affliction",
+		"x": -1568,
+		"y": -992,
+		"root": false
+	},
+	"ri14v0hljxnffjd4": {
+		"definition": "affliction",
+		"x": -1344,
+		"y": -992,
+		"root": false
+	},
+	"pygz12lqyz9qclbb": {
+		"definition": "missile",
+		"x": -1440,
+		"y": -960,
+		"root": false
+	},
+	"t8lzmtxj0iyq13z9": {
+		"definition": "missile",
+		"x": -1312,
+		"y": -1088,
+		"root": false
+	},
+	"eea6gatihf8zff0q": {
+		"definition": "affliction",
+		"x": -1280,
+		"y": -1184,
+		"root": false
+	},
+	"a0cdz2xyx24eyap5": {
+		"definition": "missile",
+		"x": -1280,
+		"y": -1280,
+		"root": false
+	},
+	"kcatwvtgek6co85f": {
+		"definition": "affliction",
+		"x": -1344,
+		"y": -1248,
+		"root": false
+	},
+	"htrfs15ry90kvhlw": {
+		"definition": "impaired",
+		"x": 1408,
+		"y": 896,
+		"root": true
+	},
+	"vc0e6bwnsl9v5p2c": {
+		"definition": "attuned",
+		"x": 1312,
+		"y": 960,
+		"root": false
+	},
+	"aa77bsrvz1m4doj0": {
+		"definition": "attuned",
+		"x": 1408,
+		"y": 800,
+		"root": false
+	},
+	"em14eqe7kmqnuhoy": {
+		"definition": "impaired",
+		"x": -1664,
+		"y": 800,
+		"root": true
+	},
+	"usa3ujcoret5dktz": {
+		"definition": "hops",
+		"x": -1728,
+		"y": 704,
+		"root": false
+	},
+	"b8j0b0ogjlgygjg3": {
+		"definition": "hops",
+		"x": -1664,
+		"y": 640,
+		"root": false
+	},
+	"yggie5gy87ww5z37": {
+		"definition": "hops",
+		"x": -1600,
+		"y": 704,
+		"root": false
+	},
+	"uhjw75j2vx7wh4iw": {
+		"definition": "aquanaut",
+		"x": -1664,
+		"y": 960,
+		"root": false
+	},
+	"cc4d6lfmaj8lwf8p": {
+		"definition": "aquanaut",
+		"x": -1728,
+		"y": 896,
+		"root": false
+	},
+	"oybjn61x1mfzkxgz": {
+		"definition": "aquanaut",
+		"x": -1600,
+		"y": 896,
+		"root": false
+	},
+	"11i9320zf6mqjteo": {
+		"definition": "delay",
+		"x": -1664,
+		"y": 736,
+		"root": false
+	},
+	"kei1rijpf00tpnvw": {
+		"definition": "delay",
+		"x": -1664,
+		"y": 864,
+		"root": false
+	},
+	"7ihglpcgz401vmde": {
+		"definition": "excavator",
+		"x": -1568,
+		"y": 800,
+		"root": false
+	},
+	"g12gohrr9cp969oe": {
+		"definition": "excavator",
+		"x": -1760,
+		"y": 800,
+		"root": false
+	},
+	"ugnzuy7vvi41isgr": {
+		"definition": "potent",
+		"x": 1408,
+		"y": -1056,
+		"root": false
+	},
+	"awv45i2msvm436sb": {
+		"definition": "brooch",
+		"x": -928,
+		"y": 736,
+		"root": true
+	},
+	"2o4b217anlut6c3j": {
+		"definition": "impact_guard",
+		"x": -672,
+		"y": 1440,
+		"root": true
+	},
+	"b81j4u03koya0uw5": {
+		"definition": "Parry",
+		"x": -1184,
+		"y": 1216,
+		"root": true
+	},
+	"xu58eyyu9kojkis8": {
+		"definition": "precise_roll",
+		"x": -1632,
+		"y": 320,
+		"root": true
+	},
+	"b6ua805iuet6g0s4": {
+		"definition": "dodge_master",
+		"x": -1600,
+		"y": -448,
+		"root": true
+	},
+	"ugeeymgsiemx2aub": {
+		"definition": "punishment_kick",
+		"x": -864,
+		"y": -1216,
+		"root": true
+	},
+	"conx0ge6tm29q9j4": {
+		"definition": "mindset",
+		"x": 736,
+		"y": -1216,
+		"root": true
+	},
+	"seizjd9cjdprhv1z": {
+		"definition": "critical_knowledge",
+		"x": 1568,
+		"y": -576,
+		"root": true
+	},
+	"o1xplogjkiynxpmv": {
+		"definition": "aqua_maneuver",
+		"x": 1664,
+		"y": 256,
+		"root": true
+	},
+	"h4u005ri8n2o8b5b": {
+		"definition": "technician",
+		"x": 1536,
+		"y": 736,
+		"root": true
+	},
+	"y5s1v6zci7apge9o": {
+		"definition": "vampirize",
+		"x": 1184,
+		"y": 1152,
+		"root": true
+	},
+	"uav41urdi53v1lvm": {
+		"definition": "meteor_slam",
+		"x": 608,
+		"y": 1376,
+		"root": true
+	},
+	"whv0amrwsw6eaxcr": {
+		"definition": "spider_techniques",
+		"x": -1504,
+		"y": -800,
+		"root": true
+	},
+	"u81npjcsoqu4116y": {
+		"definition": "wardrobe",
+		"x": 896,
+		"y": 768,
+		"root": true
+	},
+	"omfti0cisi1hhhkl": {
+		"definition": "attuned",
+		"x": 1472,
+		"y": 800,
+		"root": false
+	},
+	"maghqo7a0cfldjeb": {
+		"definition": "attuned",
+		"x": 1504,
+		"y": 1024,
+		"root": false
+	},
+	"gdo537cf4r9jsa4q": {
+		"definition": "attuned",
+		"x": 1248,
+		"y": 960,
+		"root": false
+	},
+	"c0byvd4jblgzzmyd": {
+		"definition": "attuned",
+		"x": 1504,
+		"y": 960,
+		"root": false
+	},
+	"t6eg75qqmok7hd6r": {
+		"definition": "missile",
+		"x": -1344,
+		"y": -1376,
+		"root": false
+	},
+	"r3gwyulvojb1ols1": {
+		"definition": "affliction",
+		"x": -1440,
+		"y": -1312,
+		"root": false
+	},
+	"lymvr4izeq2yqe17": {
+		"definition": "endure",
+		"x": -1536,
+		"y": 800,
+		"root": false
+	},
+	"66uk16bjtr6c3x7t": {
+		"definition": "endure",
+		"x": -1792,
+		"y": 800,
+		"root": false
+	},
+	"0cukun21wf3kjrc6": {
+		"definition": "attuned",
+		"x": 1920,
+		"y": 64,
+		"root": false
+	},
+	"gaib611jtea22zeb": {
+		"definition": "attuned",
+		"x": 1888,
+		"y": -256,
+		"root": false
+	},
+	"fgel02q564hbidd1": {
+		"definition": "attuned",
+		"x": 2176,
+		"y": 0,
+		"root": false
+	},
+	"9cnt0c8yppc7mdze": {
+		"definition": "attuned",
+		"x": 2208,
+		"y": -256,
+		"root": false
+	},
+	"hl93xpodewoz65q7": {
+		"definition": "attuned",
+		"x": 2208,
+		"y": -288,
+		"root": false
+	},
+	"zp4fduij75ezc0v1": {
+		"definition": "ardent",
+		"x": 1664,
+		"y": -32,
+		"root": false
+	}
+}

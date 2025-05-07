@@ -1,0 +1,14 @@
+[
+	"minecraft:zombie-35-0-20",
+	"minecraft:zombie_villager-1-0-20",
+	"minecraft:zombie_horse-3-20-40",
+	"minecraft:husk-40-20-40",
+	"minecraft:zoglin-3-40-40",
+	"minecraft:zombified_piglin-10-40-0",
+	"minecraft:husk-25-50-0",
+	"minecraft:zoglin{Passengers:[{id:drowned,HandItems:[{id:trident,Count:1}]}]}-3-50-0",
+	"minecraft:zombie_horse{Passengers:[{id:drowned,HandItems:[{id:trident,Count:1}]}]}-3-50-0",
+	"mutantmonsters:mutant_zombie-1-100-0",
+	"born_in_chaos_v1:zombie_bruiser-3-75-0",
+	"born_in_chaos_v1:barrel_zombie-10-75-0"
+]
