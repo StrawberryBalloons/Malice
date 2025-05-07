@@ -31,6 +31,24 @@
 			{
 				"type": "puffish_skills:command",
 				"data": {
+					"command": "curios drop @s brooch"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios drop @s belt"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "curios drop @s charm"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
 					"command": "puffish_skills skills reset @s skills"
 				}
 			},
