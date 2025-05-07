@@ -17,10 +17,7 @@ import mods.jeitweaker.Jei;
 /////// Recipe Removal ///////
 // Remove recipes for specific items with NBT data
 
-recipes.remove(<item:born_in_chaos_v1:nut_hammer>);
-
-recipes.remove(<item:terramity:black_hole_bomb>);
-recipes.remove(<item:terramity:macro_black_hole_bomb>);
+recipes.remove(<item:terramity:chthonic_curse_bracelets>);
 
 recipes.remove(<item:botania:world_seed>);
 recipes.remove(<item:waystones:warp_stone>);
