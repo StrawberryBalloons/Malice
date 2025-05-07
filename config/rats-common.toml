@@ -8,7 +8,7 @@
 	#Range: 0.0 ~ 1.0
 	"Garbage Pile Spawn Chance" = 0.15000000596046448
 	#True if rats should spawn like monsters, meaning they will also despawn when get far away (this only applies to wild rats of course). False if they should only spawn once per world, like pigs and sheep.
-	"Rats Spawn Like Monsters" = false
+	"Rats Spawn Like Monsters" = true
 	#A separate random roll that only spawns rats if a one-out-of-X chance, x being this number. raise this number to make them more rare.
 	#Range: > 0
 	"Rat Spawn Decrease" = 5
