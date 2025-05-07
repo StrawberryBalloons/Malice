@@ -390,11 +390,6 @@ AttributeModifier.create("Starbuncle Thread", -0.2, AttributeOperation.MULTIPLY_
 <item:traveloptics:cursed_wraithguard_spectral_wrapping>.anyDamage().addGlobalAttributeModifier(<attribute:ars_nouveau:ars_nouveau.perk.max_mana>, "Reduce Max Mana", -75, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
 <item:traveloptics:cursed_wraithguard_boots>.anyDamage().addGlobalAttributeModifier(<attribute:ars_nouveau:ars_nouveau.perk.max_mana>, "Reduce Max Mana", -75, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
 
-<item:traveloptics:cursed_wraithblade>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "Extra Power", -7, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:traveloptics:cursed_wraithblade_level_one>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "Extra Power", -7, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:traveloptics:cursed_wraithblade_level_two>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "Extra Power", -7, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:traveloptics:cursed_wraithblade_level_three>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "Extra Power", -7, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-
 // Primordial Crest Armor
 <item:traveloptics:primordial_crest_armor_boots>.anyDamage().addGlobalAttributeModifier(<attribute:ars_nouveau:ars_nouveau.perk.max_mana>, "Reduce Max Mana", -75, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
 <item:traveloptics:primordial_crest_armor_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:ars_nouveau:ars_nouveau.perk.max_mana>, "Reduce Max Mana", -75, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
