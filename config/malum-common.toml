@@ -10,12 +10,12 @@
 		[spirit.affinity.soul_ward]
 			#Multiplier for physical damage taken while soul ward is active.
 			#Range: 0.0 ~ 1.0
-			soulWardPhysical = 0.6
+			soulWardPhysical = 0.9
 			#Multiplier for magic damage taken while soul ward is active.
 			#Range: 0.0 ~ 1.0
-			soulWardMagic = 0.1
+			soulWardMagic = 0.3
 			#Base time in ticks it takes for one point of soul ward to recover.
-			soulWardRate = 50
+			soulWardRate = 25
 
 	[spirit.spawner]
 		#If set to true, mob spawners will create soulless mobs instead.
