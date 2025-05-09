@@ -197,6 +197,14 @@ craftingTable.addShapeless("cracked_microcosm_custom", <item:terramity:cracked_m
     <item:terramity:empty_essence>
 ]);
 
+craftingTable.addShapeless("ancient_metal_from_ore", <item:atlantis:raw_ancient_metal_ingot>, [
+    <item:atlantis:ancient_metal_ore>
+]);
+
+craftingTable.addShapeless("ancient_metal_from_deepslate_ore", <item:atlantis:raw_ancient_metal_ingot>, [
+    <item:atlantis:deepslate_ancient_metal_ore>
+]);
+
 
 
 // Hide removed recipes
