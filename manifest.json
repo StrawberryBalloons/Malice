@@ -42,7 +42,7 @@
     {
       "projectID": 431430,
       "fileID": 4731559,
-      "required": false
+      "required": true
     },
     {
       "projectID": 288885,
@@ -152,7 +152,7 @@
     {
       "projectID": 868530,
       "fileID": 5039654,
-      "required": false
+      "required": true
     },
     {
       "projectID": 55438,
@@ -232,7 +232,7 @@
     {
       "projectID": 854213,
       "fileID": 5724977,
-      "required": false
+      "required": true
     },
     {
       "projectID": 410811,
@@ -427,7 +427,7 @@
     {
       "projectID": 551520,
       "fileID": 5723247,
-      "required": false
+      "required": true
     },
     {
       "projectID": 580129,
@@ -502,7 +502,7 @@
     {
       "projectID": 367706,
       "fileID": 5823943,
-      "required": false
+      "required": true
     },
     {
       "projectID": 377798,
@@ -527,7 +527,7 @@
     {
       "projectID": 429235,
       "fileID": 4810975,
-      "required": false
+      "required": true
     },
     {
       "projectID": 536660,
@@ -542,7 +542,7 @@
     {
       "projectID": 235670,
       "fileID": 4805323,
-      "required": false
+      "required": true
     },
     {
       "projectID": 835091,
@@ -697,7 +697,7 @@
     {
       "projectID": 250398,
       "fileID": 4646682,
-      "required": false
+      "required": true
     },
     {
       "projectID": 615352,
@@ -1077,7 +1077,7 @@
     {
       "projectID": 60089,
       "fileID": 5338457,
-      "required": false
+      "required": true
     },
     {
       "projectID": 631401,
@@ -1157,7 +1157,7 @@
     {
       "projectID": 630620,
       "fileID": 4706149,
-      "required": false
+      "required": true
     },
     {
       "projectID": 676639,
@@ -1182,7 +1182,7 @@
     {
       "projectID": 511770,
       "fileID": 5796441,
-      "required": false
+      "required": true
     },
     {
       "projectID": 372534,
@@ -1202,7 +1202,7 @@
     {
       "projectID": 263420,
       "fileID": 5862235,
-      "required": false
+      "required": true
     },
     {
       "projectID": 306770,
