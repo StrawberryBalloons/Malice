@@ -18,9 +18,8 @@ import mods.jeitweaker.Jei;
 // Remove recipes for specific items with NBT data
 
 recipes.remove(<item:born_in_chaos_v1:nut_hammer>);
-
-recipes.remove(<item:terramity:black_hole_bomb>);
-recipes.remove(<item:terramity:macro_black_hole_bomb>);
+recipes.remove(<item:terramity:chthonic_curse_bracelets>);
+recipes.remove(<item:terramity:divergency_gauntlet>);
 
 recipes.remove(<item:botania:world_seed>);
 recipes.remove(<item:waystones:warp_stone>);
@@ -235,6 +234,7 @@ Jei.hideIngredient(<item:sons_of_sins:touch_of_greed>);
 Jei.hideIngredient(<item:sons_of_sins:butcher_cleaver>);
 Jei.hideIngredient(<item:sons_of_sins:wistivers_jaws>);
 Jei.hideIngredient(<item:alexsmobs:transmutation_table>);
+Jei.hideIngredient(<item:alexscaves:burrowing_arrow>);
 
 Jei.hideIngredient(<item:bosses_of_mass_destruction:earthdive_spear>);
 
@@ -333,7 +333,20 @@ craftingTable.addShaped("apotheosis.sigil_of_socketing", <item:apotheosis:sigil_
     [<item:apotheosis:gem_dust>, <item:minecraft:amethyst_shard>, <item:apotheosis:gem_dust>]
 ]);
 
+// WAYSTONES
+craftingTable.addShaped("waystones.waystone", <item:waystones:waystone>, [
+    [<item:minecraft:air>,  <item:minecraft:stone_bricks>, <item:minecraft:air>],
+    [<item:minecraft:stone_bricks>, <item:minecraft:amethyst_shard>, <item:minecraft:stone_bricks>],
+    [<item:minecraft:obsidian>, <item:minecraft:obsidian>, <item:minecraft:obsidian>]
+]);
 
+// Iesnium
+craftingTable.addShapeless("occultism.iesnium_dust", <item:occultism:iesnium_dust>, [
+    <item:occultism:gold_dust>,
+    <item:minecraft:nether_wart>,
+    <item:minecraft:nether_wart>,
+    <item:occultism:gold_dust>
+]);
 // Vampirism
 
 craftingTable.addShaped("vampirism.vampire_fang", <item:vampirism:vampire_fang>, [
@@ -605,7 +618,6 @@ events.register<crafttweaker.forge.api.event.anvil.AnvilUpdateEvent>(event => {
 
 
 // });
-
 
 
 
