@@ -207,6 +207,57 @@ craftingTable.addShapeless("ancient_metal_from_deepslate_ore", <item:atlantis:ra
 
 
 // Hide removed recipes
+// Terramity - Hide items from JEI
+Jei.hideIngredient(<item:terramity:divergency_gauntlet>);
+Jei.hideIngredient(<item:terramity:ultra_sniffer_fur>);
+Jei.hideIngredient(<item:terramity:ethereal_eclipse_emblem>);
+Jei.hideIngredient(<item:terramity:chthonic_cursemark>);
+Jei.hideIngredient(<item:terramity:chthonic_shell_casing>);
+Jei.hideIngredient(<item:terramity:shinobis_substitute>);
+Jei.hideIngredient(<item:terramity:chthonic_curse_bracelets>);
+Jei.hideIngredient(<item:terramity:gold_medal>);
+Jei.hideIngredient(<item:terramity:planet_buster>);
+Jei.hideIngredient(<item:terramity:eyepatch>);
+Jei.hideIngredient(<item:terramity:anxiety_amulet>);
+Jei.hideIngredient(<item:terramity:blastguard_pendant>);
+Jei.hideIngredient(<item:terramity:exodium_shield_amulet>);
+Jei.hideIngredient(<item:terramity:stillness_scarf>);
+Jei.hideIngredient(<item:terramity:prismatic_scarf>);
+Jei.hideIngredient(<item:terramity:all_seeing_scarf>);
+Jei.hideIngredient(<item:terramity:famine_gauntlet>);
+Jei.hideIngredient(<item:terramity:prismatic_gauntlet>);
+Jei.hideIngredient(<item:terramity:poker_chip_bracelets>);
+Jei.hideIngredient(<item:terramity:exodium_twin_bracelets>);
+Jei.hideIngredient(<item:terramity:sacred_speed_bracelets>);
+Jei.hideIngredient(<item:terramity:giant_sniffers_hoof>);
+Jei.hideIngredient(<item:terramity:daemonium_glass_ring>);
+Jei.hideIngredient(<item:terramity:band_of_power_plus>);
+Jei.hideIngredient(<item:terramity:band_of_power>);
+Jei.hideIngredient(<item:terramity:tearstone_ring>);
+Jei.hideIngredient(<item:terramity:shinobi_sash>);
+Jei.hideIngredient(<item:terramity:fragile_divinity>);
+Jei.hideIngredient(<item:terramity:the_pill>);
+Jei.hideIngredient(<item:terramity:bomb_charm>);
+Jei.hideIngredient(<item:terramity:steel_shell>);
+Jei.hideIngredient(<item:terramity:chthonic_nectar>);
+Jei.hideIngredient(<item:terramity:holy_chalice>);
+Jei.hideIngredient(<item:terramity:forbidden_chalice>);
+Jei.hideIngredient(<item:terramity:projectile_defense_talisman>);
+Jei.hideIngredient(<item:terramity:crest_of_the_void>);
+Jei.hideIngredient(<item:terramity:forbidden_fruit>);
+Jei.hideIngredient(<item:terramity:headhunter_talisman_plus>);
+Jei.hideIngredient(<item:terramity:proximity_badge>);
+Jei.hideIngredient(<item:terramity:sharpening_stone>);
+Jei.hideIngredient(<item:terramity:magma_stone>);
+Jei.hideIngredient(<item:terramity:shadowflame_stone>);
+Jei.hideIngredient(<item:terramity:fateful_coin>);
+Jei.hideIngredient(<item:terramity:lucky_dice>);
+Jei.hideIngredient(<item:terramity:die_of_revival>);
+Jei.hideIngredient(<item:terramity:nullifying_dice>);
+Jei.hideIngredient(<item:terramity:antimatter_pacemaker>);
+Jei.hideIngredient(<item:terramity:antimatter_bomb>);
+Jei.hideIngredient(<item:terramity:focus_scarf>);
+
 
 Jei.hideIngredient(<item:apotheosis:gem_cutting_table>);
 
