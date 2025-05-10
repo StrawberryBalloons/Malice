@@ -208,6 +208,14 @@ craftingTable.addShapeless("ancient_metal_from_deepslate_ore", <item:atlantis:ra
 
 // Hide removed recipes
 // Terramity - Hide items from JEI
+Jei.hideIngredient(<item:terramity:divergency_gauntlet>);
+Jei.hideIngredient(<item:terramity:ultra_sniffer_fur>);
+Jei.hideIngredient(<item:terramity:ethereal_eclipse_emblem>);
+Jei.hideIngredient(<item:terramity:chthonic_cursemark>);
+Jei.hideIngredient(<item:terramity:chthonic_shell_casing>);
+Jei.hideIngredient(<item:terramity:shinobis_substitute>);
+Jei.hideIngredient(<item:terramity:chthonic_curse_bracelets>);
+Jei.hideIngredient(<item:terramity:gold_medal>);
 Jei.hideIngredient(<item:terramity:planet_buster>);
 Jei.hideIngredient(<item:terramity:eyepatch>);
 Jei.hideIngredient(<item:terramity:anxiety_amulet>);
