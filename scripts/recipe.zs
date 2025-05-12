@@ -166,6 +166,10 @@ recipes.remove(<item:terramity:antimatter_pacemaker>);
 recipes.remove(<item:terramity:antimatter_bomb>);
 recipes.remove(<item:terramity:focus_scarf>);
 
+
+recipes.remove(<item:alexscaves:burrowing_arrow>);
+recipes.remove(<item:alexscaves:nuclear_bomb>);
+
 //Enigmatic Legacy
 
 // Remove the existing recipe for curse_transposer
@@ -187,6 +191,22 @@ craftingTable.addShaped("enigmaticlegacy.enigmatic_elytra", <item:enigmaticlegac
         [<item:cataclysm:cursium_ingot>, <item:enigmaticlegacy:void_pearl>, <item:cataclysm:ignitium_ingot>],
         [<item:enigmaticlegacy:etherium_ingot>, <item:minecraft:elytra>, <item:enigmaticlegacy:etherium_ingot>],
         [<item:enigmaticlegacy:cursed_stone>, <item:enigmaticlegacy:eye_of_nebula>, <item:enigmaticlegacy:cursed_stone>]
+    ]
+);
+
+craftingTable.addShaped("terramity.devils_dice", <item:terramity:devils_dice>,
+    [
+        [<item:terramity:decayed_bedrock_dust>, <item:terramity:chthonic_crystal>, <item:terramity:decayed_bedrock_dust>],
+        [<item:terramity:hellspec_alloy>, <item:botania:dice>, <item:terramity:hellspec_alloy>],
+        [<item:terramity:decayed_bedrock_dust>, <item:terramity:chthonic_crystal>, <item:terramity:decayed_bedrock_dust>]
+    ]
+);
+
+craftingTable.addShaped("terramity.weighted_die", <item:terramity:weighted_die>,
+    [
+        [<item:terramity:decayed_bedrock_dust>, <item:terramity:neutron_star>, <item:terramity:decayed_bedrock_dust>],
+        [<item:terramity:exodium_superalloy>, <item:botania:dice>, <item:terramity:exodium_superalloy>],
+        [<item:terramity:decayed_bedrock_dust>, <item:terramity:decayed_bedrock_dust>, <item:terramity:decayed_bedrock_dust>]
     ]
 );
 
@@ -286,6 +306,7 @@ Jei.hideIngredient(<item:sons_of_sins:butcher_cleaver>);
 Jei.hideIngredient(<item:sons_of_sins:wistivers_jaws>);
 Jei.hideIngredient(<item:alexsmobs:transmutation_table>);
 Jei.hideIngredient(<item:alexscaves:burrowing_arrow>);
+Jei.hideIngredient(<item:alexscaves:nuclear_bomb>);
 
 Jei.hideIngredient(<item:bosses_of_mass_destruction:earthdive_spear>);
 
