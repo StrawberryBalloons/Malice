@@ -1416,7 +1416,7 @@
 		AllowCrafting = true
 
 	[Spells."traveloptics:sticky_steed_summon"]
-		Enabled = false
+		Enabled = true
 		School = "irons_spellbooks:ice"
 		MaxLevel = 3
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY

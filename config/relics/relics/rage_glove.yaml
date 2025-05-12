@@ -3,6 +3,7 @@ abilitiesData:
         rage:
             # Highest level to which the ability can be upgraded
             maxLevel: 1
+
             # Relic level at which the ability becomes unlocked
             requiredLevel: 0
             # Number of leveling points needed to increase the ability level
